@@ -1,0 +1,3 @@
+<Error><Code>6008</Code><Description>BookingPermissionDenied: Insufficient permissions to make booking - you may have exceeded your credit limit.
+
+ (5772894/1)</Description><Details></Details></Error>

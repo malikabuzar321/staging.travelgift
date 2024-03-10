@@ -1,0 +1,68 @@
+Array
+(
+    [Head] => Array
+        (
+            [ServerTime] => 2024-02-05T06:19:52
+            [ServerType] => Live
+            [ResponseType] => HotelBooking
+            [ExecutionTime] => 8.247
+        )
+
+    [Body] => Array
+        (
+            [HotelBooking] => Array
+                (
+                    [BookingReference] => TL91596075
+                    [BookingStatus] => Confirmed
+                    [YourReference] => GC4T - Booking - 171
+                    [Currency] => GBP
+                    [TotalPrice] => 75.52
+                    [HotelId] => 1007700
+                    [HotelName] => Hotel Bawa International
+                )
+
+        )
+
+)
+Array
+(
+    [Head] => Array
+        (
+            [ServerTime] => 2024-02-05T06:24:19
+            [ServerType] => Live
+            [ResponseType] => HotelBooking
+            [ExecutionTime] => 0.012
+        )
+
+    [Body] => Array
+        (
+            [Error] => Array
+                (
+                    [ErrorId] => 118
+                    [ErrorText] => Booking error. A booking for this option is already done with the reference TL91596075.
+                )
+
+        )
+
+)
+Array
+(
+    [Head] => Array
+        (
+            [ServerTime] => 2024-02-05T06:26:45
+            [ServerType] => Live
+            [ResponseType] => HotelBooking
+            [ExecutionTime] => 0.007
+        )
+
+    [Body] => Array
+        (
+            [Error] => Array
+                (
+                    [ErrorId] => 118
+                    [ErrorText] => Booking error. A booking for this option is already done with the reference TL91596075.
+                )
+
+        )
+
+)

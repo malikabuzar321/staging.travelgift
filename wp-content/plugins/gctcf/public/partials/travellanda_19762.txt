@@ -1,0 +1,44 @@
+Array
+(
+    [Head] => Array
+        (
+            [ServerTime] => 2023-10-13T12:19:23
+            [ServerType] => Live
+            [ResponseType] => HotelBooking
+            [ExecutionTime] => 0.002
+        )
+
+    [Body] => Array
+        (
+            [Error] => Array
+                (
+                    [ErrorId] => 109
+                    [ErrorText] => XML validation error. Element 'Title': [facet 'enumeration'] The value 'Miss.' is not an element of the set {'Mr.', 'Mrs.', 'Miss'}.
+
+                )
+
+        )
+
+)
+Array
+(
+    [Head] => Array
+        (
+            [ServerTime] => 2023-10-13T12:43:07
+            [ServerType] => Live
+            [ResponseType] => HotelBooking
+            [ExecutionTime] => 0.002
+        )
+
+    [Body] => Array
+        (
+            [Error] => Array
+                (
+                    [ErrorId] => 109
+                    [ErrorText] => XML validation error. Element 'Title': [facet 'enumeration'] The value 'Miss.' is not an element of the set {'Mr.', 'Mrs.', 'Miss'}.
+
+                )
+
+        )
+
+)

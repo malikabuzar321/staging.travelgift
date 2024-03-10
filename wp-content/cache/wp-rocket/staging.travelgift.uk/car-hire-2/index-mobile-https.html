@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.v="1.2.5.1",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this._interceptClickListeners(this),window.addEventListener("pageshow",e=>{this.persisted=e.persisted,this.everythingLoaded&&this._triggerLastFunctions()}),document.addEventListener("DOMContentLoaded",()=>{this._preconnect3rdParties()}),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}_addUserInteractionListener(e){if(document.hidden){e._triggerListener();return}this.triggerEvents.forEach(t=>window.addEventListener(t,e.userEventHandler,{passive:!0})),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler)}_removeUserInteractionListener(){this.triggerEvents.forEach(e=>window.removeEventListener(e,this.userEventHandler,{passive:!0})),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._disableOtherEventListeners(e.target,!0),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"),this._pendingClickStarted())}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._disableOtherEventListeners(e.target,!1),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this._pendingClickFinished()}_onTouchEnd(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._disableOtherEventListeners(e.target,!1),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation(),this._pendingClickFinished()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach(e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))})}_interceptClickListeners(e){EventTarget.prototype.addEventListenerBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(t,i,r){"click"!==t||e.windowLoaded||i===e.clickHandler||e.interceptedClickListeners.push({target:this,func:i,options:r}),(this||window).addEventListenerBase(t,i,r)}}_disableOtherEventListeners(e,t){this.interceptedClickListeners.forEach(i=>{i.target===e&&(t?e.removeEventListener("click",i.func,i.options):e.addEventListener("click",i.func,i.options))}),e.parentNode!==document.documentElement&&this._disableOtherEventListeners(e.parentNode,t)}_waitForPendingClicks(){return new Promise(e=>{this._isClickPending?this._pendingClickFinished=e:e()})}_pendingClickStarted(){this._isClickPending=!0}_pendingClickFinished(){this._isClickPending=!1}_renameDOMAttribute(e,t,i){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(i,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach(t=>{let i=t.getAttribute("data-rocket-src");if(i&&0!==i.indexOf("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{let r=new URL(i).origin;r!==location.origin&&e.push({src:r,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}catch(n){}}}),e=[...new Map(e.map(e=>[JSON.stringify(e),e])).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(this),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._pendingWebpackRequests(this),await this._triggerWindowLoad()}catch(e){console.error(e)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this._waitForPendingClicks().then(()=>{this._replayClicks()}),this._emptyTrash()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e=>{e.hasAttribute("data-rocket-src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)})}async _transformScript(e){if(await this._littleBreath(),!0===e.noModule&&"noModule"in HTMLScriptElement.prototype){e.setAttribute("data-rocket-status","skipped");return}return new Promise(t=>{let i;function r(){(i||e).setAttribute("data-rocket-status","executed"),t()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor)i=document.createElement("script"),[...e.attributes].forEach(e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),"data-rocket-src"===t&&(t="src"),i.setAttribute(t,e.nodeValue))}),e.text&&(i.text=e.text),i.hasAttribute("src")?(i.addEventListener("load",r),i.addEventListener("error",function(){i.setAttribute("data-rocket-status","failed"),t()}),setTimeout(()=>{i.isConnected||t()},1)):(i.text=e.text,r()),e.parentNode.replaceChild(i,e);else{let n=e.getAttribute("data-rocket-type"),s=e.getAttribute("data-rocket-src");n?(e.type=n,e.removeAttribute("data-rocket-type")):e.removeAttribute("type"),e.addEventListener("load",r),e.addEventListener("error",function(){e.setAttribute("data-rocket-status","failed"),t()}),s?(e.removeAttribute("data-rocket-src"),e.src=s):e.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(e.text)))}}catch(a){e.setAttribute("data-rocket-status","failed"),t()}})}async _loadScriptsFromList(e){let t=e.shift();return t&&t.isConnected?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var i=document.createDocumentFragment();e.forEach(e=>{let r=e.getAttribute&&e.getAttribute("data-rocket-src")||e.src;if(r){let n=document.createElement("link");n.href=r,n.rel=t,"preconnect"!==t&&(n.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),e.crossOrigin&&(n.crossOrigin=e.crossOrigin),e.integrity&&(n.integrity=e.integrity),i.appendChild(n),this.trash.push(n)}}),document.head.appendChild(i)}_delayEventListeners(e){let t={};function i(i,r){return t[r].eventsToRewrite.indexOf(i)>=0&&!e.everythingLoaded?"rocket-"+i:i}function r(e,r){var n;!t[n=e]&&(t[n]={originalFunctions:{add:n.addEventListener,remove:n.removeEventListener},eventsToRewrite:[]},n.addEventListener=function(){arguments[0]=i(arguments[0],n),t[n].originalFunctions.add.apply(n,arguments)},n.removeEventListener=function(){arguments[0]=i(arguments[0],n),t[n].originalFunctions.remove.apply(n,arguments)}),t[e].eventsToRewrite.push(r)}function n(t,i){let r=t[i];t[i]=null,Object.defineProperty(t,i,{get:()=>r||function(){},set(n){e.everythingLoaded?r=n:t["rocket"+i]=r=n}})}r(document,"DOMContentLoaded"),r(window,"DOMContentLoaded"),r(window,"load"),r(window,"pageshow"),r(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t;function i(t){return e.everythingLoaded?t:t.split(" ").map(e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e).join(" ")}function r(r){if(r&&r.fn&&!e.allJQueries.includes(r)){r.fn.ready=r.fn.init.prototype.ready=function(t){return e.domReadyFired?t.bind(document)(r):document.addEventListener("rocket-DOMContentLoaded",()=>t.bind(document)(r)),r([])};let n=r.fn.on;r.fn.on=r.fn.init.prototype.on=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(e=>{let t=arguments[0][e];delete arguments[0][e],arguments[0][i(e)]=t})),n.apply(this,arguments),this},e.allJQueries.push(r)}t=r}r(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>t,set(e){r(e)}})}async _pendingWebpackRequests(e){let t=document.querySelector("script[data-webpack]");async function i(){return new Promise(e=>{t.addEventListener("load",e),t.addEventListener("error",e)})}t&&(await i(),await e._requestAnimFrame(),await e._pendingWebpackRequests(e))}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async _triggerWindowLoad(){await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach(e=>e(window).trigger("rocket-jquery-load")),await this._littleBreath();let e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}_triggerLastFunctions(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}_handleDocumentWrite(){let e=new Map;document.write=document.writeln=function(t){let i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+t);let r=document.createRange(),n=i.parentElement,s=e.get(i);void 0===s&&(s=i.nextSibling,e.set(i,s));let a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),n.insertBefore(a,s)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise(e=>setTimeout(e)):new Promise(e=>requestAnimationFrame(e))}_emptyTrash(){this.trash.forEach(e=>e.remove())}static run(){let e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- WP_HEAD() START -->
+
+			<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' data-rocket-src='https://staging.travelgift.uk/wp-content/cache/min/1/ajax/libs/webfont/1/webfont.js?ver=1709794618'></script>
+			<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+			WebFont.load({
+				google: {
+					families: ["Montserrat:100,200,300,400,500,600,700,800,900","PT Serif:100,200,300,400,500,600,700,800,900"]
+				}
+			});
+			</script>
+			<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" hreflang="en" href="https://staging.travelgift.uk/car-hire-2/" />
+<link rel="alternate" hreflang="fr" href="https://staging.travelgift.uk/reservation-de-voiture/?lang=fr" />
+<link rel="alternate" hreflang="it" href="https://staging.travelgift.uk/prenotazione-auto/?lang=it" />
+<link rel="alternate" hreflang="es" href="https://staging.travelgift.uk/reserva-de-coches/?lang=es" />
+<link rel="alternate" hreflang="x-default" href="https://staging.travelgift.uk/car-hire-2/" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v22.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Car Booking - Travel Gift Staging UK</title>
+	<meta name="description" content="Give the Gift of Travel and enjoy a selection of Car Hire Deals worldwide choose from over 500 Car Hire suppler options" />
+	<link rel="canonical" href="https://staging.travelgift.uk/car-hire-2/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Car Booking - Travel Gift Staging UK" />
+	<meta property="og:description" content="Give the Gift of Travel and enjoy a selection of Car Hire Deals worldwide choose from over 500 Car Hire suppler options" />
+	<meta property="og:url" content="https://staging.travelgift.uk/car-hire-2/" />
+	<meta property="og:site_name" content="Travel Gift Staging UK" />
+	<meta property="article:publisher" content="https://www.facebook.com/Giftcards4travel/" />
+	<meta property="article:modified_time" content="2021-12-22T19:46:11+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@Giftcard4travel" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://staging.travelgift.uk/car-hire-2/","url":"https://staging.travelgift.uk/car-hire-2/","name":"Car Booking - Travel Gift Staging UK","isPartOf":{"@id":"#website"},"datePublished":"2021-09-07T09:52:27+00:00","dateModified":"2021-12-22T19:46:11+00:00","description":"Give the Gift of Travel and enjoy a selection of Car Hire Deals worldwide choose from over 500 Car Hire suppler options","breadcrumb":{"@id":"https://staging.travelgift.uk/car-hire-2/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://staging.travelgift.uk/car-hire-2/"]}]},{"@type":"BreadcrumbList","@id":"https://staging.travelgift.uk/car-hire-2/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://staging.travelgift.uk/"},{"@type":"ListItem","position":2,"name":"Car Booking"}]},{"@type":"WebSite","@id":"#website","url":null,"name":"Travelgift","description":"A great way to delight your loved ones..","publisher":{"@id":"#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"#organization","name":"Travelgift Ltd","url":null,"logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"#/schema/logo/image/","url":"https://i0.wp.com/travelgift.uk/wp-content/uploads/2023/03/Untitled-100-×-150px-300-×-100px.png?fit=300%2C100&ssl=1","contentUrl":"https://i0.wp.com/travelgift.uk/wp-content/uploads/2023/03/Untitled-100-×-150px-300-×-100px.png?fit=300%2C100&ssl=1","width":300,"height":100,"caption":"Travelgift Ltd"},"image":{"@id":"#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Giftcards4travel/","https://twitter.com/Giftcard4travel","https://www.instagram.com/giftcards4travel/","https://www.linkedin.com/company/giftcards4travel/"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//kit.fontawesome.com' />
+<link rel='dns-prefetch' href='//porjs.com' />
+<link rel='dns-prefetch' href='//sdk.felloh.com' />
+<link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+<link rel='dns-prefetch' href='//js.hs-scripts.com' />
+
+<link rel='stylesheet' id='wp-block-library-css' href='https://staging.travelgift.uk/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link data-minify="1" rel='stylesheet' id='dca-ui-css' href='https://staging.travelgift.uk/wp-content/cache/background-css/staging.travelgift.uk/wp-content/cache/min/1/ui/1.11.4/themes/ui-lightness/jquery-ui.css?ver=1709794608&wpr_t=1710068155' media='all' />
+<link data-minify="1" rel='stylesheet' id='discover-cars-api-css' href='https://staging.travelgift.uk/wp-content/cache/background-css/staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/discover-cars-api/public/css/discover-cars-api-public.css?ver=1709794608&wpr_t=1710068155' media='all' />
+<link data-minify="1" rel='stylesheet' id='bootstrap-css' href='https://staging.travelgift.uk/wp-content/cache/min/1/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css?ver=1709794608' media='all' />
+<link data-minify="1" rel='stylesheet' id='gctcf-owl-theme-css' href='https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/gctcf/public/css/owl.theme.default.css?ver=1709794608' media='all' />
+<link data-minify="1" rel='stylesheet' id='gctcf-owl-carousel-css' href='https://staging.travelgift.uk/wp-content/cache/background-css/staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/gctcf/public/css/owl.carousel.css?ver=1709794608&wpr_t=1710068155' media='all' />
+<link data-minify="1" rel='stylesheet' id='gctcf-css' href='https://staging.travelgift.uk/wp-content/cache/background-css/staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/gctcf/public/css/gctcf-public.css?ver=1709794608&wpr_t=1710068155' media='all' />
+<link data-minify="1" rel='stylesheet' id='gctcf-main-css' href='https://staging.travelgift.uk/wp-content/cache/background-css/staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/gctcf/public/css/gctcf-main.css?ver=1709794608&wpr_t=1710068155' media='all' />
+<link data-minify="1" rel='stylesheet' id='oxygen-css' href='https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/oxygen/component-framework/oxygen.css?ver=1709794608' media='all' />
+<link data-minify="1" rel='stylesheet' id='woocommerce-layout-css' href='https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=1709794608' media='all' />
+<link data-minify="1" rel='stylesheet' id='woocommerce-smallscreen-css' href='https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=1709794608' media='only screen and (max-width: 768px)' />
+<link data-minify="1" rel='stylesheet' id='woocommerce-general-css' href='https://staging.travelgift.uk/wp-content/cache/background-css/staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=1709794608&wpr_t=1710068155' media='all' />
+<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='photoswipe-css' href='https://staging.travelgift.uk/wp-content/cache/background-css/staging.travelgift.uk/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=8.6.1&wpr_t=1710068155' media='all' />
+<link rel='stylesheet' id='photoswipe-default-skin-css' href='https://staging.travelgift.uk/wp-content/cache/background-css/staging.travelgift.uk/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=8.6.1&wpr_t=1710068155' media='all' />
+<style id='rocket-lazyload-inline-css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:var(--wpr-bg-b7d9dc1e-5d31-4978-9f1f-8156d83c0088) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+<!--n2css--><script src="https://staging.travelgift.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
+<script src="https://stats.wp.com/w.js?ver=202410" id="woo-tracks-js"></script>
+<script id="wpml-cookie-js-extra">
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js?ver=1709794661" id="wpml-cookie-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/ui/1.12.1/jquery-ui.js?ver=1709794618" id="dca-ui-js-js"></script>
+<script id="discover-cars-api-js-extra">
+var dca = {"ajaxurl":"https:\/\/staging.travelgift.uk\/wp-admin\/admin-ajax.php"};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/discover-cars-api/public/js/discover-cars-api-public.js?ver=1709794618" id="discover-cars-api-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/ui/1.12.1/jquery-ui.js?ver=1709794618" id="gctcf-ui-js-js"></script>
+<script data-minify="1" src="https://staging.travelgift.uk/wp-content/cache/min/1/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js?ver=1709794618" id="gctcf-marquee-js"></script>
+<script src="https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.6.1" id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/staging.travelgift.uk\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=8.6.1" id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.8.6.1" id="js-cookie-js" defer data-wp-strategy="defer"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.6.1" id="woocommerce-js" defer data-wp-strategy="defer"></script>
+<script src="https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.8.6.1" id="zoom-js" defer data-wp-strategy="defer"></script>
+<script src="https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.8.6.1" id="flexslider-js" defer data-wp-strategy="defer"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.8.6.1" id="photoswipe-js" defer data-wp-strategy="defer"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.8.6.1" id="photoswipe-ui-default-js" defer data-wp-strategy="defer"></script>
+<script id="wc-single-product-js-extra">
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false,"touch":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=8.6.1" id="wc-single-product-js" defer data-wp-strategy="defer"></script>
+<script id="WCPAY_ASSETS-js-extra">
+var wcpayAssets = {"url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce-payments\/dist\/"};
+</script>
+<link rel="https://api.w.org/" href="https://staging.travelgift.uk/wp-json/" /><link rel="alternate" type="application/json" href="https://staging.travelgift.uk/wp-json/wp/v2/pages/132" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://staging.travelgift.uk/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.3" />
+<meta name="generator" content="WooCommerce 8.6.1" />
+<link rel='shortlink' href='https://staging.travelgift.uk/?p=132' />
+<link rel="alternate" type="application/json+oembed" href="https://staging.travelgift.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstaging.travelgift.uk%2Fcar-hire-2%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://staging.travelgift.uk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstaging.travelgift.uk%2Fcar-hire-2%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.6.5 stt:1,4,27,2;" />
+<meta name="p:domain_verify" content="33db259a7c71518fb5576741defbc258"/>
+	<!-- Google tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RL0X1K21EW">
+	</script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-RL0X1K21EW');
+	</script>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="https://staging.travelgift.uk/wp-content/uploads/2023/04/cropped-TravelGift-01-350x250-1-1-100x100.jpg" sizes="32x32" />
+<link rel="icon" href="https://staging.travelgift.uk/wp-content/uploads/2023/04/cropped-TravelGift-01-350x250-1-1.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://staging.travelgift.uk/wp-content/uploads/2023/04/cropped-TravelGift-01-350x250-1-1.jpg" />
+<meta name="msapplication-TileImage" content="https://staging.travelgift.uk/wp-content/uploads/2023/04/cropped-TravelGift-01-350x250-1-1.jpg" />
+		<style id="wp-custom-css">
+			.page-id-24 img{
+	max-width: 90%;
+}
+
+.page-id-24 .gc-marquee-text {
+   display: none;
+}
+.page-id-24 .marquee_text p {
+    margin: 0;
+    overflow: hidden;
+}
+
+ul#hotel_result_ul{
+	z-index: 999;
+}
+
+
+@media (max-width: 767px){
+	.gc-hero-slider nav.unslider-nav {
+    bottom: 5px;
+}
+	.gc-hero-slider #slider-546-13 .unslider-nav ol li {
+    padding: 4px;
+}
+}
+			</style>
+		<link data-minify="1" rel='stylesheet' id='oxygen-cache-10-css' href='https://staging.travelgift.uk/wp-content/cache/background-css/staging.travelgift.uk/wp-content/cache/min/1/wp-content/uploads/oxygen/css/10.css?ver=1709794608&wpr_t=1710068155' media='all' />
+<link data-minify="1" rel='stylesheet' id='oxygen-cache-9-css' href='https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/uploads/oxygen/css/9.css?ver=1709794618' media='all' />
+<link data-minify="1" rel='stylesheet' id='oxygen-universal-styles-css' href='https://staging.travelgift.uk/wp-content/cache/background-css/staging.travelgift.uk/wp-content/cache/min/1/wp-content/uploads/oxygen/css/universal.css?ver=1709794608&wpr_t=1710068155' media='all' />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><!-- END OF WP_HEAD() -->
+<style id="wpr-lazyload-bg-container"></style><style id="wpr-lazyload-bg-exclusion"></style>
+<noscript>
+<style id="wpr-lazyload-bg-nostyle">.ui-widget-content{--wpr-bg-27eaf455-fc5e-4aef-9979-aad8c4032127: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png');}.ui-widget-header{--wpr-bg-96b07a71-d62c-4694-869a-bfe1f8eb007f: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png');}.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{--wpr-bg-861ac330-a34c-4dc2-8587-0c01277b4371: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png');}.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{--wpr-bg-7ac1a0ed-86cc-4b4d-bacd-8db910a19e7f: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png');}.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{--wpr-bg-7e93fdbc-2d93-46e9-b691-70e3d55db0b3: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png');}.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{--wpr-bg-5302aebe-202e-446a-9de3-e3a7aa15f268: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png');}.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{--wpr-bg-d0f765a3-23e8-4efd-96c2-85ff43dd251c: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png');}.ui-widget-overlay{--wpr-bg-c46ad167-3db6-43fa-93e8-aa7d23fedd8d: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png');}.ui-widget-shadow{--wpr-bg-c92ff1e3-f576-4bd7-b080-b58148d2e04b: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-bg_flat_10_000000_40x100.png');}.ui-icon,.ui-widget-content .ui-icon{--wpr-bg-f3d6571c-040c-4692-a3c0-f8f06b6a5d24: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-icons_222222_256x240.png');}.ui-widget-header .ui-icon{--wpr-bg-0d934fcf-d9a8-4f4f-b1d2-0b7e33c81364: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-icons_ffffff_256x240.png');}.ui-state-default .ui-icon{--wpr-bg-d3da2b76-2ae6-4eef-937f-c6d4d714704c: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-icons_ef8c08_256x240.png');}.ui-state-hover .ui-icon,.ui-state-focus .ui-icon{--wpr-bg-d2cd8735-8d3e-428b-be38-3483e026932c: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-icons_ef8c08_256x240.png');}.ui-state-active .ui-icon{--wpr-bg-17976d2a-427b-401c-bc3d-19cc04c19441: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-icons_ef8c08_256x240.png');}.ui-state-highlight .ui-icon{--wpr-bg-b646c8ba-2b43-4910-a7a0-99afc00ab6c2: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-icons_228ef1_256x240.png');}.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{--wpr-bg-71435a47-861c-4ff4-8b98-dd85b3cd8e22: url('https://code.jquery.com/ui/1.11.4/themes/ui-lightness/images/ui-icons_ffd27a_256x240.png');}.gc_car_box_sec .box_sec_right .gc-car-feature li:before{--wpr-bg-0d8fca4c-80dc-4dea-bb7b-db1a34b5cc42: url('https://staging.travelgift.uk/wp-content/plugins/discover-cars-api/public/images/car-icons-v5.svg');}.gc_bonus.disinfected:before{--wpr-bg-f9c90161-83a6-4bea-baa0-8fd94dc26078: url('https://staging.travelgift.uk/wp-content/plugins/discover-cars-api/public/images/checked-v2.svg');}.gc_fuel_info.top:before{--wpr-bg-efee346b-a201-4615-bf4b-bd8612da484e: url('https://staging.travelgift.uk/wp-content/plugins/discover-cars-api/public/images/car-icons-v5.svg');}.gc_fuel_info.bottom:before{--wpr-bg-60a97e75-56b1-47d6-986f-a5d58a6100a5: url('https://staging.travelgift.uk/wp-content/plugins/discover-cars-api/public/images/car-icons-v5.svg');}ul.gc_box_mid_list li:before{--wpr-bg-7a057716-b16e-47f1-968d-2eb2cf1e507d: url('https://staging.travelgift.uk/wp-content/plugins/discover-cars-api/public/images/checked-v2.svg');}.gc_box_mid_row .dis-info h4:before{--wpr-bg-f2c3d723-b5cb-45a9-bbb7-28c8c76d5c49: url('https://staging.travelgift.uk/wp-content/plugins/discover-cars-api/public/images/checked-v2.svg');}.gc_payment_icon li{--wpr-bg-1feb164c-9344-483b-b662-343a8e082466: url('http://devcmitexpert.com/wp-setup/wp-content/plugins/discover-cars-api/public/images//payment-img.png');}.dca-vehicle-feature ul li:before{--wpr-bg-fbbdc50d-54ae-43ff-ba80-b36dcfa9c4f4: url('https://staging.travelgift.uk/wp-content/plugins/discover-cars-api/public/images/check.png');}.owl-carousel .owl-video-play-icon{--wpr-bg-b6e5dc34-e841-4ab4-b628-f37cb886b829: url('https://staging.travelgift.uk/wp-content/plugins/gctcf/public/css/owl.video.play.png');}.gc-tour-single-avilability input.hasDatepicker{--wpr-bg-2014227f-a04a-42be-ab3d-239c3e2835bc: url('https://giftcards4travel.co.uk/staging/wp-content/uploads/2021/11/calendar.png');}.gc-popular-hotel:before{--wpr-bg-b973a27f-1ac7-4c12-a5b9-da2e096e94fd: url('https://staging.travelgift.uk/wp-content/plugins/gctcf/public/images/Slideshow102.jpg');}.tour-view-row .loction:before{--wpr-bg-520c591c-3f9e-4c6c-bf76-60f686a03980: url('https://giftcards4travel.co.uk/staging/wp-content/uploads/2021/11/map.png');}.woocommerce .blockUI.blockOverlay::before{--wpr-bg-ba146ec9-a78a-4020-8657-09de3fc54a9e: url('https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/images/icons/loader.svg');}.woocommerce .loader::before{--wpr-bg-26d1d61c-2926-416b-a27c-3ff36bc68e17: url('https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/images/icons/loader.svg');}button.pswp__button{--wpr-bg-326fa593-fe5e-4206-832d-6c3181651917: url('https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.png');}.pswp__button,.pswp__button--arrow--left:before,.pswp__button--arrow--right:before{--wpr-bg-44660c90-d804-4eb0-b90b-29a06a5d6452: url('https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.png');}.pswp__preloader--active .pswp__preloader__icn{--wpr-bg-39ad4465-c9cf-46d3-9ab9-20cd501aff3d: url('https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/preloader.gif');}.pswp--svg .pswp__button,.pswp--svg .pswp__button--arrow--left:before,.pswp--svg .pswp__button--arrow--right:before{--wpr-bg-06205da3-8dd1-4d59-8dc7-6e670f53b592: url('https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.svg');}#section-9-11{--wpr-bg-c0472aa0-bdcb-445d-aa27-43ebcbc14b48: url('https://staging.travelgift.uk/wp-content/uploads/2021/09/gc-footer-bg.jpeg');}.woocommerce .select2-container--default .select2-selection--single .select2-selection__arrow{--wpr-bg-559292da-d61b-4737-811d-be220c45d45b: url('https://staging.travelgift.uk/wp-content/plugins/oxygen-woocommerce/elements/assets/chevron-down.svg');}.woocommerce .quantity .qty{--wpr-bg-350d5bbb-6dfc-4643-8bb2-eca11e0145bb: url('https://staging.travelgift.uk/wp-content/plugins/oxygen-woocommerce/elements/assets/chevron-down.svg');}.woocommerce .quantity .qty{--wpr-bg-3b728d6f-9350-4f5b-90d5-00577fccfebc: url('https://staging.travelgift.uk/wp-content/plugins/oxygen-woocommerce/elements/assets/chevron-up.svg');}.woocommerce .woocommerce-ordering select,.woocommerce .oxy-woo-element div.product form.cart .variations select,.woocommerce div.product .oxy-product-cart-button form.cart .variations select,.woocommerce div.product form.cart .variations select,.woocommerce form.cart .variations select{--wpr-bg-209782e3-5ecd-461c-9e5c-fc46ecee2abe: url('https://staging.travelgift.uk/wp-content/plugins/oxygen-woocommerce/elements/assets/chevron-down.svg');}label span::before{--wpr-bg-8c237e84-374f-4928-9981-d704bbb29ada: url('https://staging.travelgift.uk/wp-content/plugins/oxygen-woocommerce/elements/assets/check-mark.svg');}.woocommerce .widget_product_categories .select2-container .select2-selection--single{--wpr-bg-ce95b9ca-9807-4f06-a985-3856b2dbd7b9: url('https://staging.travelgift.uk/wp-content/plugins/oxygen-woocommerce/elements/assets/chevron-down.svg');}.oxy-pro-menu .oxy-pro-menu-off-canvas-container,.oxy-pro-menu .oxy-pro-menu-open-container{--wpr-bg-0e63cb8e-6c4c-4adf-8a55-b590053699a0: url('https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/uploads/oxygen/css/');}.gc-hero-slider{--wpr-bg-2b545587-11b5-47c4-830c-8ebc7631fcb5: url('https://giftcards4travel.co.uk/wp-content/uploads/2022/08/GIFTCARD4TRAVEL-Banner-Winter-700px.png');}.gc-hero-slider{--wpr-bg-8dcc3fc6-c268-4d88-8406-46f812687338: url('https://giftcards4travel.co.uk/wp-content/uploads/2022/08/GIFTCARD4TRAVEL-Banner-Winter-300px.png');}.gc-hero-slider{--wpr-bg-c6b868b7-f0eb-4e4c-ad9b-8b086d442e28: url('https://giftcards4travel.co.uk/wp-content/uploads/2022/08/GIFTCARD4TRAVEL-Banner-Winter-300px.png');}.rob-about-sec-th-Inspire{--wpr-bg-21958186-20ec-41d2-a94a-90970ae80843: url('https://giftcards4travel.co.uk/wp-content/uploads/2022/06/about-us.jpeg');}.rob-service-sec-ad{--wpr-bg-ad50c532-8c53-4a11-b91c-22b7ae7b1103: url('https://giftcards4travel.co.uk/wp-content/uploads/2021/09/banner-img-7.jpg');}.rll-youtube-player .play{--wpr-bg-b7d9dc1e-5d31-4978-9f1f-8156d83c0088: url('https://staging.travelgift.uk/wp-content/plugins/wp-rocket/assets/img/youtube.png');}</style>
+</noscript>
+<script type="application/javascript">const rocket_pairs = [{"selector":".ui-widget-content","style":".ui-widget-content{--wpr-bg-27eaf455-fc5e-4aef-9979-aad8c4032127: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_highlight-soft_100_eeeeee_1x100.png');}","hash":"27eaf455-fc5e-4aef-9979-aad8c4032127","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_highlight-soft_100_eeeeee_1x100.png"},{"selector":".ui-widget-header","style":".ui-widget-header{--wpr-bg-96b07a71-d62c-4694-869a-bfe1f8eb007f: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_gloss-wave_35_f6a828_500x100.png');}","hash":"96b07a71-d62c-4694-869a-bfe1f8eb007f","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_gloss-wave_35_f6a828_500x100.png"},{"selector":".ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default","style":".ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{--wpr-bg-861ac330-a34c-4dc2-8587-0c01277b4371: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_glass_100_f6f6f6_1x400.png');}","hash":"861ac330-a34c-4dc2-8587-0c01277b4371","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_glass_100_f6f6f6_1x400.png"},{"selector":".ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus","style":".ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{--wpr-bg-7ac1a0ed-86cc-4b4d-bacd-8db910a19e7f: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_glass_100_fdf5ce_1x400.png');}","hash":"7ac1a0ed-86cc-4b4d-bacd-8db910a19e7f","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_glass_100_fdf5ce_1x400.png"},{"selector":".ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active","style":".ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{--wpr-bg-7e93fdbc-2d93-46e9-b691-70e3d55db0b3: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_glass_65_ffffff_1x400.png');}","hash":"7e93fdbc-2d93-46e9-b691-70e3d55db0b3","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_glass_65_ffffff_1x400.png"},{"selector":".ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight","style":".ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{--wpr-bg-5302aebe-202e-446a-9de3-e3a7aa15f268: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_highlight-soft_75_ffe45c_1x100.png');}","hash":"5302aebe-202e-446a-9de3-e3a7aa15f268","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_highlight-soft_75_ffe45c_1x100.png"},{"selector":".ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error","style":".ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{--wpr-bg-d0f765a3-23e8-4efd-96c2-85ff43dd251c: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_diagonals-thick_18_b81900_40x40.png');}","hash":"d0f765a3-23e8-4efd-96c2-85ff43dd251c","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_diagonals-thick_18_b81900_40x40.png"},{"selector":".ui-widget-overlay","style":".ui-widget-overlay{--wpr-bg-c46ad167-3db6-43fa-93e8-aa7d23fedd8d: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_diagonals-thick_20_666666_40x40.png');}","hash":"c46ad167-3db6-43fa-93e8-aa7d23fedd8d","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_diagonals-thick_20_666666_40x40.png"},{"selector":".ui-widget-shadow","style":".ui-widget-shadow{--wpr-bg-c92ff1e3-f576-4bd7-b080-b58148d2e04b: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_flat_10_000000_40x100.png');}","hash":"c92ff1e3-f576-4bd7-b080-b58148d2e04b","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-bg_flat_10_000000_40x100.png"},{"selector":".ui-icon,.ui-widget-content .ui-icon","style":".ui-icon,.ui-widget-content .ui-icon{--wpr-bg-f3d6571c-040c-4692-a3c0-f8f06b6a5d24: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_222222_256x240.png');}","hash":"f3d6571c-040c-4692-a3c0-f8f06b6a5d24","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_222222_256x240.png"},{"selector":".ui-widget-header .ui-icon","style":".ui-widget-header .ui-icon{--wpr-bg-0d934fcf-d9a8-4f4f-b1d2-0b7e33c81364: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_ffffff_256x240.png');}","hash":"0d934fcf-d9a8-4f4f-b1d2-0b7e33c81364","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_ffffff_256x240.png"},{"selector":".ui-state-default .ui-icon","style":".ui-state-default .ui-icon{--wpr-bg-d3da2b76-2ae6-4eef-937f-c6d4d714704c: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_ef8c08_256x240.png');}","hash":"d3da2b76-2ae6-4eef-937f-c6d4d714704c","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_ef8c08_256x240.png"},{"selector":".ui-state-hover .ui-icon,.ui-state-focus .ui-icon","style":".ui-state-hover .ui-icon,.ui-state-focus .ui-icon{--wpr-bg-d2cd8735-8d3e-428b-be38-3483e026932c: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_ef8c08_256x240.png');}","hash":"d2cd8735-8d3e-428b-be38-3483e026932c","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_ef8c08_256x240.png"},{"selector":".ui-state-active .ui-icon","style":".ui-state-active .ui-icon{--wpr-bg-17976d2a-427b-401c-bc3d-19cc04c19441: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_ef8c08_256x240.png');}","hash":"17976d2a-427b-401c-bc3d-19cc04c19441","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_ef8c08_256x240.png"},{"selector":".ui-state-highlight .ui-icon","style":".ui-state-highlight .ui-icon{--wpr-bg-b646c8ba-2b43-4910-a7a0-99afc00ab6c2: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_228ef1_256x240.png');}","hash":"b646c8ba-2b43-4910-a7a0-99afc00ab6c2","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_228ef1_256x240.png"},{"selector":".ui-state-error .ui-icon,.ui-state-error-text .ui-icon","style":".ui-state-error .ui-icon,.ui-state-error-text .ui-icon{--wpr-bg-71435a47-861c-4ff4-8b98-dd85b3cd8e22: url('https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_ffd27a_256x240.png');}","hash":"71435a47-861c-4ff4-8b98-dd85b3cd8e22","url":"https:\/\/code.jquery.com\/ui\/1.11.4\/themes\/ui-lightness\/images\/ui-icons_ffd27a_256x240.png"},{"selector":".gc_car_box_sec .box_sec_right .gc-car-feature li","style":".gc_car_box_sec .box_sec_right .gc-car-feature li:before{--wpr-bg-0d8fca4c-80dc-4dea-bb7b-db1a34b5cc42: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/car-icons-v5.svg');}","hash":"0d8fca4c-80dc-4dea-bb7b-db1a34b5cc42","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/car-icons-v5.svg"},{"selector":".gc_bonus.disinfected","style":".gc_bonus.disinfected:before{--wpr-bg-f9c90161-83a6-4bea-baa0-8fd94dc26078: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/checked-v2.svg');}","hash":"f9c90161-83a6-4bea-baa0-8fd94dc26078","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/checked-v2.svg"},{"selector":".gc_fuel_info.top","style":".gc_fuel_info.top:before{--wpr-bg-efee346b-a201-4615-bf4b-bd8612da484e: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/car-icons-v5.svg');}","hash":"efee346b-a201-4615-bf4b-bd8612da484e","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/car-icons-v5.svg"},{"selector":".gc_fuel_info.bottom","style":".gc_fuel_info.bottom:before{--wpr-bg-60a97e75-56b1-47d6-986f-a5d58a6100a5: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/car-icons-v5.svg');}","hash":"60a97e75-56b1-47d6-986f-a5d58a6100a5","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/car-icons-v5.svg"},{"selector":"ul.gc_box_mid_list li","style":"ul.gc_box_mid_list li:before{--wpr-bg-7a057716-b16e-47f1-968d-2eb2cf1e507d: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/checked-v2.svg');}","hash":"7a057716-b16e-47f1-968d-2eb2cf1e507d","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/checked-v2.svg"},{"selector":".gc_box_mid_row .dis-info h4","style":".gc_box_mid_row .dis-info h4:before{--wpr-bg-f2c3d723-b5cb-45a9-bbb7-28c8c76d5c49: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/checked-v2.svg');}","hash":"f2c3d723-b5cb-45a9-bbb7-28c8c76d5c49","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/checked-v2.svg"},{"selector":".gc_payment_icon li","style":".gc_payment_icon li{--wpr-bg-1feb164c-9344-483b-b662-343a8e082466: url('http:\/\/devcmitexpert.com\/wp-setup\/wp-content\/plugins\/discover-cars-api\/public\/images\/\/payment-img.png');}","hash":"1feb164c-9344-483b-b662-343a8e082466","url":"http:\/\/devcmitexpert.com\/wp-setup\/wp-content\/plugins\/discover-cars-api\/public\/images\/\/payment-img.png"},{"selector":".dca-vehicle-feature ul li","style":".dca-vehicle-feature ul li:before{--wpr-bg-fbbdc50d-54ae-43ff-ba80-b36dcfa9c4f4: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/check.png');}","hash":"fbbdc50d-54ae-43ff-ba80-b36dcfa9c4f4","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/discover-cars-api\/public\/images\/check.png"},{"selector":".owl-carousel .owl-video-play-icon","style":".owl-carousel .owl-video-play-icon{--wpr-bg-b6e5dc34-e841-4ab4-b628-f37cb886b829: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/gctcf\/public\/css\/owl.video.play.png');}","hash":"b6e5dc34-e841-4ab4-b628-f37cb886b829","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/gctcf\/public\/css\/owl.video.play.png"},{"selector":".gc-tour-single-avilability input.hasDatepicker","style":".gc-tour-single-avilability input.hasDatepicker{--wpr-bg-2014227f-a04a-42be-ab3d-239c3e2835bc: url('https:\/\/giftcards4travel.co.uk\/staging\/wp-content\/uploads\/2021\/11\/calendar.png');}","hash":"2014227f-a04a-42be-ab3d-239c3e2835bc","url":"https:\/\/giftcards4travel.co.uk\/staging\/wp-content\/uploads\/2021\/11\/calendar.png"},{"selector":".gc-popular-hotel","style":".gc-popular-hotel:before{--wpr-bg-b973a27f-1ac7-4c12-a5b9-da2e096e94fd: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/gctcf\/public\/images\/Slideshow102.jpg');}","hash":"b973a27f-1ac7-4c12-a5b9-da2e096e94fd","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/gctcf\/public\/images\/Slideshow102.jpg"},{"selector":".tour-view-row .loction","style":".tour-view-row .loction:before{--wpr-bg-520c591c-3f9e-4c6c-bf76-60f686a03980: url('https:\/\/giftcards4travel.co.uk\/staging\/wp-content\/uploads\/2021\/11\/map.png');}","hash":"520c591c-3f9e-4c6c-bf76-60f686a03980","url":"https:\/\/giftcards4travel.co.uk\/staging\/wp-content\/uploads\/2021\/11\/map.png"},{"selector":".woocommerce .blockUI.blockOverlay","style":".woocommerce .blockUI.blockOverlay::before{--wpr-bg-ba146ec9-a78a-4020-8657-09de3fc54a9e: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/loader.svg');}","hash":"ba146ec9-a78a-4020-8657-09de3fc54a9e","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/loader.svg"},{"selector":".woocommerce .loader","style":".woocommerce .loader::before{--wpr-bg-26d1d61c-2926-416b-a27c-3ff36bc68e17: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/loader.svg');}","hash":"26d1d61c-2926-416b-a27c-3ff36bc68e17","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce\/assets\/images\/icons\/loader.svg"},{"selector":"button.pswp__button","style":"button.pswp__button{--wpr-bg-326fa593-fe5e-4206-832d-6c3181651917: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce\/assets\/css\/photoswipe\/default-skin\/default-skin.png');}","hash":"326fa593-fe5e-4206-832d-6c3181651917","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce\/assets\/css\/photoswipe\/default-skin\/default-skin.png"},{"selector":".pswp__button,.pswp__button--arrow--left,.pswp__button--arrow--right","style":".pswp__button,.pswp__button--arrow--left:before,.pswp__button--arrow--right:before{--wpr-bg-44660c90-d804-4eb0-b90b-29a06a5d6452: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce\/assets\/css\/photoswipe\/default-skin\/default-skin.png');}","hash":"44660c90-d804-4eb0-b90b-29a06a5d6452","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce\/assets\/css\/photoswipe\/default-skin\/default-skin.png"},{"selector":".pswp__preloader--active .pswp__preloader__icn","style":".pswp__preloader--active .pswp__preloader__icn{--wpr-bg-39ad4465-c9cf-46d3-9ab9-20cd501aff3d: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce\/assets\/css\/photoswipe\/default-skin\/preloader.gif');}","hash":"39ad4465-c9cf-46d3-9ab9-20cd501aff3d","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce\/assets\/css\/photoswipe\/default-skin\/preloader.gif"},{"selector":".pswp--svg .pswp__button,.pswp--svg .pswp__button--arrow--left,.pswp--svg .pswp__button--arrow--right","style":".pswp--svg .pswp__button,.pswp--svg .pswp__button--arrow--left:before,.pswp--svg .pswp__button--arrow--right:before{--wpr-bg-06205da3-8dd1-4d59-8dc7-6e670f53b592: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce\/assets\/css\/photoswipe\/default-skin\/default-skin.svg');}","hash":"06205da3-8dd1-4d59-8dc7-6e670f53b592","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/woocommerce\/assets\/css\/photoswipe\/default-skin\/default-skin.svg"},{"selector":"#section-9-11","style":"#section-9-11{--wpr-bg-c0472aa0-bdcb-445d-aa27-43ebcbc14b48: url('https:\/\/staging.travelgift.uk\/wp-content\/uploads\/2021\/09\/gc-footer-bg.jpeg');}","hash":"c0472aa0-bdcb-445d-aa27-43ebcbc14b48","url":"https:\/\/staging.travelgift.uk\/wp-content\/uploads\/2021\/09\/gc-footer-bg.jpeg"},{"selector":".woocommerce .select2-container--default .select2-selection--single .select2-selection__arrow","style":".woocommerce .select2-container--default .select2-selection--single .select2-selection__arrow{--wpr-bg-559292da-d61b-4737-811d-be220c45d45b: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/oxygen-woocommerce\/elements\/assets\/chevron-down.svg');}","hash":"559292da-d61b-4737-811d-be220c45d45b","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/oxygen-woocommerce\/elements\/assets\/chevron-down.svg"},{"selector":".woocommerce .quantity .qty","style":".woocommerce .quantity .qty{--wpr-bg-350d5bbb-6dfc-4643-8bb2-eca11e0145bb: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/oxygen-woocommerce\/elements\/assets\/chevron-down.svg');}","hash":"350d5bbb-6dfc-4643-8bb2-eca11e0145bb","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/oxygen-woocommerce\/elements\/assets\/chevron-down.svg"},{"selector":".woocommerce .quantity .qty","style":".woocommerce .quantity .qty{--wpr-bg-3b728d6f-9350-4f5b-90d5-00577fccfebc: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/oxygen-woocommerce\/elements\/assets\/chevron-up.svg');}","hash":"3b728d6f-9350-4f5b-90d5-00577fccfebc","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/oxygen-woocommerce\/elements\/assets\/chevron-up.svg"},{"selector":".woocommerce .woocommerce-ordering select,.woocommerce .oxy-woo-element div.product form.cart .variations select,.woocommerce div.product .oxy-product-cart-button form.cart .variations select,.woocommerce div.product form.cart .variations select,.woocommerce form.cart .variations select","style":".woocommerce .woocommerce-ordering select,.woocommerce .oxy-woo-element div.product form.cart .variations select,.woocommerce div.product .oxy-product-cart-button form.cart .variations select,.woocommerce div.product form.cart .variations select,.woocommerce form.cart .variations select{--wpr-bg-209782e3-5ecd-461c-9e5c-fc46ecee2abe: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/oxygen-woocommerce\/elements\/assets\/chevron-down.svg');}","hash":"209782e3-5ecd-461c-9e5c-fc46ecee2abe","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/oxygen-woocommerce\/elements\/assets\/chevron-down.svg"},{"selector":"label span","style":"label span::before{--wpr-bg-8c237e84-374f-4928-9981-d704bbb29ada: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/oxygen-woocommerce\/elements\/assets\/check-mark.svg');}","hash":"8c237e84-374f-4928-9981-d704bbb29ada","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/oxygen-woocommerce\/elements\/assets\/check-mark.svg"},{"selector":".woocommerce .widget_product_categories .select2-container .select2-selection--single","style":".woocommerce .widget_product_categories .select2-container .select2-selection--single{--wpr-bg-ce95b9ca-9807-4f06-a985-3856b2dbd7b9: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/oxygen-woocommerce\/elements\/assets\/chevron-down.svg');}","hash":"ce95b9ca-9807-4f06-a985-3856b2dbd7b9","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/oxygen-woocommerce\/elements\/assets\/chevron-down.svg"},{"selector":".oxy-pro-menu .oxy-pro-menu-off-canvas-container,.oxy-pro-menu .oxy-pro-menu-open-container","style":".oxy-pro-menu .oxy-pro-menu-off-canvas-container,.oxy-pro-menu .oxy-pro-menu-open-container{--wpr-bg-0e63cb8e-6c4c-4adf-8a55-b590053699a0: url('https:\/\/staging.travelgift.uk\/wp-content\/cache\/min\/1\/wp-content\/uploads\/oxygen\/css\/');}","hash":"0e63cb8e-6c4c-4adf-8a55-b590053699a0","url":"https:\/\/staging.travelgift.uk\/wp-content\/cache\/min\/1\/wp-content\/uploads\/oxygen\/css\/"},{"selector":".gc-hero-slider","style":".gc-hero-slider{--wpr-bg-2b545587-11b5-47c4-830c-8ebc7631fcb5: url('https:\/\/giftcards4travel.co.uk\/wp-content\/uploads\/2022\/08\/GIFTCARD4TRAVEL-Banner-Winter-700px.png');}","hash":"2b545587-11b5-47c4-830c-8ebc7631fcb5","url":"https:\/\/giftcards4travel.co.uk\/wp-content\/uploads\/2022\/08\/GIFTCARD4TRAVEL-Banner-Winter-700px.png"},{"selector":".gc-hero-slider","style":".gc-hero-slider{--wpr-bg-8dcc3fc6-c268-4d88-8406-46f812687338: url('https:\/\/giftcards4travel.co.uk\/wp-content\/uploads\/2022\/08\/GIFTCARD4TRAVEL-Banner-Winter-300px.png');}","hash":"8dcc3fc6-c268-4d88-8406-46f812687338","url":"https:\/\/giftcards4travel.co.uk\/wp-content\/uploads\/2022\/08\/GIFTCARD4TRAVEL-Banner-Winter-300px.png"},{"selector":".gc-hero-slider","style":".gc-hero-slider{--wpr-bg-c6b868b7-f0eb-4e4c-ad9b-8b086d442e28: url('https:\/\/giftcards4travel.co.uk\/wp-content\/uploads\/2022\/08\/GIFTCARD4TRAVEL-Banner-Winter-300px.png');}","hash":"c6b868b7-f0eb-4e4c-ad9b-8b086d442e28","url":"https:\/\/giftcards4travel.co.uk\/wp-content\/uploads\/2022\/08\/GIFTCARD4TRAVEL-Banner-Winter-300px.png"},{"selector":".rob-about-sec-th-Inspire","style":".rob-about-sec-th-Inspire{--wpr-bg-21958186-20ec-41d2-a94a-90970ae80843: url('https:\/\/giftcards4travel.co.uk\/wp-content\/uploads\/2022\/06\/about-us.jpeg');}","hash":"21958186-20ec-41d2-a94a-90970ae80843","url":"https:\/\/giftcards4travel.co.uk\/wp-content\/uploads\/2022\/06\/about-us.jpeg"},{"selector":".rob-service-sec-ad","style":".rob-service-sec-ad{--wpr-bg-ad50c532-8c53-4a11-b91c-22b7ae7b1103: url('https:\/\/giftcards4travel.co.uk\/wp-content\/uploads\/2021\/09\/banner-img-7.jpg');}","hash":"ad50c532-8c53-4a11-b91c-22b7ae7b1103","url":"https:\/\/giftcards4travel.co.uk\/wp-content\/uploads\/2021\/09\/banner-img-7.jpg"},{"selector":".rll-youtube-player .play","style":".rll-youtube-player .play{--wpr-bg-b7d9dc1e-5d31-4978-9f1f-8156d83c0088: url('https:\/\/staging.travelgift.uk\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png');}","hash":"b7d9dc1e-5d31-4978-9f1f-8156d83c0088","url":"https:\/\/staging.travelgift.uk\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png"}]; const rocket_excluded_pairs = [];</script></head>
+<body class="page-template-default page page-id-132  wp-embed-responsive theme-oxygen-is-not-a-theme oxygen-body woocommerce-no-js" >
+
+
+
+
+						<section id="section-103-10" class=" ct-section " ><div class="ct-section-inner-wrap"><div id="div_block-120-10" class="ct-div-block oxy-header-container" ><div id="new_columns-105-10" class="ct-new-columns" ><div id="div_block-106-10" class="ct-div-block" ></div><div id="div_block-107-10" class="ct-div-block" ><a id="link-108-10" class="ct-link gc-header-top-email" href="mailto:info@travelgit.uk" target="_blank"  ><div id="fancy_icon-109-10" class="ct-fancy-icon" ><svg id="svg-fancy_icon-109-10"><use xlink:href="#FontAwesomeicon-envelope"></use></svg></div><div id="text_block-110-10" class="ct-text-block" >info@travelgift.uk</div></a></div></div></div></div></section><header id="_header-3-11" class="oxy-header-wrapper oxy-sticky-header oxy-overlay-header oxy-header" ><div id="_header_row-4-11" class="oxygen-hide-in-overlay oxy-header-row" ><div class="oxy-header-container"><div id="_header_left-5-11" class="oxy-header-left" ><a id="link-11-11" class="ct-link " href="https://staging.travelgift.uk" target="_self"  ><img width="300" height="100"  id="image-12-11" alt="" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20100'%3E%3C/svg%3E" class="ct-image" data-lazy-src="https://staging.travelgift.uk/wp-content/uploads/2023/03/Untitled-100-×-150px-300-×-100px.png"/><noscript><img width="300" height="100"  id="image-12-11" alt="" src="https://staging.travelgift.uk/wp-content/uploads/2023/03/Untitled-100-×-150px-300-×-100px.png" class="ct-image"/></noscript></a></div><div id="_header_center-6-11" class="oxy-header-center" ></div><div id="_header_right-7-11" class="oxy-header-right" ><div id="div_block-25-11" class="ct-div-block" ><nav id="_nav_menu-91-11" class="oxy-nav-menu" ><div class='oxy-menu-toggle'><div class='oxy-nav-menu-hamburger-wrap'><div class='oxy-nav-menu-hamburger'><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div></div></div></div><div class="menu-main-menu-container"><ul id="menu-main-menu" class="oxy-nav-menu-list"><li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-33"><a href="https://staging.travelgift.uk/">Home</a></li>
+<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="https://staging.travelgift.uk/giftcards/">Giftcards</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://staging.travelgift.uk/hotels/">Hotels</a></li>
+<li id="menu-item-2282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2282"><a href="https://staging.travelgift.uk/attractions/">Attractions</a></li>
+<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="https://staging.travelgift.uk/car-hire/">Car hire</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="https://staging.travelgift.uk/transfers/">Transfers</a></li>
+<li id="menu-item-1539" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1539"><a href="https://staging.travelgift.uk/check-gift-card/">Giftcard Checker</a></li>
+</ul></div></nav><div id="code_block-121-10" class="ct-code-block gc-login-cart-col" ><div class="gc-header-account-col">
+		<div class="gc-cart-col">
+			<a href="https://staging.travelgift.uk/cart/"><i class="fa fa-shopping-cart"></i></a>
+	
+			<span class="rcart-total">0</span>
+	</div>
+	</div>
+</div></div></div></div></div></header>
+				<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+			jQuery(document).ready(function() {
+				var selector = "#_header-3-11",
+					scrollval = parseInt("300");
+				if (!scrollval || scrollval < 1) {
+										if (jQuery(window).width() >= 1121){
+											jQuery("body").css("margin-top", jQuery(selector).outerHeight());
+						jQuery(selector).addClass("oxy-sticky-header-active");
+										}
+									}
+				else {
+					var scrollTopOld = 0;
+					jQuery(window).scroll(function() {
+						if (!jQuery('body').hasClass('oxy-nav-menu-prevent-overflow')) {
+							if (jQuery(this).scrollTop() > scrollval 
+																) {
+								if (
+																		jQuery(window).width() >= 1121 && 
+																		!jQuery(selector).hasClass("oxy-sticky-header-active")) {
+									if (jQuery(selector).css('position')!='absolute') {
+										jQuery("body").css("margin-top", jQuery(selector).outerHeight());
+									}
+									jQuery(selector)
+										.addClass("oxy-sticky-header-active")
+																			.addClass("oxy-sticky-header-fade-in");
+																	}
+							}
+							else {
+								jQuery(selector)
+									.removeClass("oxy-sticky-header-fade-in")
+									.removeClass("oxy-sticky-header-active");
+								if (jQuery(selector).css('position')!='absolute') {
+									jQuery("body").css("margin-top", "");
+								}
+							}
+							scrollTopOld = jQuery(this).scrollTop();
+						}
+					})
+				}
+			});
+		</script><div id="div_block-192-10" class="ct-div-block gc-marquee-text" ><div id="code_block-123-10" class="ct-code-block" ><div class="marquee_text"><p>Welcome to our new updated eGift Card Website / Stuck for last minute gift? why not schedule an eGift Card to land in a loved ones inbox when you want it to / Loooking for idea Fathers day present look no further / Sign up for Promotional updates</p>
+</div></div></div><div id='inner_content-3-55' class='ct-inner-content'><div id="code_block-2-132" class="ct-code-block" ></div></div><section id="section-9-11" class=" ct-section gc-footer-main" ><div class="ct-section-inner-wrap"><div id="new_columns-173-10" class="ct-new-columns gc-mailchamp" ><div id="div_block-174-10" class="ct-div-block" ><h3 id="headline-179-10" class="ct-headline">SUBSCRIBE TO OUR NEWSLETTER</h3></div><div id="div_block-175-10" class="ct-div-block" ><div id="div_block-181-10" class="ct-div-block" ><div id="shortcode-180-10" class="ct-shortcode" >[mc4wp_form id="105"]</div></div></div></div><div id="new_columns-30-11" class="ct-new-columns" ><div id="div_block-31-11" class="ct-div-block" ><a id="link-35-11" class="ct-link " href="https://staging.travelgift.uk/" target="_self"  ><img width="300" height="100"  id="image-124-10" alt="" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20100'%3E%3C/svg%3E" class="ct-image" data-lazy-src="https://staging.travelgift.uk/wp-content/uploads/2023/03/Untitled-100-×-150px-300-×-100px-1.png"/><noscript><img width="300" height="100"  id="image-124-10" alt="" src="https://staging.travelgift.uk/wp-content/uploads/2023/03/Untitled-100-×-150px-300-×-100px-1.png" class="ct-image"/></noscript></a><div id="text_block-125-10" class="ct-text-block" ></div></div><div id="div_block-33-11" class="ct-div-block agencyb-footer-1-column" ><h4 id="headline-65-11" class="ct-headline agencyb-footer-1-title">Site links</h4><nav id="_nav_menu-128-10" class="oxy-nav-menu gc-footer-menu oxy-nav-menu-dropdowns oxy-nav-menu-dropdown-arrow oxy-nav-menu-vertical" ><div class='oxy-menu-toggle'><div class='oxy-nav-menu-hamburger-wrap'><div class='oxy-nav-menu-hamburger'><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div><div class='oxy-nav-menu-hamburger-line'></div></div></div></div><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="oxy-nav-menu-list"><li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-70"><a href="https://staging.travelgift.uk/">Home</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="https://staging.travelgift.uk/services/">Services</a></li>
+<li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="https://staging.travelgift.uk/about/">About</a></li>
+<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="https://staging.travelgift.uk/contact/">Contact</a></li>
+<li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50"><a href="https://staging.travelgift.uk/giftcards/">Giftcards</a></li>
+<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="https://staging.travelgift.uk/hotels/">Hotels</a></li>
+<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="https://staging.travelgift.uk/transfers/">Transfers</a></li>
+<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="https://staging.travelgift.uk/tours/">Tours</a></li>
+<li id="menu-item-54" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-54"><a href="https://staging.travelgift.uk/car-hire/">Car hire</a></li>
+<li id="menu-item-2121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2121"><a href="https://staging.travelgift.uk/blog/">Blog</a></li>
+<li id="menu-item-17187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-17187"><a rel="privacy-policy" href="https://staging.travelgift.uk/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-17188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17188"><a href="https://staging.travelgift.uk/terms-and-conditions/">terms and conditions</a></li>
+</ul></div></nav></div><div id="div_block-32-11" class="ct-div-block agencyb-footer-1-column" ><h4 id="headline-63-11" class="ct-headline agencyb-footer-1-title">CONTACT</h4><a id="link-131-10" class="ct-link gc-footer-contact" href="mailto:info@travelgift.uk" target="_self"  ><div id="fancy_icon-132-10" class="ct-fancy-icon" ><svg id="svg-fancy_icon-132-10"><use xlink:href="#FontAwesomeicon-envelope"></use></svg></div><div id="text_block-133-10" class="ct-text-block" >info@travelgift.uk</div></a><div id="div_block-191-10" class="ct-div-block gc-footer-addres" ><div id="fancy_icon-137-10" class="ct-fancy-icon" ><svg id="svg-fancy_icon-137-10"><use xlink:href="#FontAwesomeicon-map-marker"></use></svg></div><div id="text_block-138-10" class="ct-text-block " >Travelgift Ltd<br><span style="background-color: transparent;">Pera Business Park</span><span style="background-color: transparent;">&nbsp;</span><br><span style="background-color: transparent;">Nottingham Road&nbsp;</span><span style="background-color: transparent;"><br></span><span style="background-color: transparent;">Melton Mowbray LE13 0PB</span></div></div><a id="link-197-10" class="ct-link" href="http://" target="_self"  ><div id="_social_icons-147-10" class="oxy-social-icons gc-footer-social" ><a href='https://www.facebook.com/Giftcards4travel/' target='_blank' class='oxy-social-icons-facebook'><svg><title>Visit our Facebook</title><use xlink:href='#oxy-social-icons-icon-facebook-blank'></use></svg></a><a href='https://www.instagram.com/giftcards4travel/' target='_blank' class='oxy-social-icons-instagram'><svg><title>Visit our Instagram</title><use xlink:href='#oxy-social-icons-icon-instagram-blank'></use></svg></a><a href='https://twitter.com/Giftcard4travel' target='_blank' class='oxy-social-icons-twitter'><svg><title>Visit our Twitter</title><use xlink:href='#oxy-social-icons-icon-twitter-blank'></use></svg></a><a href='https://www.linkedin.com/company/giftcards4travel/' target='_blank' class='oxy-social-icons-linkedin'><svg><title>Visit our LinkedIn</title><use xlink:href='#oxy-social-icons-icon-linkedin-blank'></use></svg></a></div></a></div><div id="div_block-34-11" class="ct-div-block agencyb-footer-1-column" ><div id="div_block-170-10" class="ct-div-block" ><img width="157" height="103"  id="image-172-10" alt="image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20157%20103'%3E%3C/svg%3E" class="ct-image" data-lazy-src="https://staging.travelgift.uk/wp-content/uploads/2021/09/img1.png"/><noscript><img width="157" height="103"  id="image-172-10" alt="image" src="https://staging.travelgift.uk/wp-content/uploads/2021/09/img1.png" class="ct-image"/></noscript></div><div id="div_block-158-10" class="ct-div-block" ><img width="303" height="65"  id="image-195-10" alt="image" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20303%2065'%3E%3C/svg%3E" class="ct-image" data-lazy-src="https://staging.travelgift.uk/wp-content/uploads/2021/10/gc-marge-icon.jpg"/><noscript><img width="303" height="65"  id="image-195-10" alt="image" src="https://staging.travelgift.uk/wp-content/uploads/2021/10/gc-marge-icon.jpg" class="ct-image"/></noscript></div></div></div></div></section><div id="div_block-54-11" class="ct-div-block gc--footer-copyright" ><div id="div_block-190-10" class="ct-div-block " ><div id="div_block-182-10" class="ct-div-block" ><a id="link-167-10" class="ct-link" href="https://staging.travelgift.uk/" target="_blank"  ><div id="text_block-168-10" class="ct-text-block" >Travelgift Ltd<br></div></a><div id="text_block-164-10" class="ct-text-block" ><span style="color: rgb(67, 43, 1); font-family: Montserrat; font-size: 12px; text-align: center; background-color: rgb(250, 211, 143);">@2023</span></div></div><div id="div_block-186-10" class="ct-div-block" ><a id="link-188-10" class="ct-link" href="https://staging.travelgift.uk/terms-and-conditions/" target="_self"  ><div id="text_block-189-10" class="ct-text-block" >Terms and Conditions</div></a></div></div></div><div id="code_block-198-10" class="ct-code-block" ><div id="popup_main" class="popup_footer">
+	<div class="popup_display">
+	<div class="popup_main_inner">
+	<!-- Begin Mailchimp Signup Form -->
+<link data-minify="1" href="https://staging.travelgift.uk/wp-content/cache/min/1/embedcode/classic-10_7.css?ver=1709794608" rel="stylesheet">
+<style>
+	#mc_embed_signup{color:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:445px;}
+	@media(max-width:767px){
+		#mc_embed_signup{color:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:100%;}
+	}
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<style>
+	#mc-embedded-subscribe-form input[type=checkbox]{display: inline; width: auto;margin-right: 10px;}
+	#mergeRow-gdpr {margin-top: 20px;}
+	#mergeRow-gdpr fieldset label {font-weight: normal;}
+	#mc-embedded-subscribe-form .mc_fieldset{border:none;min-height: 0px;padding-bottom:0px;}
+</style>
+<div id="mc_embed_signup">
+<form action="https://giftcards4travel.us20.list-manage.com/subscribe/post?u=db596bb09b88cf97660e700d1&amp;id=2fbbd1b7a3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<h2>Subscribe</h2>
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">First Name </label>
+	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+	<label for="mce-LNAME">Last Name </label>
+	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+</div>
+<div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
+    <div class="content__gdpr">
+        <label>Marketing Permissions</label>
+        <p>Please select all the ways you would like to hear from Giftcards4travel:</p>
+        <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
+		<label class="checkbox subfield" for="gdpr_60602"><input type="checkbox" id="gdpr_60602" name="gdpr[60602]" value="Y" class="av-checkbox "><span>Email</span> </label><label class="checkbox subfield" for="gdpr_60606"><input type="checkbox" id="gdpr_60606" name="gdpr[60606]" value="Y" class="av-checkbox "><span>Direct Mail</span> </label><label class="checkbox subfield" for="gdpr_60610"><input type="checkbox" id="gdpr_60610" name="gdpr[60610]" value="Y" class="av-checkbox "><span>Customized Online Advertising</span> </label>
+        </fieldset>
+        <!--p>You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please visit our website.</p-->
+    </div>
+    <!--div class="content__gdprLegal">
+        <p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/terms" target="_blank">Learn more about Mailchimp's privacy practices here.</a></p>
+    </div-->
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_db596bb09b88cf97660e700d1_2fbbd1b7a3" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' data-rocket-src='https://staging.travelgift.uk/wp-content/cache/min/1/downloads.mailchimp.com/js/mc-validate.js?ver=1709794619'></script><script type="rocketlazyloadscript" data-rocket-type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday'; }(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+	<div class="cross_btn">
+		<a class="cross_btn_popup" href="#"></a>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<style>
+	.cross_btn { position:absolute; right:45px; top:-5px;}
+	
+	.cross_btn a:before{content: "\f00d";
+    font-family: 'FontAwesome';
+    position: absolute;
+    font-size:19px;
+    transition: 0.3s;
+		border:2px #fff solid; padding:0px 10px;}
+	
+	.cross_btn a{
+		text-align:center;
+		display:block;
+		padding:20px 7px;
+    color: #fff !important;
+    position: relative;
+    transition: 0.3s;}
+	
+	
+	.popup_display{ display:flex; align-items:center; height:100%}
+	.popup_footer{    background-color:rgba(255,255,255,0.6); 
+		width:100%; 
+		height:100%;
+		display:none;
+		position: fixed;
+		z-index:999999; top:0;}
+	
+    .popup_footer .popup_main_inner{ 
+		max-width:500px; position:relative; 
+		margin:0px auto; padding:10px 30px;
+		background:#061d2f; }
+	
+	.popup_footer .mc4wp-form-fields{display: flex; column-gap: 30px; margin-top:20px;}
+	.popup_footer .mc4wp-form-fields input[type=email]{ 
+		padding:10px 20px;
+		border: 1px solid #728291;
+    background: transparent;
+		width:235px!important;
+    height: 47px;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: inherit;
+    letter-spacing: 0;
+    width: 100%;
+    margin-right:5px;
+    color: #ccc;}
+	
+	.popup_footer .mc4wp-form-fields input[type=submit]{    
+		background-color: #fad38f;
+    border: unset;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 600;
+    color: #061d2f;
+   padding:13px 20px;
+    cursor: pointer;
+    border: 1px solid #fad38f;
+    transition: 0.3s;}
+	.popup_footer .mc4wp-form-fields input[type=submit]:hover{    background: transparent !important;
+    border: 1px solid #fad38f;
+    color: #fad38f !important;
+    transition: 0.3s;}
+</style>
+
+<script type="rocketlazyloadscript">
+window.onload = function() {
+    setTimeout(function() {
+		if(getCookie('test') != 1){
+        	//document.getElementById('popup_main').style.display = 'block';
+		}
+    }, 10000);
+}
+
+jQuery('.cross_btn_popup').click(function(e){ 
+	setCookie('test','1','1');
+    jQuery("#popup_main").hide();
+}) 
+jQuery('#mc-embedded-subscribe').click(function(e){ 
+	setCookie('test','1','1');
+  //  jQuery("#popup_main").hide();
+}) 
+
+	
+</script>
+
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+    function setCookie(key, value, expiry) {
+        var expires = new Date();
+        expires.setTime(expires.getTime() + (expiry * 24 * 60 * 60 * 1000));
+        document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+    }
+
+    function getCookie(key) {
+        var keyValue = document.cookie.match('(^|;) ?' + key + '=([^;]*)(;|$)');
+        return keyValue ? keyValue[2] : null;
+    }
+
+    function eraseCookie(key) {
+        var keyValue = getCookie(key);
+        setCookie(key, keyValue, '-1');
+    }
+
+</script></div>	<!-- WP_FOOTER -->
+<!-- Paid On Results Code-->
+<script type="rocketlazyloadscript" data-minify="1" language="JavaScript" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/2189.js?ver=1709794619"></script>
+<!-- End Paid On Results Code-->
+
+<div class="gctcf-loader" style="display:none;"><div class="gctcf-loader-wrap"><img width="65" height="65" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2065%2065'%3E%3C/svg%3E" alt="image" data-lazy-src="https://staging.travelgift.uk/wp-content/plugins/gctcf/public/images/loader.gif" /><noscript><img width="65" height="65" src="https://staging.travelgift.uk/wp-content/plugins/gctcf/public/images/loader.gif" alt="image" /></noscript><div class="loader-message" style="display:none;"><p>Our system is checking multiple sources.</p><p>The result will appear within a few seconds.</p></div></div></div><style>.ct-FontAwesomeicon-map-marker{width:0.57142857142857em}</style>
+<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"><defs><symbol id="FontAwesomeicon-map-marker" viewBox="0 0 16 28"><title>map-marker</title><path d="M12 10c0-2.203-1.797-4-4-4s-4 1.797-4 4 1.797 4 4 4 4-1.797 4-4zM16 10c0 0.953-0.109 1.937-0.516 2.797l-5.688 12.094c-0.328 0.688-1.047 1.109-1.797 1.109s-1.469-0.422-1.781-1.109l-5.703-12.094c-0.406-0.859-0.516-1.844-0.516-2.797 0-4.422 3.578-8 8-8s8 3.578 8 8z"/></symbol><symbol id="FontAwesomeicon-envelope" viewBox="0 0 28 28"><title>envelope</title><path d="M28 11.094v12.406c0 1.375-1.125 2.5-2.5 2.5h-23c-1.375 0-2.5-1.125-2.5-2.5v-12.406c0.469 0.516 1 0.969 1.578 1.359 2.594 1.766 5.219 3.531 7.766 5.391 1.313 0.969 2.938 2.156 4.641 2.156h0.031c1.703 0 3.328-1.188 4.641-2.156 2.547-1.844 5.172-3.625 7.781-5.391 0.562-0.391 1.094-0.844 1.563-1.359zM28 6.5c0 1.75-1.297 3.328-2.672 4.281-2.438 1.687-4.891 3.375-7.313 5.078-1.016 0.703-2.734 2.141-4 2.141h-0.031c-1.266 0-2.984-1.437-4-2.141-2.422-1.703-4.875-3.391-7.297-5.078-1.109-0.75-2.688-2.516-2.688-3.938 0-1.531 0.828-2.844 2.5-2.844h23c1.359 0 2.5 1.125 2.5 2.5z"/></symbol></defs></svg><script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="ct_custom_js_100147">(function($) {
+'use strict';
+$('.oxy-social-icons a').attr('rel', 'nofollow');
+}(jQuery));</script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" aria-label="Close (Esc)"></button>
+				<button class="pswp__button pswp__button--share" aria-label="Share"></button>
+				<button class="pswp__button pswp__button--fs" aria-label="Toggle fullscreen"></button>
+				<button class="pswp__button pswp__button--zoom" aria-label="Zoom in/out"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+						<div class="pswp__preloader__cut">
+							<div class="pswp__preloader__donut"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+				<div class="pswp__share-tooltip"></div>
+			</div>
+			<button class="pswp__button pswp__button--arrow--left" aria-label="Previous (arrow left)"></button>
+			<button class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button>
+			<div class="pswp__caption">
+				<div class="pswp__caption__center"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+		<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery('body').on('click', '.oxy-menu-toggle', function() {
+					jQuery(this).parent('.oxy-nav-menu').toggleClass('oxy-nav-menu-open');
+					jQuery('body').toggleClass('oxy-nav-menu-prevent-overflow');
+					jQuery('html').toggleClass('oxy-nav-menu-prevent-overflow');
+				});
+				var selector = '.oxy-nav-menu-open .menu-item a[href*="#"]';
+				jQuery('body').on('click', selector, function(){
+					jQuery('.oxy-nav-menu-open').removeClass('oxy-nav-menu-open');
+					jQuery('body').removeClass('oxy-nav-menu-prevent-overflow');
+					jQuery('html').removeClass('oxy-nav-menu-prevent-overflow');
+					jQuery(this).click();
+				});
+			});
+		</script>
+
+	
+		<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		   <defs>
+		      <symbol id="oxy-social-icons-icon-linkedin" viewBox="0 0 32 32">
+		         <title>linkedin</title>
+		         <path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
+		         <path d="M2 12h6v18h-6v-18z"></path>
+		         <path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-facebook" viewBox="0 0 32 32">
+		         <title>facebook</title>
+		         <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-pinterest" viewBox="0 0 32 32">
+		         <title>pinterest</title>
+		         <path d="M16 2.138c-7.656 0-13.863 6.206-13.863 13.863 0 5.875 3.656 10.887 8.813 12.906-0.119-1.094-0.231-2.781 0.050-3.975 0.25-1.081 1.625-6.887 1.625-6.887s-0.412-0.831-0.412-2.056c0-1.925 1.119-3.369 2.506-3.369 1.181 0 1.756 0.887 1.756 1.95 0 1.188-0.756 2.969-1.15 4.613-0.331 1.381 0.688 2.506 2.050 2.506 2.462 0 4.356-2.6 4.356-6.35 0-3.319-2.387-5.638-5.787-5.638-3.944 0-6.256 2.956-6.256 6.019 0 1.194 0.456 2.469 1.031 3.163 0.113 0.137 0.131 0.256 0.094 0.4-0.106 0.438-0.338 1.381-0.387 1.575-0.063 0.256-0.2 0.306-0.463 0.188-1.731-0.806-2.813-3.337-2.813-5.369 0-4.375 3.175-8.387 9.156-8.387 4.806 0 8.544 3.425 8.544 8.006 0 4.775-3.012 8.625-7.194 8.625-1.406 0-2.725-0.731-3.175-1.594 0 0-0.694 2.644-0.863 3.294-0.313 1.206-1.156 2.712-1.725 3.631 1.3 0.4 2.675 0.619 4.106 0.619 7.656 0 13.863-6.206 13.863-13.863 0-7.662-6.206-13.869-13.863-13.869z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-youtube" viewBox="0 0 32 32">
+		         <title>youtube</title>
+		         <path d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-rss" viewBox="0 0 32 32">
+		         <title>rss</title>
+		         <path d="M4.259 23.467c-2.35 0-4.259 1.917-4.259 4.252 0 2.349 1.909 4.244 4.259 4.244 2.358 0 4.265-1.895 4.265-4.244-0-2.336-1.907-4.252-4.265-4.252zM0.005 10.873v6.133c3.993 0 7.749 1.562 10.577 4.391 2.825 2.822 4.384 6.595 4.384 10.603h6.16c-0-11.651-9.478-21.127-21.121-21.127zM0.012 0v6.136c14.243 0 25.836 11.604 25.836 25.864h6.152c0-17.64-14.352-32-31.988-32z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-twitter" viewBox="0 0 32 32">
+		         <title>twitter</title>
+		         <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-instagram" viewBox="0 0 32 32">
+		         <title>instagram</title>
+		         <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
+		         <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
+		         <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-facebook-blank" viewBox="0 0 32 32">
+		         <title>facebook-blank</title>
+		         <path d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h13v-14h-4v-4h4v-2c0-3.306 2.694-6 6-6h4v4h-4c-1.1 0-2 0.9-2 2v2h6l-1 4h-5v14h9c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-rss-blank" viewBox="0 0 32 32">
+		         <title>rss-blank</title>
+		         <path d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM8.719 25.975c-1.5 0-2.719-1.206-2.719-2.706 0-1.488 1.219-2.712 2.719-2.712 1.506 0 2.719 1.225 2.719 2.712 0 1.5-1.219 2.706-2.719 2.706zM15.544 26c0-2.556-0.994-4.962-2.794-6.762-1.806-1.806-4.2-2.8-6.75-2.8v-3.912c7.425 0 13.475 6.044 13.475 13.475h-3.931zM22.488 26c0-9.094-7.394-16.5-16.481-16.5v-3.912c11.25 0 20.406 9.162 20.406 20.413h-3.925z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-linkedin-blank" viewBox="0 0 32 32">
+		         <title>linkedin-blank</title>
+		         <path d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3zM12 26h-4v-14h4v14zM10 10c-1.106 0-2-0.894-2-2s0.894-2 2-2c1.106 0 2 0.894 2 2s-0.894 2-2 2zM26 26h-4v-8c0-1.106-0.894-2-2-2s-2 0.894-2 2v8h-4v-14h4v2.481c0.825-1.131 2.087-2.481 3.5-2.481 2.488 0 4.5 2.238 4.5 5v9z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-pinterest-blank" viewBox="0 0 32 32">
+		         <title>pinterest</title>
+		         <path d="M16 2.138c-7.656 0-13.863 6.206-13.863 13.863 0 5.875 3.656 10.887 8.813 12.906-0.119-1.094-0.231-2.781 0.050-3.975 0.25-1.081 1.625-6.887 1.625-6.887s-0.412-0.831-0.412-2.056c0-1.925 1.119-3.369 2.506-3.369 1.181 0 1.756 0.887 1.756 1.95 0 1.188-0.756 2.969-1.15 4.613-0.331 1.381 0.688 2.506 2.050 2.506 2.462 0 4.356-2.6 4.356-6.35 0-3.319-2.387-5.638-5.787-5.638-3.944 0-6.256 2.956-6.256 6.019 0 1.194 0.456 2.469 1.031 3.163 0.113 0.137 0.131 0.256 0.094 0.4-0.106 0.438-0.338 1.381-0.387 1.575-0.063 0.256-0.2 0.306-0.463 0.188-1.731-0.806-2.813-3.337-2.813-5.369 0-4.375 3.175-8.387 9.156-8.387 4.806 0 8.544 3.425 8.544 8.006 0 4.775-3.012 8.625-7.194 8.625-1.406 0-2.725-0.731-3.175-1.594 0 0-0.694 2.644-0.863 3.294-0.313 1.206-1.156 2.712-1.725 3.631 1.3 0.4 2.675 0.619 4.106 0.619 7.656 0 13.863-6.206 13.863-13.863 0-7.662-6.206-13.869-13.863-13.869z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-youtube-blank" viewBox="0 0 32 32">
+		         <title>youtube</title>
+		         <path d="M31.681 9.6c0 0-0.313-2.206-1.275-3.175-1.219-1.275-2.581-1.281-3.206-1.356-4.475-0.325-11.194-0.325-11.194-0.325h-0.012c0 0-6.719 0-11.194 0.325-0.625 0.075-1.987 0.081-3.206 1.356-0.963 0.969-1.269 3.175-1.269 3.175s-0.319 2.588-0.319 5.181v2.425c0 2.587 0.319 5.181 0.319 5.181s0.313 2.206 1.269 3.175c1.219 1.275 2.819 1.231 3.531 1.369 2.563 0.244 10.881 0.319 10.881 0.319s6.725-0.012 11.2-0.331c0.625-0.075 1.988-0.081 3.206-1.356 0.962-0.969 1.275-3.175 1.275-3.175s0.319-2.587 0.319-5.181v-2.425c-0.006-2.588-0.325-5.181-0.325-5.181zM12.694 20.15v-8.994l8.644 4.513-8.644 4.481z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-twitter-blank" viewBox="0 0 32 32">
+		         <title>twitter</title>
+		         <path d="M32 7.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+		      </symbol>
+		      <symbol id="oxy-social-icons-icon-instagram-blank" viewBox="0 0 32 32">
+		         <title>instagram</title>
+		         <path d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"></path>
+		         <path d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"></path>
+		         <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
+		      </symbol>
+		   </defs>
+		</svg>
+	
+		<script type="rocketlazyloadscript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/auto-image-alt/js/auto_image_alt.js?ver=1709794619" id="auto_image_alt-js"></script>
+<script src="//stats.wp.com/w.js?ver=202410" id="jp-tracks-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/woocommerce-payments/vendor/automattic/jetpack-connection/dist/tracks-callables.js?ver=1709794619" id="jp-tracks-functions-js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RL0X1K21EW" id="google-tag-manager-js" data-wp-strategy="async"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
+<script type="rocketlazyloadscript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="rocketlazyloadscript" id="woocommerce-google-analytics-integration-js-before">
+var wcgai = {config: {"gtag_id":"G-RL0X1K21EW","tracker_function_name":"gtag","track_404":true,"allow_google_signals":true,"logged_in":false,"linker":{"domains":[],"allow_incoming":true},"custom_map":{"dimension1":"logged_in"},"events":["purchase","add_to_cart","remove_from_cart","view_item_list","select_content","view_item","begin_checkout"],"identifier":null,"consent_modes":[{"analytics_storage":"denied","ad_storage":"denied","ad_user_data":"denied","ad_personalization":"denied","region":["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IS","IE","IT","LV","LI","LT","LU","MT","NL","NO","PL","PT","RO","SK","SI","ES","SE","GB","CH"]}],"developer_id":"dOGY3NW"}};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/woocommerce-google-analytics-integration/assets/js/build/main.js?ver=1709794661" id="woocommerce-google-analytics-integration-js"></script>
+<script id="paypal-payment-js-extra">
+var payment = {"ajax":"https:\/\/staging.travelgift.uk\/wp-admin\/admin-ajax.php","hostUrl":"https:\/\/staging.travelgift.uk"};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/discover-cars-api/public/js/payment.js?ver=1709794619" id="paypal-payment-js"></script>
+<script data-minify="1" src="https://staging.travelgift.uk/wp-content/cache/min/1/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js?ver=1709794619" id="jquery-validate-js"></script>
+<script data-minify="1" src="https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/gctcf/public/js/jquery.pajinate.js?ver=1709794619" id="gctcf-owl-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-content/plugins/gctcf/public/js/owl.carousel.min.js?ver=1.0.0" id="gctcf-paginate-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://kit.fontawesome.com/94f32119b6.js?ver=1.0.0" id="fontawesome-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/2189.js?ver=1709794619" id="gctcf-por-js-js"></script>
+<script id="gctcf-js-extra">
+var gctcf = {"ajax":"https:\/\/staging.travelgift.uk\/wp-admin\/admin-ajax.php","hostUrl":"https:\/\/staging.travelgift.uk","searchTimeout":"0","prevSearch":""};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/gctcf/public/js/gctcf-public.js?ver=1709794619" id="gctcf-js"></script>
+<script id="gctcf-ajax-js-extra">
+var gctcf_ajax = {"ajax_url":"https:\/\/staging.travelgift.uk\/wp-admin\/admin-ajax.php","gctcf_siteurl":"https:\/\/staging.travelgift.uk"};
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/gctcf/public/js/gctc-ajax.js?ver=1709794619" id="gctcf-ajax-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/wp-content/plugins/gctcf/public/js/attraction-form-validate.js?ver=1709794619" id="gctcf-attraction-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://sdk.felloh.com/?ver=1.0.2" id="felloh-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js?ver=1709794619" id="Bootstrap JS-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://staging.travelgift.uk/wp-content/cache/min/1/26071564.js?ver=1709794620" id="hs-script-loader-js"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=8.6.1" id="sourcebuster-js-js"></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"ajaxurl":"https:\/\/staging.travelgift.uk\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+</script>
+<script type="rocketlazyloadscript" data-rocket-src="https://staging.travelgift.uk/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=8.6.1" id="wc-order-attribution-js"></script>
+<script type="rocketlazyloadscript" id="rocket-browser-checker-js-after">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script id="rocket-preload-links-js-extra">
+var RocketPreloadLinksConfig = {"excludeUris":"\/contact\/|\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/checkout\/??(.*)|\/caisse\/??(.*)|\/cassa\/??(.*)|\/caja\/??(.*)|\/cart\/?|\/charrette\/?|\/carretto\/?|\/carro\/?|\/wc-api\/v(.*)|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/staging.travelgift.uk","onHoverDelay":"100","rateThrottle":"3"};
+</script>
+<script type="rocketlazyloadscript" id="rocket-preload-links-js-after">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script id="rocket_lazyload_css-js-extra">
+var rocket_lazyload_css_data = {"threshold":"300"};
+</script>
+<script id="rocket_lazyload_css-js-after">
+!function o(n,c,a){function s(t,e){if(!c[t]){if(!n[t]){var r="function"==typeof require&&require;if(!e&&r)return r(t,!0);if(u)return u(t,!0);throw(r=new Error("Cannot find module '"+t+"'")).code="MODULE_NOT_FOUND",r}r=c[t]={exports:{}},n[t][0].call(r.exports,function(e){return s(n[t][1][e]||e)},r,r.exports,o,n,c,a)}return c[t].exports}for(var u="function"==typeof require&&require,e=0;e<a.length;e++)s(a[e]);return s}({1:[function(e,t,r){"use strict";!function(){const r="undefined"==typeof rocket_pairs?[]:rocket_pairs,e="undefined"==typeof rocket_excluded_pairs?[]:rocket_excluded_pairs;e.map(t=>{var e=t.selector;const r=document.querySelectorAll(e);r.forEach(e=>{e.setAttribute("data-rocket-lazy-bg-".concat(t.hash),"excluded")})});const o=document.querySelector("#wpr-lazyload-bg-container");var t=rocket_lazyload_css_data.threshold||300;const n=new IntersectionObserver(e=>{e.forEach(t=>{if(t.isIntersecting){const e=r.filter(e=>t.target.matches(e.selector));e.map(t=>{var e;t&&((e=document.createElement("style")).textContent=t.style,o.insertAdjacentElement("afterend",e),t.elements.forEach(e=>{n.unobserve(e),e.setAttribute("data-rocket-lazy-bg-".concat(t.hash),"loaded")}))})}})},{rootMargin:t+"px"});function c(){0<(0<arguments.length&&void 0!==arguments[0]?arguments[0]:[]).length&&r.forEach(t=>{try{const e=document.querySelectorAll(t.selector);e.forEach(e=>{"loaded"!==e.getAttribute("data-rocket-lazy-bg-".concat(t.hash))&&"excluded"!==e.getAttribute("data-rocket-lazy-bg-".concat(t.hash))&&(n.observe(e),(t.elements||(t.elements=[])).push(e))})}catch(e){console.error(e)}})}c();const a=function(){const o=window.MutationObserver;return function(e,t){if(e&&1===e.nodeType){const r=new o(t);return r.observe(e,{attributes:!0,childList:!0,subtree:!0}),r}}}();t=document.querySelector("body"),a(t,c)}()},{}]},{},[1]);
+//# sourceMappingURL=lazyload-css.min.js.map
+</script>
+<script type="rocketlazyloadscript" id="woocommerce-google-analytics-integration-data-js-after">
+wcgai.trackClassicPages( {"cart":{"items":[],"coupons":[],"totals":{"currency_code":"GBP","total_price":0,"currency_minor_unit":2}}} );
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="ct-footer-js"></script><script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="ct_code_block_js_100123">jQuery('.marquee_text').marquee({
+    direction: 'left',
+    duration: 30000,
+    gap: 50,
+    delayBeforeStart: 0,
+    duplicated: true,
+    startVisible: true
+});</script>
+
+<script type="rocketlazyloadscript">
+
+jQuery(document).ready(function(){
+
+/*jQuery("#byconsole_giftcard_amount").change(function(){			
+
+alert();
+
+});*/
+
+jQuery("#byconsole_giftcard_amount").change(function(){	
+
+//alert();
+
+//update_order_review_table(jQuery(this).val(),jQuery('#byconsole_giftcard_amount').val());
+
+jQuery('body').trigger('update_checkout');
+
+//jQuery(document.body).trigger("update_checkout");
+
+//alert("aaaa");
+
+});
+
+});
+
+</script>
+
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://staging.travelgift.uk/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?'':'&'+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var e,t,p,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt),a[t].appendChild(e),p=e.querySelector('.play'),p.onclick=lazyLoadYoutubeIframe});</script><!-- /WP_FOOTER --> 
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1710068155 -->

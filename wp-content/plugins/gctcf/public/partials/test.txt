@@ -1,0 +1,112 @@
+Array
+(
+    [PayerID] => H3DH5KUDDNRFJ
+    [st] => Completed
+    [tx] => 8LM113881B540624X
+    [cc] => GBP
+    [amt] => 2.76
+    [cm] => 614224685-429
+    [payer_email] => minahany667@gmail.com
+    [payer_id] => H3DH5KUDDNRFJ
+    [payer_status] => VERIFIED
+    [first_name] => Abdo
+    [last_name] => Hany
+    [address_name] => Abdo Hany
+    [address_street] => Ajizy Masken Alaqwaf
+    [address_city] => Tanta
+    [address_country_code] => EG
+    [residence_country] => EG
+    [txn_id] => 8LM113881B540624X
+    [mc_currency] => GBP
+    [mc_fee] => 0.43
+    [mc_gross] => 2.76
+    [protection_eligibility] => ELIGIBLE
+    [payment_fee] => 0.43
+    [payment_gross] => 2.76
+    [payment_status] => Completed
+    [payment_type] => instant
+    [handling_amount] => 0.00
+    [shipping] => 0.00
+    [item_name] => Movenpick Hotel & Casino Cairo-Media City
+    [item_number] => 75936BYC1661967402
+    [quantity] => 1
+    [txn_type] => web_accept
+    [payment_date] => 2022-08-31T17:41:46Z
+    [receiver_id] => RK6FJHPAL2GCE
+    [notify_version] => UNVERSIONED
+    [custom] => 614224685-429
+    [verify_sign] => Ata0cAiDJx8CRUFpZj8kMGxQyRLbAljdyV4l0XkYonoErNV.8GSWBjUq
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+    [woocommerce-edit-address-nonce] => 
+    [save-account-details-nonce] => 
+)
+
+stdClass Object
+(
+    [id] => 158
+    [hotel_name] => Movenpick Hotel & Casino Cairo-Media City
+    [paypal_unick_code] => 75936BYC1661967402
+    [hotel_quote_id] => 614224685-429
+    [payment_status] => completed
+    [hotel_total_price] => 2.76
+    [mc_currency] => GBP
+    [txn_id] => 8LM113881B540624X
+    [business] => rob@giftcards4travel.co.uk
+    [payer_email] => minahany667@gmail.com
+    [current_payment_date] => 2022/08/31
+    [ipn_verified] => Y
+    [coupon_discount_amount] => 350.00
+)
+
+stdClass Object
+(
+    [id] => 832
+    [payment_status] => Confirm
+    [transaction_id] => 8LM113881B540624X
+    [paypal_unick_code] => 75936BYC1661967402
+    [discount_coupon_value] => 350.00
+    [discount_coupon_code] => 
+    [hotel_id] => 83905
+    [user_first_name] => Abdo
+    [user_last_name] => ibrahim
+    [user_email] => minahany667@gmail.com
+    [user_phone] => 01065794366
+    [user_address_one] => 
+    [user_country] => 
+    [user_state] => 
+    [user_city] => 
+    [user_zip_code] => 
+    [hotel_quote_id] => 614224685-429
+    [hotel_no_of_room] => 1
+    [hotel_booking_id] => 475771924
+    [hotel_price] => 352.76
+    [room_code] => 63358363
+    [room_name] => Classic Room with Pool View
+    [meal_type] => Breakfast
+    [user_booking_date] => 2022/08/31
+    [hotel_arrival_date] => 2022-09-02
+    [hotel_night] => 3
+)
+
+<?xml version="1.0" encoding="utf-8"?>	 
+                              <BookingCreate>
+                                <Authority>
+                                  <Org>gc4t</Org>
+                                  <User>XML</User>
+                                  <Password>gc4t24</Password>
+                                  <Currency>GBP</Currency>
+                                  <Language>en</Language>
+                                  <TestMode>false</TestMode>
+                                  <DebugMode>false</DebugMode>
+                                  <Version>1.28</Version>
+                                </Authority>
+                                <QuoteId>614224685-429</QuoteId>
+                                <HotelStayDetails><Room><Guests><Adult title="Mr" first="Abdo" last="Ibrahim"></Adult></Guests></Room></HotelStayDetails>
+                                <HotelSearchCriteria>
+                                  <AvailabilityStatus>allocation</AvailabilityStatus>
+                                  <DetailLevel>basic</DetailLevel>
+                                </HotelSearchCriteria>
+                                <CommitLevel>confirm</CommitLevel>
+                              </BookingCreate>

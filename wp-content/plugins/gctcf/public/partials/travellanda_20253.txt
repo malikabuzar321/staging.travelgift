@@ -1,0 +1,47 @@
+Array
+(
+    [Head] => Array
+        (
+            [ServerTime] => 2024-02-05T06:14:02
+            [ServerType] => Live
+            [ResponseType] => HotelBooking
+            [ExecutionTime] => 12.04
+        )
+
+    [Body] => Array
+        (
+            [HotelBooking] => Array
+                (
+                    [BookingReference] => TL92455142
+                    [BookingStatus] => Confirmed
+                    [YourReference] => GC4T - Booking - 170
+                    [Currency] => GBP
+                    [TotalPrice] => 60.79
+                    [HotelId] => 3673614
+                    [HotelName] => Ramada by Wyndham Multan
+                )
+
+        )
+
+)
+Array
+(
+    [Head] => Array
+        (
+            [ServerTime] => 2024-02-05T06:15:25
+            [ServerType] => Live
+            [ResponseType] => HotelBooking
+            [ExecutionTime] => 0.01
+        )
+
+    [Body] => Array
+        (
+            [Error] => Array
+                (
+                    [ErrorId] => 118
+                    [ErrorText] => Booking error. A booking for this option is already done with the reference TL92455142.
+                )
+
+        )
+
+)

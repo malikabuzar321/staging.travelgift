@@ -1,0 +1,721 @@
+Log created: 2023-02-10 12:20:09
+Type: backup
+[2023-02-10 12:20:13][notice]Start backing up.
+[2023-02-10 12:20:13][notice]server info fcgi:Off max execution time: 900 wp version:6.1.1 php version:7.4.27 db version:5.5.5 php ini:safe_mode: memory_limit:256M memory_get_usage:109.61 MB memory_get_peak_usage:111.13 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-02-10 12:20:13][notice]Prepare to backup backup_db files.
+[2023-02-10 12:20:13][notice]Start exporting database.
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_zbscrm_api_keys
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_nextend2_smartslider3_generators
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_icl_string_batches
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_icl_string_packages
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_zbs_segments_conditions
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_zbs_segments
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_zbs_security_log
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_icl_translation_batches
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_icl_translation_downloads
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_mailchimp_carts
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_mailchimp_jobs
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_zbs_notifications
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_woocommerce_shipping_zones
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_icl_node
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_revslider_layer_animations
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_revslider_layer_animations_bkp
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_revslider_navigations
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_revslider_navigations_bkp
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_zbs_admlog
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_wc_category_lookup
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_wpmailsmtp_tasks_meta
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_wc_reserved_stock
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_wpmailsmtp_debug_events
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_wpforms_tasks_meta
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_wpfm_backup
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_icl_reminders
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_zbs_event_reminders
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_woocommerce_shipping_zone_methods
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_gla_attribute_mapping_rules
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_cscs_db_subscriptions
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_zbs_sys_email
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_attraction_tags
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_zbs_tags
+[2023-02-10 12:20:13][notice]Preparing to dump table wp_icl_cms_nav_cache
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_zbs_tax_table
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_gla_merchant_issues
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_zbs_temphash
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_zbs_tracking
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_discovercars_location_types
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_discovercars_fuel_policies
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_zbs_sys_cronmanagerlogs
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_icl_locale_map
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_revslider_static_slides
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_term_relationships
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_zbs_aka
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_actionscheduler_claims
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_revslider_static_slides_bkp
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_wc_product_download_directories
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_yoast_migrations
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_wpvivid_options
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_wc_product_attributes_lookup
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_revslider_slides
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_wc_rate_limits
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_wc_tax_rate_classes
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_wc_webhooks
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_woocommerce_attribute_taxonomies
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_woocommerce_log
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_actionscheduler_groups
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_woocommerce_payment_tokens
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_revslider_slides_bkp
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_zbs_settings
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_revslider_sliders_bkp
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_links
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_revslider_sliders
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_revslider_css_bkp
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_icl_string_positions
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_nextend2_smartslider3_sliders_xref
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_icl_string_status
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_nextend2_image_storage
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_icl_flags
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_icl_core_status
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_icl_translate_job
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_zbs_meta
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_icl_content_status
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_gla_shipping_times
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_wc_order_tax_lookup
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_commentmeta
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_woocommerce_api_keys
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_zbs_object_links
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_zbs_quotes_templates
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_icl_languages
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_woocommerce_payment_tokenmeta
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_woocommerce_tax_rate_locations
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_woocommerce_shipping_zone_locations
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_zbs_sys_email_hist
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_wc_download_log
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_wc_order_coupon_lookup
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_wc_customer_lookup
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_zbs_dbmigration_meta
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_icl_message_status
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_snippets
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_term_taxonomy
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_termmeta
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_terms
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_zbs_contacts
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_toolset_connected_elements
+[2023-02-10 12:20:14][notice]Preparing to dump table wp_toolset_post_guid_id
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_zbs_forms
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_toolset_type_sets
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_zbs_lineitems
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_zbs_logs
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_yoast_primary_term
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_zbs_customfields
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_zbs_externalsources
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_yoast_prominent_words
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_zbs_tags_links
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_users
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_gla_shipping_rates
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_smush_dir_images
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_zbs_events
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_wc_admin_notes
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_nextend2_smartslider3_sliders
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_nextend2_section_storage
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_woocommerce_tax_rates
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_zbs_dbmigration_posts
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_toolset_associations
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_zbs_companies
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_wc_admin_note_actions
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_icl_mo_files_domains
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_woocommerce_downloadable_product_permissions
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_zbs_invoices
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_wpr_rocket_cache
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_attraction_destinations
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_zbs_quotes
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_toolset_relationships
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_wc_product_meta_lookup
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_shortpixel_queue
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_wpr_rucss_used_css
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_yoast_seo_links
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_icl_string_translations
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_revslider_css
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_hubwoo_log
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_nextend2_smartslider3_slides
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_zbs_transactions
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_yoast_indexable_hierarchy
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_woocommerce_sessions
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_icl_strings
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_usermeta
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_gla_budget_recommendations
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_icl_languages_translations
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_discovercars_locations
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_icl_translation_status
+[2023-02-10 12:20:15][notice]Preparing to dump table wp_woocommerce_order_items
+[2023-02-10 12:20:16][notice]Preparing to dump table wp_yoast_indexable
+[2023-02-10 12:20:16][notice]Preparing to dump table wp_wc_order_stats
+[2023-02-10 12:20:16][notice]Preparing to dump table wp_wc_order_product_lookup
+[2023-02-10 12:20:16][notice]Preparing to dump table wp_icl_translate
+[2023-02-10 12:20:16][notice]Preparing to dump table wp_icl_translations
+[2023-02-10 12:20:16][notice]Preparing to dump table wp_comments
+[2023-02-10 12:20:16][notice]Preparing to dump table wp_posts
+[2023-02-10 12:20:17][notice]Preparing to dump table wp_wpml_mails
+[2023-02-10 12:20:17][notice]Preparing to dump table wp_woocommerce_order_itemmeta
+[2023-02-10 12:20:18][notice]Preparing to dump table wp_options
+[2023-02-10 12:20:18][notice]Preparing to dump table wp_actionscheduler_logs
+[2023-02-10 12:20:19][notice]Preparing to dump table wp_actionscheduler_actions
+[2023-02-10 12:20:20][notice]Preparing to dump table wp_postmeta
+[2023-02-10 12:20:39][notice]Exporting database finished.
+[2023-02-10 12:20:39][notice]Start compressing database
+[2023-02-10 12:20:39][notice]Prepare to zip file. file: giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_db.sql
+[2023-02-10 12:20:47][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_db.part001.zip, filesize: 10.00 MB
+[2023-02-10 12:20:47][notice]Compressing database completed
+[2023-02-10 12:20:47][notice]Backing up backup_db completed.
+[2023-02-10 12:20:47][notice]Prepare to backup backup_themes files.
+[2023-02-10 12:20:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_themes.part001.zip index:500
+[2023-02-10 12:20:49][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_themes.part001.zip success. index:500 file size:10.37 MB
+[2023-02-10 12:20:49][notice]Backing up backup_themes completed.
+[2023-02-10 12:20:49][notice]Prepare to backup backup_plugin files.
+[2023-02-10 12:21:18][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:500
+[2023-02-10 12:21:19][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:500 file size:3.56 MB
+[2023-02-10 12:21:19][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:1000
+[2023-02-10 12:21:21][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:1000 file size:7.87 MB
+[2023-02-10 12:21:21][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:1500
+[2023-02-10 12:21:21][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:1500 file size:8.78 MB
+[2023-02-10 12:21:21][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:2000
+[2023-02-10 12:21:22][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:2000 file size:9.47 MB
+[2023-02-10 12:21:22][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:2500
+[2023-02-10 12:21:23][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:2500 file size:10.20 MB
+[2023-02-10 12:21:23][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:3000
+[2023-02-10 12:21:25][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:3000 file size:14.94 MB
+[2023-02-10 12:21:25][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:3500
+[2023-02-10 12:21:31][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:3500 file size:48.91 MB
+[2023-02-10 12:21:31][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:4000
+[2023-02-10 12:21:32][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:4000 file size:50.19 MB
+[2023-02-10 12:21:32][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:4500
+[2023-02-10 12:21:33][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:4500 file size:51.06 MB
+[2023-02-10 12:21:33][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:5000
+[2023-02-10 12:21:34][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:5000 file size:52.84 MB
+[2023-02-10 12:21:35][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:5500
+[2023-02-10 12:21:35][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:5500 file size:53.70 MB
+[2023-02-10 12:21:35][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:6000
+[2023-02-10 12:21:38][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:6000 file size:57.97 MB
+[2023-02-10 12:21:38][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:6500
+[2023-02-10 12:21:39][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:6500 file size:59.15 MB
+[2023-02-10 12:21:39][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:7000
+[2023-02-10 12:21:40][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:7000 file size:61.58 MB
+[2023-02-10 12:21:40][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:7500
+[2023-02-10 12:21:41][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:7500 file size:62.85 MB
+[2023-02-10 12:21:41][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:8000
+[2023-02-10 12:21:42][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:8000 file size:64.45 MB
+[2023-02-10 12:21:42][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:8500
+[2023-02-10 12:21:44][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:8500 file size:67.46 MB
+[2023-02-10 12:21:44][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:9000
+[2023-02-10 12:21:45][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:9000 file size:68.04 MB
+[2023-02-10 12:21:45][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:9500
+[2023-02-10 12:21:46][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:9500 file size:72.32 MB
+[2023-02-10 12:21:46][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:10000
+[2023-02-10 12:21:48][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:10000 file size:76.12 MB
+[2023-02-10 12:21:48][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:10500
+[2023-02-10 12:21:49][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:10500 file size:78.73 MB
+[2023-02-10 12:21:49][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:11000
+[2023-02-10 12:21:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:11000 file size:80.43 MB
+[2023-02-10 12:21:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:11500
+[2023-02-10 12:21:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:11500 file size:81.32 MB
+[2023-02-10 12:21:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:12000
+[2023-02-10 12:21:52][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:12000 file size:81.73 MB
+[2023-02-10 12:21:52][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:12500
+[2023-02-10 12:21:53][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:12500 file size:82.26 MB
+[2023-02-10 12:21:53][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:13000
+[2023-02-10 12:21:54][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:13000 file size:84.08 MB
+[2023-02-10 12:21:54][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:13500
+[2023-02-10 12:21:54][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:13500 file size:84.87 MB
+[2023-02-10 12:21:54][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:14000
+[2023-02-10 12:21:55][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:14000 file size:85.51 MB
+[2023-02-10 12:21:55][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:14500
+[2023-02-10 12:21:56][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:14500 file size:86.51 MB
+[2023-02-10 12:21:56][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:15000
+[2023-02-10 12:21:58][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:15000 file size:89.27 MB
+[2023-02-10 12:21:58][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:15500
+[2023-02-10 12:21:59][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:15500 file size:90.13 MB
+[2023-02-10 12:21:59][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:16000
+[2023-02-10 12:21:59][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:16000 file size:94.37 MB
+[2023-02-10 12:22:00][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:16500
+[2023-02-10 12:22:04][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:16500 file size:103.93 MB
+[2023-02-10 12:22:04][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:17000
+[2023-02-10 12:22:05][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:17000 file size:105.47 MB
+[2023-02-10 12:22:05][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:17500
+[2023-02-10 12:22:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:17500 file size:109.90 MB
+[2023-02-10 12:22:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:18000
+[2023-02-10 12:22:09][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:18000 file size:110.58 MB
+[2023-02-10 12:22:09][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:18500
+[2023-02-10 12:22:09][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:18500 file size:111.90 MB
+[2023-02-10 12:22:10][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:19000
+[2023-02-10 12:22:10][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:19000 file size:112.91 MB
+[2023-02-10 12:22:10][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:19500
+[2023-02-10 12:22:11][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:19500 file size:117.18 MB
+[2023-02-10 12:22:11][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:20000
+[2023-02-10 12:22:13][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:20000 file size:118.99 MB
+[2023-02-10 12:22:13][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:20500
+[2023-02-10 12:22:13][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:20500 file size:119.68 MB
+[2023-02-10 12:22:13][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:21000
+[2023-02-10 12:22:14][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:21000 file size:120.16 MB
+[2023-02-10 12:22:14][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:21500
+[2023-02-10 12:22:15][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:21500 file size:120.62 MB
+[2023-02-10 12:22:15][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:22000
+[2023-02-10 12:22:17][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:22000 file size:124.99 MB
+[2023-02-10 12:22:17][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:22500
+[2023-02-10 12:22:17][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:22500 file size:125.48 MB
+[2023-02-10 12:22:17][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:23000
+[2023-02-10 12:22:19][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:23000 file size:127.67 MB
+[2023-02-10 12:22:19][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:23500
+[2023-02-10 12:22:20][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:23500 file size:128.51 MB
+[2023-02-10 12:22:20][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:24000
+[2023-02-10 12:22:21][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:24000 file size:129.62 MB
+[2023-02-10 12:22:21][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:24500
+[2023-02-10 12:22:22][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:24500 file size:130.55 MB
+[2023-02-10 12:22:22][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:25000
+[2023-02-10 12:22:28][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:25000 file size:137.54 MB
+[2023-02-10 12:22:28][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:25500
+[2023-02-10 12:22:30][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:25500 file size:142.58 MB
+[2023-02-10 12:22:30][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:26000
+[2023-02-10 12:22:32][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:26000 file size:143.72 MB
+[2023-02-10 12:22:32][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:26500
+[2023-02-10 12:22:32][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:26500 file size:144.27 MB
+[2023-02-10 12:22:32][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:27000
+[2023-02-10 12:22:33][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:27000 file size:145.20 MB
+[2023-02-10 12:22:33][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:27500
+[2023-02-10 12:22:34][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:27500 file size:146.52 MB
+[2023-02-10 12:22:34][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:28000
+[2023-02-10 12:22:35][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:28000 file size:147.62 MB
+[2023-02-10 12:22:35][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:28500
+[2023-02-10 12:22:37][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:28500 file size:150.92 MB
+[2023-02-10 12:22:37][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:29000
+[2023-02-10 12:22:38][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:29000 file size:151.76 MB
+[2023-02-10 12:22:38][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:29500
+[2023-02-10 12:22:39][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:29500 file size:153.25 MB
+[2023-02-10 12:22:39][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:30000
+[2023-02-10 12:22:40][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:30000 file size:154.36 MB
+[2023-02-10 12:22:40][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:30500
+[2023-02-10 12:22:41][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:30500 file size:155.22 MB
+[2023-02-10 12:22:41][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:31000
+[2023-02-10 12:22:42][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:31000 file size:155.77 MB
+[2023-02-10 12:22:42][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:31500
+[2023-02-10 12:22:43][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:31500 file size:156.49 MB
+[2023-02-10 12:22:43][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:32000
+[2023-02-10 12:22:44][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:32000 file size:157.33 MB
+[2023-02-10 12:22:44][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:32500
+[2023-02-10 12:22:45][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:32500 file size:157.85 MB
+[2023-02-10 12:22:45][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:33000
+[2023-02-10 12:22:46][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:33000 file size:158.50 MB
+[2023-02-10 12:22:46][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:33500
+[2023-02-10 12:22:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:33500 file size:159.28 MB
+[2023-02-10 12:22:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:34000
+[2023-02-10 12:22:48][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:34000 file size:160.08 MB
+[2023-02-10 12:22:48][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:34500
+[2023-02-10 12:22:50][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:34500 file size:164.49 MB
+[2023-02-10 12:22:50][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:35000
+[2023-02-10 12:22:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:35000 file size:165.79 MB
+[2023-02-10 12:22:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:35500
+[2023-02-10 12:22:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:35500 file size:165.99 MB
+[2023-02-10 12:22:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:36000
+[2023-02-10 12:22:54][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:36000 file size:171.60 MB
+[2023-02-10 12:22:54][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:36500
+[2023-02-10 12:22:57][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:36500 file size:177.70 MB
+[2023-02-10 12:22:57][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:37000
+[2023-02-10 12:22:59][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:37000 file size:181.10 MB
+[2023-02-10 12:22:59][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:37500
+[2023-02-10 12:23:00][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:37500 file size:182.15 MB
+[2023-02-10 12:23:00][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:38000
+[2023-02-10 12:23:01][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:38000 file size:185.64 MB
+[2023-02-10 12:23:01][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:38500
+[2023-02-10 12:23:03][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:38500 file size:188.80 MB
+[2023-02-10 12:23:03][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip index:39000
+[2023-02-10 12:23:05][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip success. index:39000 file size:202.04 MB
+[2023-02-10 12:23:05][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part002.zip index:39500
+[2023-02-10 12:23:06][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part002.zip success. index:39500 file size:2.52 MB
+[2023-02-10 12:23:06][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part002.zip index:40000
+[2023-02-10 12:23:07][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part002.zip success. index:40000 file size:3.79 MB
+[2023-02-10 12:23:07][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part002.zip index:40500
+[2023-02-10 12:23:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part002.zip success. index:40500 file size:5.82 MB
+[2023-02-10 12:23:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part002.zip index:41000
+[2023-02-10 12:23:09][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part002.zip success. index:41000 file size:9.66 MB
+[2023-02-10 12:23:09][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part002.zip index:41500
+[2023-02-10 12:23:10][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part002.zip success. index:41500 file size:10.98 MB
+[2023-02-10 12:23:10][notice]Backing up backup_plugin completed.
+[2023-02-10 12:23:10][notice]Prepare to backup backup_uploads files.
+[2023-02-10 12:23:38][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:500
+[2023-02-10 12:23:41][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:500 file size:40.86 MB
+[2023-02-10 12:23:41][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:1000
+[2023-02-10 12:23:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:1000 file size:127.53 MB
+[2023-02-10 12:23:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:1500
+[2023-02-10 12:23:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:1500 file size:128.59 MB
+[2023-02-10 12:23:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:2000
+[2023-02-10 12:23:48][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:2000 file size:129.70 MB
+[2023-02-10 12:23:48][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:2500
+[2023-02-10 12:23:48][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:2500 file size:130.83 MB
+[2023-02-10 12:23:48][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:3000
+[2023-02-10 12:23:49][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:3000 file size:131.91 MB
+[2023-02-10 12:23:49][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:3500
+[2023-02-10 12:23:50][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:3500 file size:133.11 MB
+[2023-02-10 12:23:50][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:4000
+[2023-02-10 12:23:50][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:4000 file size:134.20 MB
+[2023-02-10 12:23:50][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:4500
+[2023-02-10 12:23:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:4500 file size:135.38 MB
+[2023-02-10 12:23:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:5000
+[2023-02-10 12:23:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:5000 file size:136.49 MB
+[2023-02-10 12:23:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:5500
+[2023-02-10 12:23:52][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:5500 file size:137.54 MB
+[2023-02-10 12:23:52][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:6000
+[2023-02-10 12:23:52][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:6000 file size:138.82 MB
+[2023-02-10 12:23:52][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:6500
+[2023-02-10 12:23:53][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:6500 file size:139.99 MB
+[2023-02-10 12:23:53][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:7000
+[2023-02-10 12:23:54][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:7000 file size:141.17 MB
+[2023-02-10 12:23:54][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:7500
+[2023-02-10 12:23:54][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:7500 file size:142.29 MB
+[2023-02-10 12:23:54][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:8000
+[2023-02-10 12:23:55][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:8000 file size:143.35 MB
+[2023-02-10 12:23:55][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:8500
+[2023-02-10 12:23:55][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:8500 file size:144.37 MB
+[2023-02-10 12:23:55][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:9000
+[2023-02-10 12:23:56][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:9000 file size:145.53 MB
+[2023-02-10 12:23:56][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:9500
+[2023-02-10 12:23:57][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:9500 file size:146.70 MB
+[2023-02-10 12:23:57][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:10000
+[2023-02-10 12:23:57][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:10000 file size:147.83 MB
+[2023-02-10 12:23:57][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:10500
+[2023-02-10 12:23:58][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:10500 file size:149.03 MB
+[2023-02-10 12:23:58][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:11000
+[2023-02-10 12:23:58][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:11000 file size:150.11 MB
+[2023-02-10 12:23:58][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:11500
+[2023-02-10 12:23:59][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:11500 file size:151.15 MB
+[2023-02-10 12:23:59][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:12000
+[2023-02-10 12:24:00][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:12000 file size:152.28 MB
+[2023-02-10 12:24:00][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:12500
+[2023-02-10 12:24:00][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:12500 file size:153.40 MB
+[2023-02-10 12:24:00][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:13000
+[2023-02-10 12:24:01][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:13000 file size:154.55 MB
+[2023-02-10 12:24:01][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:13500
+[2023-02-10 12:24:02][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:13500 file size:155.73 MB
+[2023-02-10 12:24:02][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:14000
+[2023-02-10 12:24:02][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:14000 file size:156.92 MB
+[2023-02-10 12:24:02][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:14500
+[2023-02-10 12:24:03][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:14500 file size:158.11 MB
+[2023-02-10 12:24:03][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:15000
+[2023-02-10 12:24:04][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:15000 file size:159.17 MB
+[2023-02-10 12:24:04][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:15500
+[2023-02-10 12:24:04][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:15500 file size:160.20 MB
+[2023-02-10 12:24:04][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:16000
+[2023-02-10 12:24:05][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:16000 file size:161.33 MB
+[2023-02-10 12:24:05][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:16500
+[2023-02-10 12:24:06][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:16500 file size:162.47 MB
+[2023-02-10 12:24:06][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:17000
+[2023-02-10 12:24:06][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:17000 file size:163.64 MB
+[2023-02-10 12:24:06][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:17500
+[2023-02-10 12:24:07][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:17500 file size:164.76 MB
+[2023-02-10 12:24:07][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:18000
+[2023-02-10 12:24:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:18000 file size:165.80 MB
+[2023-02-10 12:24:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:18500
+[2023-02-10 12:24:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:18500 file size:166.95 MB
+[2023-02-10 12:24:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:19000
+[2023-02-10 12:24:09][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:19000 file size:168.15 MB
+[2023-02-10 12:24:09][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:19500
+[2023-02-10 12:24:10][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:19500 file size:169.36 MB
+[2023-02-10 12:24:10][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:20000
+[2023-02-10 12:24:10][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:20000 file size:170.24 MB
+[2023-02-10 12:24:10][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:20500
+[2023-02-10 12:24:11][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:20500 file size:171.34 MB
+[2023-02-10 12:24:11][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:21000
+[2023-02-10 12:24:12][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:21000 file size:172.45 MB
+[2023-02-10 12:24:12][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:21500
+[2023-02-10 12:24:13][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:21500 file size:173.49 MB
+[2023-02-10 12:24:13][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:22000
+[2023-02-10 12:24:13][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:22000 file size:174.54 MB
+[2023-02-10 12:24:13][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:22500
+[2023-02-10 12:24:14][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:22500 file size:175.54 MB
+[2023-02-10 12:24:14][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:23000
+[2023-02-10 12:24:15][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:23000 file size:176.71 MB
+[2023-02-10 12:24:15][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:23500
+[2023-02-10 12:24:15][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:23500 file size:177.84 MB
+[2023-02-10 12:24:15][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:24000
+[2023-02-10 12:24:16][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:24000 file size:178.91 MB
+[2023-02-10 12:24:16][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:24500
+[2023-02-10 12:24:17][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:24500 file size:179.97 MB
+[2023-02-10 12:24:17][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:25000
+[2023-02-10 12:24:17][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:25000 file size:180.97 MB
+[2023-02-10 12:24:18][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:25500
+[2023-02-10 12:24:18][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:25500 file size:181.98 MB
+[2023-02-10 12:24:18][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:26000
+[2023-02-10 12:24:19][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:26000 file size:182.95 MB
+[2023-02-10 12:24:19][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:26500
+[2023-02-10 12:24:20][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:26500 file size:183.95 MB
+[2023-02-10 12:24:20][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:27000
+[2023-02-10 12:24:20][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:27000 file size:185.00 MB
+[2023-02-10 12:24:20][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:27500
+[2023-02-10 12:24:21][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:27500 file size:185.98 MB
+[2023-02-10 12:24:21][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:28000
+[2023-02-10 12:24:22][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:28000 file size:186.83 MB
+[2023-02-10 12:24:22][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:28500
+[2023-02-10 12:24:23][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:28500 file size:187.64 MB
+[2023-02-10 12:24:23][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:29000
+[2023-02-10 12:24:23][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:29000 file size:188.72 MB
+[2023-02-10 12:24:23][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:29500
+[2023-02-10 12:24:24][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:29500 file size:189.72 MB
+[2023-02-10 12:24:24][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:30000
+[2023-02-10 12:24:25][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:30000 file size:190.45 MB
+[2023-02-10 12:24:25][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:30500
+[2023-02-10 12:24:26][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:30500 file size:191.59 MB
+[2023-02-10 12:24:26][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:31000
+[2023-02-10 12:24:26][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:31000 file size:192.73 MB
+[2023-02-10 12:24:26][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:31500
+[2023-02-10 12:24:27][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:31500 file size:193.80 MB
+[2023-02-10 12:24:27][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:32000
+[2023-02-10 12:24:28][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:32000 file size:194.82 MB
+[2023-02-10 12:24:28][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:32500
+[2023-02-10 12:24:29][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:32500 file size:195.86 MB
+[2023-02-10 12:24:29][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:33000
+[2023-02-10 12:24:29][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:33000 file size:196.58 MB
+[2023-02-10 12:24:29][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:33500
+[2023-02-10 12:24:30][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:33500 file size:197.37 MB
+[2023-02-10 12:24:30][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:34000
+[2023-02-10 12:24:31][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:34000 file size:198.23 MB
+[2023-02-10 12:24:31][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:34500
+[2023-02-10 12:24:31][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:34500 file size:199.18 MB
+[2023-02-10 12:24:31][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip index:35000
+[2023-02-10 12:24:32][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip success. index:35000 file size:200.17 MB
+[2023-02-10 12:24:33][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:35500
+[2023-02-10 12:24:33][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:35500 file size:983.27 KB
+[2023-02-10 12:24:33][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:36000
+[2023-02-10 12:24:34][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:36000 file size:1.97 MB
+[2023-02-10 12:24:34][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:36500
+[2023-02-10 12:24:34][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:36500 file size:2.96 MB
+[2023-02-10 12:24:34][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:37000
+[2023-02-10 12:24:35][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:37000 file size:3.94 MB
+[2023-02-10 12:24:35][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:37500
+[2023-02-10 12:24:35][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:37500 file size:4.97 MB
+[2023-02-10 12:24:35][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:38000
+[2023-02-10 12:24:36][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:38000 file size:5.87 MB
+[2023-02-10 12:24:36][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:38500
+[2023-02-10 12:24:36][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:38500 file size:6.56 MB
+[2023-02-10 12:24:36][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:39000
+[2023-02-10 12:24:37][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:39000 file size:7.44 MB
+[2023-02-10 12:24:37][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:39500
+[2023-02-10 12:24:37][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:39500 file size:8.41 MB
+[2023-02-10 12:24:37][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:40000
+[2023-02-10 12:24:38][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:40000 file size:9.08 MB
+[2023-02-10 12:24:38][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:40500
+[2023-02-10 12:24:38][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:40500 file size:9.67 MB
+[2023-02-10 12:24:38][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:41000
+[2023-02-10 12:24:38][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:41000 file size:10.45 MB
+[2023-02-10 12:24:38][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:41500
+[2023-02-10 12:24:39][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:41500 file size:11.15 MB
+[2023-02-10 12:24:39][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:42000
+[2023-02-10 12:24:39][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:42000 file size:12.09 MB
+[2023-02-10 12:24:39][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:42500
+[2023-02-10 12:24:40][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:42500 file size:12.72 MB
+[2023-02-10 12:24:40][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:43000
+[2023-02-10 12:24:41][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:43000 file size:13.54 MB
+[2023-02-10 12:24:41][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:43500
+[2023-02-10 12:24:41][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:43500 file size:14.39 MB
+[2023-02-10 12:24:41][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:44000
+[2023-02-10 12:24:42][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:44000 file size:15.20 MB
+[2023-02-10 12:24:42][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:44500
+[2023-02-10 12:24:42][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:44500 file size:16.03 MB
+[2023-02-10 12:24:42][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:45000
+[2023-02-10 12:24:43][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:45000 file size:17.00 MB
+[2023-02-10 12:24:43][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:45500
+[2023-02-10 12:24:43][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:45500 file size:17.84 MB
+[2023-02-10 12:24:43][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:46000
+[2023-02-10 12:24:44][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:46000 file size:18.65 MB
+[2023-02-10 12:24:44][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:46500
+[2023-02-10 12:24:44][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:46500 file size:19.58 MB
+[2023-02-10 12:24:44][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:47000
+[2023-02-10 12:24:45][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:47000 file size:20.48 MB
+[2023-02-10 12:24:45][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:47500
+[2023-02-10 12:24:46][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:47500 file size:21.47 MB
+[2023-02-10 12:24:46][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:48000
+[2023-02-10 12:24:46][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:48000 file size:22.13 MB
+[2023-02-10 12:24:46][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:48500
+[2023-02-10 12:24:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:48500 file size:22.99 MB
+[2023-02-10 12:24:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:49000
+[2023-02-10 12:24:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:49000 file size:23.79 MB
+[2023-02-10 12:24:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:49500
+[2023-02-10 12:24:48][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:49500 file size:24.57 MB
+[2023-02-10 12:24:48][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:50000
+[2023-02-10 12:24:49][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:50000 file size:25.11 MB
+[2023-02-10 12:24:49][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:50500
+[2023-02-10 12:24:49][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:50500 file size:25.52 MB
+[2023-02-10 12:24:49][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:51000
+[2023-02-10 12:24:50][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:51000 file size:26.02 MB
+[2023-02-10 12:24:50][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:51500
+[2023-02-10 12:24:50][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:51500 file size:26.75 MB
+[2023-02-10 12:24:50][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:52000
+[2023-02-10 12:24:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:52000 file size:27.79 MB
+[2023-02-10 12:24:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:52500
+[2023-02-10 12:24:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:52500 file size:28.84 MB
+[2023-02-10 12:24:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:53000
+[2023-02-10 12:24:52][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:53000 file size:29.90 MB
+[2023-02-10 12:24:52][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:53500
+[2023-02-10 12:24:53][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:53500 file size:31.00 MB
+[2023-02-10 12:24:53][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:54000
+[2023-02-10 12:24:53][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:54000 file size:32.07 MB
+[2023-02-10 12:24:53][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:54500
+[2023-02-10 12:24:54][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:54500 file size:33.12 MB
+[2023-02-10 12:24:54][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:55000
+[2023-02-10 12:24:55][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:55000 file size:34.22 MB
+[2023-02-10 12:24:55][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:55500
+[2023-02-10 12:24:55][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:55500 file size:35.33 MB
+[2023-02-10 12:24:55][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:56000
+[2023-02-10 12:24:56][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:56000 file size:36.41 MB
+[2023-02-10 12:24:56][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:56500
+[2023-02-10 12:24:57][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:56500 file size:37.52 MB
+[2023-02-10 12:24:57][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:57000
+[2023-02-10 12:24:58][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:57000 file size:38.60 MB
+[2023-02-10 12:24:58][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:57500
+[2023-02-10 12:24:58][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:57500 file size:39.61 MB
+[2023-02-10 12:24:58][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:58000
+[2023-02-10 12:24:59][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:58000 file size:40.61 MB
+[2023-02-10 12:24:59][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:58500
+[2023-02-10 12:25:00][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:58500 file size:41.70 MB
+[2023-02-10 12:25:00][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:59000
+[2023-02-10 12:25:01][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:59000 file size:42.83 MB
+[2023-02-10 12:25:01][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:59500
+[2023-02-10 12:25:01][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:59500 file size:43.96 MB
+[2023-02-10 12:25:01][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:60000
+[2023-02-10 12:25:02][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:60000 file size:45.09 MB
+[2023-02-10 12:25:02][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:60500
+[2023-02-10 12:25:03][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:60500 file size:46.35 MB
+[2023-02-10 12:25:03][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:61000
+[2023-02-10 12:25:04][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:61000 file size:47.40 MB
+[2023-02-10 12:25:04][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:61500
+[2023-02-10 12:25:05][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:61500 file size:48.47 MB
+[2023-02-10 12:25:05][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:62000
+[2023-02-10 12:25:05][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:62000 file size:49.39 MB
+[2023-02-10 12:25:05][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:62500
+[2023-02-10 12:25:06][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:62500 file size:50.36 MB
+[2023-02-10 12:25:06][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:63000
+[2023-02-10 12:25:07][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:63000 file size:51.47 MB
+[2023-02-10 12:25:07][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:63500
+[2023-02-10 12:25:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:63500 file size:52.42 MB
+[2023-02-10 12:25:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:64000
+[2023-02-10 12:25:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:64000 file size:53.51 MB
+[2023-02-10 12:25:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:64500
+[2023-02-10 12:25:09][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:64500 file size:54.56 MB
+[2023-02-10 12:25:09][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:65000
+[2023-02-10 12:25:10][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:65000 file size:55.68 MB
+[2023-02-10 12:25:10][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:65500
+[2023-02-10 12:25:11][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:65500 file size:56.83 MB
+[2023-02-10 12:25:11][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:66000
+[2023-02-10 12:25:11][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:66000 file size:57.90 MB
+[2023-02-10 12:25:11][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:66500
+[2023-02-10 12:25:12][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:66500 file size:58.96 MB
+[2023-02-10 12:25:12][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:67000
+[2023-02-10 12:25:13][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:67000 file size:60.15 MB
+[2023-02-10 12:25:13][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:67500
+[2023-02-10 12:25:14][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:67500 file size:61.32 MB
+[2023-02-10 12:25:14][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:68000
+[2023-02-10 12:25:15][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:68000 file size:62.48 MB
+[2023-02-10 12:25:15][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:68500
+[2023-02-10 12:25:15][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:68500 file size:63.62 MB
+[2023-02-10 12:25:15][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:69000
+[2023-02-10 12:25:16][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:69000 file size:64.72 MB
+[2023-02-10 12:25:16][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:69500
+[2023-02-10 12:25:17][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:69500 file size:65.79 MB
+[2023-02-10 12:25:17][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:70000
+[2023-02-10 12:25:18][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:70000 file size:66.85 MB
+[2023-02-10 12:25:18][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:70500
+[2023-02-10 12:25:19][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:70500 file size:67.94 MB
+[2023-02-10 12:25:19][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:71000
+[2023-02-10 12:25:20][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:71000 file size:69.01 MB
+[2023-02-10 12:25:20][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip index:71500
+[2023-02-10 12:25:31][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip success. index:71500 file size:256.82 MB
+[2023-02-10 12:25:32][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part003.zip index:72000
+[2023-02-10 12:25:36][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part003.zip success. index:72000 file size:70.93 MB
+[2023-02-10 12:25:36][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part003.zip index:72500
+[2023-02-10 12:25:42][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part003.zip success. index:72500 file size:156.44 MB
+[2023-02-10 12:25:42][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part003.zip index:73000
+[2023-02-10 12:25:43][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part003.zip success. index:73000 file size:164.57 MB
+[2023-02-10 12:25:43][notice]Backing up backup_uploads completed.
+[2023-02-10 12:25:43][notice]Prepare to backup backup_content files.
+[2023-02-10 12:25:44][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.part001.zip index:500
+[2023-02-10 12:25:46][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.part001.zip success. index:500 file size:4.89 MB
+[2023-02-10 12:25:46][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.part001.zip index:1000
+[2023-02-10 12:25:46][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.part001.zip success. index:1000 file size:5.40 MB
+[2023-02-10 12:25:46][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.part001.zip index:1500
+[2023-02-10 12:25:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.part001.zip success. index:1500 file size:7.09 MB
+[2023-02-10 12:25:47][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.part001.zip index:2000
+[2023-02-10 12:25:49][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.part001.zip success. index:2000 file size:10.11 MB
+[2023-02-10 12:25:49][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.part001.zip index:2500
+[2023-02-10 12:25:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.part001.zip success. index:2500 file size:14.31 MB
+[2023-02-10 12:25:51][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.part001.zip index:3000
+[2023-02-10 12:25:52][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.part001.zip success. index:3000 file size:15.17 MB
+[2023-02-10 12:25:52][notice]Backing up backup_content completed.
+[2023-02-10 12:25:52][notice]Prepare to backup backup_core files.
+[2023-02-10 12:25:53][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.part001.zip index:500
+[2023-02-10 12:26:02][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.part001.zip success. index:500 file size:10.40 MB
+[2023-02-10 12:26:02][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.part001.zip index:1000
+[2023-02-10 12:26:05][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.part001.zip success. index:1000 file size:16.15 MB
+[2023-02-10 12:26:05][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.part001.zip index:1500
+[2023-02-10 12:26:07][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.part001.zip success. index:1500 file size:18.73 MB
+[2023-02-10 12:26:07][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.part001.zip index:2000
+[2023-02-10 12:26:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.part001.zip success. index:2000 file size:20.37 MB
+[2023-02-10 12:26:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.part001.zip index:2500
+[2023-02-10 12:26:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.part001.zip success. index:2500 file size:20.82 MB
+[2023-02-10 12:26:08][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.part001.zip index:3000
+[2023-02-10 12:26:17][notice]Compressing zip file:giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.part001.zip success. index:3000 file size:29.16 MB
+[2023-02-10 12:26:17][notice]Backing up backup_core completed.
+[2023-02-10 12:26:17][notice]Prepare to backup backup_merge files.
+[2023-02-10 12:26:17][notice]Prepare to zip file. file: giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_db.zip
+[2023-02-10 12:26:17][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part001.zip, filesize: 8.95 MB
+[2023-02-10 12:26:17][notice]Prepare to zip file. file: giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_themes.zip
+[2023-02-10 12:26:18][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part001.zip, filesize: 19.26 MB
+[2023-02-10 12:26:18][notice]Prepare to zip file. file: giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part001.zip
+[2023-02-10 12:26:30][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part001.zip, filesize: 211.59 MB
+[2023-02-10 12:26:31][notice]Prepare to zip file. file: giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_plugin.part002.zip
+[2023-02-10 12:26:32][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part002.zip, filesize: 10.52 MB
+[2023-02-10 12:26:32][notice]Prepare to zip file. file: giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part001.zip
+[2023-02-10 12:26:43][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part002.zip, filesize: 207.45 MB
+[2023-02-10 12:26:44][notice]Prepare to zip file. file: giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part002.zip
+[2023-02-10 12:26:58][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part003.zip, filesize: 253.40 MB
+[2023-02-10 12:26:59][notice]Prepare to zip file. file: giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_uploads.part003.zip
+[2023-02-10 12:27:08][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part004.zip, filesize: 164.49 MB
+[2023-02-10 12:27:08][notice]Prepare to zip file. file: giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_content.zip
+[2023-02-10 12:27:09][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part004.zip, filesize: 179.29 MB
+[2023-02-10 12:27:09][notice]Prepare to zip file. file: giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_core.zip
+[2023-02-10 12:27:11][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part004.zip, filesize: 207.44 MB
+[2023-02-10 12:27:11][notice]Backing up backup_merge completed.
+[2023-02-10 12:27:11][notice]Check upload folder migrate
+[2023-02-10 12:27:13][notice]Start uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part001.zip
+[2023-02-10 12:27:13][notice]Check if the server already has the same name file.
+[2023-02-10 12:27:13][notice]Initiate a resumable upload session.
+[2023-02-10 12:27:17][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part001.zip Total size: 211.59 MB Uploaded: 30.00 MB speed:7864.32kb/s
+[2023-02-10 12:27:21][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part001.zip Total size: 211.59 MB Uploaded: 68.00 MB speed:9961.47kb/s
+[2023-02-10 12:27:25][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part001.zip Total size: 211.59 MB Uploaded: 111.00 MB speed:11272.19kb/s
+[2023-02-10 12:27:29][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part001.zip Total size: 211.59 MB Uploaded: 157.00 MB speed:12058.62kb/s
+[2023-02-10 12:27:33][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part001.zip Total size: 211.59 MB Uploaded: 203.00 MB speed:12058.62kb/s
+[2023-02-10 12:27:35][notice]Finished uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part001.zip
+[2023-02-10 12:27:35][notice]Start uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part002.zip
+[2023-02-10 12:27:35][notice]Check if the server already has the same name file.
+[2023-02-10 12:27:36][notice]Initiate a resumable upload session.
+[2023-02-10 12:27:39][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part002.zip Total size: 207.45 MB Uploaded: 29.00 MB speed:7602.18kb/s
+[2023-02-10 12:27:43][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part002.zip Total size: 207.45 MB Uploaded: 72.00 MB speed:11272.19kb/s
+[2023-02-10 12:27:47][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part002.zip Total size: 207.45 MB Uploaded: 117.00 MB speed:11796.48kb/s
+[2023-02-10 12:27:51][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part002.zip Total size: 207.45 MB Uploaded: 162.00 MB speed:11796.48kb/s
+[2023-02-10 12:27:55][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part002.zip Total size: 207.45 MB Uploaded: 207.00 MB speed:11796.48kb/s
+[2023-02-10 12:27:57][notice]Finished uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part002.zip
+[2023-02-10 12:27:57][notice]Start uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part003.zip
+[2023-02-10 12:27:57][notice]Check if the server already has the same name file.
+[2023-02-10 12:27:57][notice]Initiate a resumable upload session.
+[2023-02-10 12:28:01][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part003.zip Total size: 253.40 MB Uploaded: 37.00 MB speed:9699.33kb/s
+[2023-02-10 12:28:05][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part003.zip Total size: 253.40 MB Uploaded: 81.00 MB speed:11534.34kb/s
+[2023-02-10 12:28:09][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part003.zip Total size: 253.40 MB Uploaded: 124.00 MB speed:11272.19kb/s
+[2023-02-10 12:28:13][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part003.zip Total size: 253.40 MB Uploaded: 171.00 MB speed:12320.77kb/s
+[2023-02-10 12:28:17][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part003.zip Total size: 253.40 MB Uploaded: 216.00 MB speed:11796.48kb/s
+[2023-02-10 12:28:22][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part003.zip Total size: 253.40 MB Uploaded: 253.40 MB speed:7843.67kb/s
+[2023-02-10 12:28:22][notice]Finished uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part003.zip
+[2023-02-10 12:28:22][notice]Start uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part004.zip
+[2023-02-10 12:28:22][notice]Check if the server already has the same name file.
+[2023-02-10 12:28:22][notice]Initiate a resumable upload session.
+[2023-02-10 12:28:26][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part004.zip Total size: 207.44 MB Uploaded: 33.00 MB speed:8650.75kb/s
+[2023-02-10 12:28:30][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part004.zip Total size: 207.44 MB Uploaded: 77.00 MB speed:11534.34kb/s
+[2023-02-10 12:28:34][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part004.zip Total size: 207.44 MB Uploaded: 122.00 MB speed:11796.48kb/s
+[2023-02-10 12:28:38][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part004.zip Total size: 207.44 MB Uploaded: 168.00 MB speed:12058.62kb/s
+[2023-02-10 12:28:43][notice]Uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part004.zip Total size: 207.44 MB Uploaded: 207.44 MB speed:8270.74kb/s
+[2023-02-10 12:28:43][notice]Finished uploading giftcards4travel.co.uk_wpvivid-63e63679cf026_2023-02-10-12-20_backup_all.part004.zip
+[2023-02-10 12:28:43][notice]Finish upload to googledrive

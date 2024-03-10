@@ -1,0 +1,265 @@
+# Translation of Plugins - WooCommerce ShipStation Integration - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - WooCommerce ShipStation Integration - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-11-29 14:46:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - WooCommerce ShipStation Integration - Stable (latest release)\n"
+
+#: woocommerce-shipstation.php:101
+msgid "Docs"
+msgstr "Documentazione"
+
+#: woocommerce-shipstation.php:100
+msgid "Support"
+msgstr "Supporto"
+
+#: woocommerce-shipstation.php:99
+msgid "Settings"
+msgstr "Impostazioni"
+
+#. translators: %s WC download URL link.
+#: woocommerce-shipstation.php:28
+msgid "Shipstation requires WooCommerce to be installed and active. You can download %s here."
+msgstr "ShipStation richiede WooCommerce per essere installata e attivata. Puoi scaricare %s qui:"
+
+#: includes/data/data-settings.php:66
+msgid "Note: this may log personal information. We recommend using this for debugging purposes only and deleting the logs when finished."
+msgstr "Nota: potrebbe essere registrate informazioni personali. Ne consigliamo l’uso per scopi di debug ed è importante eliminare i log al termine."
+
+#: includes/data/data-settings.php:64
+msgid "Enable Logging"
+msgstr "Abilita scrittura log"
+
+#: includes/data/data-settings.php:63
+msgid "Logging"
+msgstr "Scrittura log"
+
+#: includes/data/data-settings.php:58
+msgid "Define the order status you wish to update to once an order has been shipping via ShipStation. By default this is \"Completed\"."
+msgstr "Definisci lo stato dell'ordine che desideri aggiornare una volta che un ordine è stato spedito tramite ShipStation. Per impostazione predefinita questo è \"Completato\"."
+
+#: includes/data/data-settings.php:55
+msgid "Shipped Order Status&hellip;"
+msgstr "Stato ordine spedito..."
+
+#: includes/data/data-settings.php:51
+msgid "Select Order Statuses"
+msgstr "Seleziona stati dell'ordine"
+
+#: includes/data/data-settings.php:48
+msgid "Define the order statuses you wish to export to ShipStation."
+msgstr "Definisci gli stati dell'ordine che desideri esportare su ShipStation."
+
+#: includes/data/data-settings.php:43
+msgid "Export Order Statuses&hellip;"
+msgstr "Esporta stati dell'ordine..."
+
+#: includes/data/data-settings.php:36
+msgid "This is the <code>Auth Key</code> you set in ShipStation and allows ShipStation to communicate with your store."
+msgstr "Questa è la <code>chiave di autenticazione</code> impostata su ShipStation e consente a ShipStation di comunicare con il tuo negozio."
+
+#: includes/data/data-settings.php:33
+msgid "Copy and paste this key into ShipStation during setup."
+msgstr "Copia e incolla questa chiave su ShipStation durante la configurazione."
+
+#: includes/data/data-settings.php:32
+msgid "Authentication Key"
+msgstr "Chiave di autenticazione"
+
+#: includes/class-wc-shipstation-privacy.php:161
+msgid "ShipStation Order Data Erased."
+msgstr "Dati ordine ShipStation cancellati."
+
+#: includes/class-wc-shipstation-privacy.php:85
+msgid "ShipStation date shipped"
+msgstr "Data di spedizione di ShipStation"
+
+#: includes/class-wc-shipstation-privacy.php:81
+msgid "ShipStation tracking number"
+msgstr "Numero di tracciabilità ShipStation"
+
+#: includes/class-wc-shipstation-privacy.php:77
+msgid "ShipStation tracking provider"
+msgstr "Fornitore tracciabilità ShipStation"
+
+#: includes/class-wc-shipstation-privacy.php:73
+msgid "Orders"
+msgstr "Ordini"
+
+#. translators: 1: URL to documentation
+#: includes/class-wc-shipstation-privacy.php:50
+msgid "By using this extension, you may be storing personal data or sharing data with an external service. <a href=\"%s\" target=\"_blank\">Learn more about how this works, including what you may want to include in your privacy policy.</a>"
+msgstr "Utilizzando questa estensione, puoi archiviare i dati personali o condividere i dati con un servizio esterno. <a href=\"%s\" target=\"_blank\">Scopri di più su come funziona, compreso ciò che potresti voler includere nella tua politica sulla privacy.</a>"
+
+#: includes/class-wc-shipstation-privacy.php:16
+msgid "WooCommerce ShipStation Data"
+msgstr "Dati ShipStation WooCommerce"
+
+#: includes/class-wc-shipstation-privacy.php:14
+msgid "WooCommerce ShipStation Order Data"
+msgstr "Dati ordine ShipStation WooCommerce"
+
+#. translators: %1$s: ShipStation plugin settings URL, %2$s: ShipStation
+#. documentation URL
+#: includes/class-wc-shipstation-integration.php:175
+msgid "You can find other settings for this extension <a href=\"%1$s\">here</a> and view the documentation <a href=\"%2$s\">here</a>."
+msgstr "Puoi trovare altri impostazioni per questa estensione <a href=\"%1$s\">qui</a> e visualizzare la documentazione <a href=\"%2$s\">qui</a>."
+
+#: includes/class-wc-shipstation-integration.php:168
+msgid "Once connected you're good to go!"
+msgstr "Una volta connesso, sei pronto per andare."
+
+#. translators: %s: ShipStation Auth Key
+#: includes/class-wc-shipstation-integration.php:161
+msgid "After logging in, add a selling channel for WooCommerce and use your Auth Key (<code>%s</code>) to connect your store."
+msgstr "Dopo l'accesso, aggiungi un canale di vendita per WooCommerce e utilizza la chiave di autenticazione (<code>%s</code>) per connettere il tuo negozio."
+
+#. translators: %s: ShipStation URL
+#: includes/class-wc-shipstation-integration.php:143
+msgid "To begin printing shipping labels with ShipStation head over to <a class=\"shipstation-external-link\" href=\"%s\" target=\"_blank\">ShipStation.com</a> and log in or create a new account."
+msgstr "Per iniziare la stampa delle etichette di spedizione con ShipStation passa a <a class=\"shipstation-external-link\" href=\"%s\" target=\"_blank\">ShipStation.com</a> e accedi o crea un nuovo account."
+
+#: includes/class-wc-shipstation-integration.php:133
+msgid "ShipStation logo"
+msgstr "Logo ShipStation"
+
+#: includes/class-wc-shipstation-integration.php:118
+msgid "Cheatin&#8217; huh?"
+msgstr "Volevi fare il furbo, eh?"
+
+#: includes/class-wc-shipstation-integration.php:114
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Azione fallita. Aggiorna la pagina e riprova."
+
+#: includes/class-wc-shipstation-integration.php:23
+msgid "ShipStation allows you to retrieve &amp; manage orders, then print labels &amp; packing slips with ease."
+msgstr "ShipStation ti consente di recuperare e gestire gli ordini, quindi di stampare le etichette e le distinte di imballaggio con facilità."
+
+#: includes/class-wc-shipstation-integration.php:22
+#: includes/class-wc-shipstation-privacy.php:12
+msgid "ShipStation"
+msgstr "ShipStation"
+
+#. translators: 1: query string
+#: includes/class-wc-shipstation-api.php:78
+msgid "Input params: %s"
+msgstr "Parametri di input: %s"
+
+#: includes/class-wc-shipstation-api.php:65
+#: includes/class-wc-shipstation-api.php:82
+msgid "Invalid request"
+msgstr "Richiesta non valida"
+
+#: includes/class-wc-shipstation-api.php:57
+msgid "Invalid authentication key"
+msgstr "Chiave di autenticazione non valida"
+
+#: includes/class-wc-shipstation-api.php:53
+msgid "Authentication key is required!"
+msgstr "È richiesta la chiave di autenticazione."
+
+#. translators: 1) order ID 2) shipment status
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:308
+msgid "Updated order %1$s to status %2$s"
+msgstr "Ordine %1$s aggiornato allo stato %2$s"
+
+#. translators: 1: order id
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:281
+msgid "No items found - shipping entire order %d."
+msgstr "Nessun articolo trovato - Spedizione dell'intero ordine %d"
+
+#. translators: 1) carrier's name 2) shipped date, 3) tracking number
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:274
+msgid "Items shipped via %1$s on %2$s with tracking number %3$s (Shipstation)."
+msgstr "Articoli spediti tramite %1$s il giorno %2$s con numero di tracciabilità %3$s (Shipstation)."
+
+#. translators: 1) number of shipped items 2) total shipped items 3) order ID
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:258
+msgid "Shipped %1$d out of %2$d items in order %3$s"
+msgstr "%1$d su %2$d elementi spediti per l'ordine %3$s"
+
+#. translators: 1) shipped items 2) carrier's name 3) shipped date, 4) tracking
+#. number
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:242
+msgid "%1$s shipped via %2$s on %3$s with tracking number %4$s."
+msgstr "%1$s inviati tramite %2$s il giorno %3$s con numero di tracciabilità %4$s."
+
+#. translators: 1: item name
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:224
+msgid "Item %s is not shippable product. Skipping."
+msgstr "L'articolo %s non è un prodotto che può essere spedito. Ignora."
+
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:211
+msgid "ShipNotify Item: "
+msgstr "Articolo ShipNotify: "
+
+#. translators: 1: order id
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:202
+msgid "Invalid order ID: %s"
+msgstr "ID ordine non valido: %s"
+
+#. translators: 1: order id
+#: includes/api-requests/class-wc-shipstation-api-export.php:119
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:194
+msgid "Order %s can not be found."
+msgstr "Impossibile trovare l'ordine %s."
+
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:173
+msgid "Cannot parse XML"
+msgstr "Impossibile analizzare l'XML"
+
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:168
+msgid "ShipNotify XML: "
+msgstr "XML di ShipNotify: "
+
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:163
+msgid "Missing SimpleXML extension for parsing ShipStation XML."
+msgstr "Estensione SimpleXML mancante per analizzare l'XML di ShipStation."
+
+#: includes/api-requests/class-wc-shipstation-api-shipnotify.php:143
+msgid "Missing ShipNotify XML input."
+msgstr "Input XML di ShipStation mancante."
+
+#. translators: 1: field name
+#: includes/api-requests/class-wc-shipstation-api-request.php:45
+msgid "Missing required param: %s"
+msgstr "Parametro richiesto mancante: %s"
+
+#. translators: 1: total count
+#: includes/api-requests/class-wc-shipstation-api-export.php:298
+msgid "Exported %s orders"
+msgstr "%s ordini esportati"
+
+#: includes/api-requests/class-wc-shipstation-api-export.php:286
+msgid "Order has been exported to Shipstation"
+msgstr "L'ordine è stato esportato su Shipstation"
+
+#: includes/api-requests/class-wc-shipstation-api-export.php:271
+msgid "Total Discount"
+msgstr "Totale sconto"
+
+#. Author URI of the plugin
+msgid "https://woocommerce.com/"
+msgstr "https://woocommerce.com/"
+
+#. Author of the plugin
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Description of the plugin
+msgid "Adds ShipStation label printing support to WooCommerce. Requires server DomDocument support."
+msgstr "Aggiunge il supporto per la stampa delle etichette ShipStation a WooCommerce. Richiede il supporto del server DomDocument."
+
+#. Plugin URI of the plugin
+msgid "https://woocommerce.com/products/shipstation-integration/"
+msgstr "https://woocommerce.com/products/shipstation-integration/"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce - ShipStation Integration"
+msgstr "WooCommerce - Integrazione ShipStation"

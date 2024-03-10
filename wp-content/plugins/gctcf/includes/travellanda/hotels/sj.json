@@ -1,0 +1,1 @@
+{"Head":{"ServerTime":"2021-06-12T13:16:52","ServerType":"Test","ResponseType":"GetHotels","ExecutionTime":"0.022"},"Body":{"HotelsReturned":"2","Hotels":{"Hotel":[{"HotelId":"10456777","CityId":"912918","HotelName":"Basecamp Spitsbergen"},{"HotelId":"32800824","CityId":"912918","HotelName":"Mary-Ann's Polarrigg"}]}}}

@@ -1,0 +1,648 @@
+# Translation of Plugins - Performance Lab - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Performance Lab - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-01 08:01:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Performance Lab - Stable (latest release)\n"
+
+#: modules/database/audit-autoloaded-options/can-load.php:15
+#: modules/images/webp-support/can-load.php:15
+#: modules/js-and-css/audit-enqueued-assets/can-load.php:15
+msgid "The module cannot be loaded since the Site Health feature is disabled."
+msgstr "El módulo no se puede cargar porque la función Salud del sitio está desactivada."
+
+#: admin/plugins.php:415
+msgid "<strong>Compatible</strong> with your version of WordPress"
+msgstr "<strong>Compatible</strong> con tu versión de WordPress"
+
+#: admin/plugins.php:413
+msgid "<strong>Incompatible</strong> with your version of WordPress"
+msgstr "<strong>Incompatible</strong> con tu versión de WordPress"
+
+#: admin/plugins.php:411
+msgid "Untested with your version of WordPress"
+msgstr "No probado con tu versión de WordPress"
+
+#. translators: %s: Number of installations.
+#: admin/plugins.php:405
+msgid "%s Active Installations"
+msgstr "%s instalaciones activas"
+
+#: admin/plugins.php:400
+msgctxt "Active plugin installations"
+msgid "Less Than 10"
+msgstr "Menos de 10"
+
+#. translators: %s: Number of millions.
+#: admin/plugins.php:396
+msgctxt "Active plugin installations"
+msgid "%s+ Million"
+msgid_plural "%s+ Million"
+msgstr[0] "Más de %s millón"
+msgstr[1] "Más de %s millones"
+
+#. translators: %s: Human-readable time difference.
+#: admin/plugins.php:385
+msgid "%s ago"
+msgstr "hace %s"
+
+#: admin/plugins.php:381
+msgid "Last Updated:"
+msgstr "Última actualización:"
+
+#: admin/plugins.php:331
+msgid "This plugin does not work with your version of PHP."
+msgstr "Este plugin no funciona con tu versión de PHP."
+
+#: admin/plugins.php:320
+msgid "This plugin does not work with your version of WordPress."
+msgstr "Este plugin no funciona con tu versión de WordPress."
+
+#. translators: %s: URL to Update PHP page.
+#: admin/plugins.php:313 admin/plugins.php:336
+msgid "<a href=\"%s\">Learn more about updating PHP</a>."
+msgstr "<a href=\"%s\">Aprende más sobre cómo actualizar PHP</a>."
+
+#. translators: %s: URL to WordPress Updates screen.
+#: admin/plugins.php:305 admin/plugins.php:325
+msgid "<a href=\"%s\">Please update WordPress</a>."
+msgstr "<a href=\"%s\">Por favor, actualiza WordPress</a>."
+
+#. translators: 1: URL to WordPress Updates screen, 2: URL to Update PHP page.
+#: admin/plugins.php:295
+msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">learn more about updating PHP</a>."
+msgstr "<a href=\"%1$s\">Por favor, actualiza WordPress</a> y luego <a href=\"%2$s\">aprende más sobre cómo actualizar PHP</a>."
+
+#: admin/plugins.php:290
+msgid "This plugin does not work with your versions of WordPress and PHP."
+msgstr "Este plugin no funciona con tus versiones de WordPress y PHP."
+
+#: admin/plugins.php:267
+msgid "More Details"
+msgstr "Más detalles"
+
+#. translators: %s: Plugin name and version.
+#: admin/plugins.php:265
+msgid "More information about %s"
+msgstr "Más información sobre %s"
+
+#: admin/plugins.php:242
+msgctxt "plugin"
+msgid "Installed"
+msgstr "Instalado"
+
+#: admin/plugins.php:236
+msgctxt "plugin"
+msgid "Cannot Activate"
+msgstr "No se puede activar"
+
+#. translators: %s: Plugin name.
+#: admin/plugins.php:217
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr "Activar %s"
+
+#: admin/plugins.php:215
+msgid "Activate"
+msgstr "Activar"
+
+#: admin/plugins.php:210
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#. translators: %s: Plugin name.
+#: admin/plugins.php:209
+msgctxt "plugin"
+msgid "Deactivate %s"
+msgstr "Desactivar %s"
+
+#: admin/plugins.php:188
+msgctxt "plugin"
+msgid "Active"
+msgstr "Activo"
+
+#: admin/plugins.php:176
+msgctxt "plugin"
+msgid "Cannot Install"
+msgstr "No se puede instalar"
+
+#: admin/plugins.php:171
+msgid "Install Now"
+msgstr "Instalar ahora"
+
+#. translators: %s: Plugin name and version.
+#: admin/plugins.php:168
+msgctxt "plugin"
+msgid "Install %s now"
+msgstr "Instalar %s"
+
+#. translators: %s: Plugin author.
+#: admin/plugins.php:146
+msgid "By %s"
+msgstr "Por %s"
+
+#: admin/plugins.php:101
+msgid "Plugins list"
+msgstr "Lista de plugins"
+
+#: admin/plugins.php:97
+msgid "The following standalone performance plugins are available for installation."
+msgstr "Los siguientes plugins de rendimiento independientes están disponibles para su instalación."
+
+#: admin/plugins.php:96
+msgid "Performance Plugins"
+msgstr "Plugins de rendimiento"
+
+#: admin/load.php:844
+msgid "Migrate legacy modules to standalone plugins"
+msgstr "Migrar módulos heredados a plugins independientes"
+
+#: admin/load.php:831
+msgid "Available standalone plugins:"
+msgstr "Plugins independientes disponibles:"
+
+#: admin/load.php:829
+msgid "Please click the following button to install and activate the relevant plugins in favor of the modules. This will not impact any of the underlying functionality."
+msgstr "Haz clic en el siguiente botón para instalar y activar los plugins correspondientes en favor de los módulos. Esto no afectará a ninguna de las funciones subyacentes."
+
+#: admin/load.php:827
+msgid "Your site is using modules which will be removed in the future in favor of their equivalent standalone plugins."
+msgstr "Tu sitio utiliza módulos que se eliminarán en el futuro en favor de sus plugins independientes equivalentes."
+
+#: admin/load.php:823
+msgid "Please click the following button to install and activate the relevant plugin in favor of the module. This will not impact any of the underlying functionality."
+msgstr "Haz clic en el siguiente botón para instalar y activar el plugin correspondiente en favor del módulo. Esto no afectará a ninguna de las funciones subyacentes."
+
+#. translators: Module name
+#: admin/load.php:819
+msgid "Your site is using the \"%s\" module which will be removed in the future in favor of its equivalent standalone plugin."
+msgstr "Tu sitio utiliza el módulo «%s», que se eliminará en el futuro en favor de un plugin independiente equivalente."
+
+#: admin/load.php:802
+msgid "Plugin deactivated."
+msgstr "Plugin desactivado."
+
+#: admin/load.php:796
+msgid "Plugin activated."
+msgstr "Plugin activado."
+
+#: admin/load.php:750
+msgid "Invalid plugin."
+msgstr "Plugin no válido."
+
+#: admin/load.php:745
+msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration."
+msgstr "Se ha producido un error inesperado. Puede que haya algún error en WordPress.org o en la configuración de este servidor."
+
+#: admin/load.php:719
+msgid "Sorry, you are not allowed to manage plugins for this site. Please contact the administrator."
+msgstr "Lo sentimos, no tienes permiso para gestionar plugins para este sitio. Ponte en contacto con el administrador."
+
+#: admin/load.php:714
+msgid "Invalid nonce: Please refresh and try again."
+msgstr "Nonce no válido: Recarga la página e inténtalo de nuevo."
+
+#: admin/load.php:683
+msgid "Sorry, you are not allowed to deactivate this plugin."
+msgstr "Lo siento, no tienes permiso para desactivar este plugin."
+
+#: admin/load.php:645
+msgid "Sorry, you are not allowed to activate this plugin."
+msgstr "Lo siento, no tienes permiso para activar este plugin."
+
+#: admin/load.php:637
+msgid "Plugin not found."
+msgstr "Plugin no encontrado."
+
+#: admin/load.php:434
+msgid "Performance Lab: Action required"
+msgstr "Performance Lab: Acción necesaria"
+
+#. translators: %s: settings page link
+#: admin/load.php:428
+msgid "Your site is using modules which will be removed in the future in favor of their equivalent standalone plugins. Open %s to learn more about next steps to keep the functionality available."
+msgstr "Tu sitio utiliza módulos que se eliminarán en el futuro en favor de sus equivalentes plugins independientes. Abre %s para obtener más información sobre los próximos pasos para mantener la funcionalidad disponible."
+
+#: admin/server-timing.php:263
+msgid "Output buffering is needed to capture metrics after headers have been sent and while the template is being rendered. Note that output buffering may possibly cause an increase in TTFB if the response would be flushed multiple times."
+msgstr "El búfer de salida es necesario para capturar métricas después de que se hayan enviado las cabeceras y mientras se está procesando la plantilla. Ten en cuenta que el almacenamiento en búfer de salida puede provocar un aumento de TTFB si la respuesta se descarga varias veces."
+
+#. translators: %s: perflab_server_timing_use_output_buffer
+#: admin/server-timing.php:255
+msgid "Output buffering has been forcibly disabled via the %s filter."
+msgstr "El búfer de salida se ha desactivado de manera forzosa mediante el filtro %s."
+
+#. translators: %s: perflab_server_timing_use_output_buffer
+#: admin/server-timing.php:244
+msgid "Output buffering has been forcibly enabled via the %s filter."
+msgstr "El búfer de salida se ha activado de manera forzosa mediante el filtro %s."
+
+#: admin/server-timing.php:235
+msgid "Enable output buffering of template rendering"
+msgstr "Activar el almacenamiento en búfer de salida del procesado de plantillas"
+
+#: admin/server-timing.php:198
+msgid "Enter a single hook name per line."
+msgstr "Introduce un único nombre de gancho por línea."
+
+#: admin/server-timing.php:137
+msgid "Filters"
+msgstr "Filtros"
+
+#: admin/server-timing.php:127
+msgid "Actions"
+msgstr "Acciones"
+
+#. translators: 1: Server-Timing, 2: template_include, 3: anchor link
+#: admin/server-timing.php:102
+msgid "Since the %1$s header is sent before the template is loaded, only hooks before the %2$s filter can be measured. Enable <a href=\"%3$s\">Output Buffering</a> to measure hooks during template rendering."
+msgstr "Como la cabecera %1$s se envió antes de que se cargase la cabecera, únicamente se pueden medior los ganchos antes del filtro %2$s. Activa <a href=\"%3$s\">el búfer de salida</a> para medir los ganchos durante el procesado de la plantilla."
+
+#: admin/server-timing.php:91
+msgid "For any hook name provided, the <strong>cumulative duration between all callbacks</strong> attached to the hook is measured, in milliseconds."
+msgstr "Para cualquier nombre de gancho proporcionado, se mide la <strong>duración acumulada entre todas las devoluciones de llamada</strong> adjuntas al gancho, en milisegundos."
+
+#. translators: %s: Server-Timing
+#: admin/server-timing.php:84
+msgid "In this section, you can provide hook names to include measurements for them in the %s header."
+msgstr "En esta sección puedes proporcionar nombres de ganchos para incluir medidas para ellos en la cabecera %s."
+
+#: admin/server-timing.php:76
+msgid "Benchmarking"
+msgstr "Comparativa"
+
+#: admin/server-timing.php:52
+msgid "Output Buffering"
+msgstr "Búfer de salida"
+
+#: admin/server-timing.php:24 admin/server-timing.php:25
+#: admin/server-timing.php:157
+msgid "Server-Timing"
+msgstr "Tiempos del servidor"
+
+#: modules/images/webp-uploads/load.php:30
+msgid "The WebP Uploads feature cannot be loaded from within the plugin since it is already merged into WordPress core."
+msgstr "La característica WebP Uploads no se puede cargar desde el plugin porque ya está integrada en el núcleo de WordPress."
+
+#: module-i18n.php:4
+msgctxt "module name"
+msgid "Dominant Color Images"
+msgstr "Color dominante de imágenes"
+
+#: admin/load.php:180
+msgid "The module cannot be managed with Performance Lab since it is already active as a standalone plugin."
+msgstr "El módulo no se puede gestionar con Performance Lab porque ya está activo como plugin independiente."
+
+#: server-timing/class-perflab-server-timing.php:134
+msgid "The method must be called before headers have been sent."
+msgstr "El método debe llamarse antes de enviar las cabeceras."
+
+#. translators: %s: PHP parameter name
+#: server-timing/class-perflab-server-timing.php:92
+msgid "The %s argument is required and must be a string."
+msgstr "El argumento %s es obligatorio y debe ser una cadena."
+
+#. translators: %s: PHP parameter name
+#: server-timing/class-perflab-server-timing.php:83
+msgid "The %s argument is required and must be a callable."
+msgstr "El argumento %s es obligatorio y se le debe poder llamar."
+
+#. translators: %s: metric slug
+#: server-timing/class-perflab-server-timing.php:56
+msgid "A metric with the slug %s is already registered."
+msgstr "Ya está registrada una métrica con el slug %s."
+
+#. translators: %s: PHP method name
+#: server-timing/class-perflab-server-timing-metric.php:137
+msgid "The %s method must be called before."
+msgstr "Antes debe llamarse al método %s."
+
+#. translators: %s: WordPress action name
+#: server-timing/class-perflab-server-timing-metric.php:87
+#: server-timing/class-perflab-server-timing.php:66
+msgid "The method must be called before or during the %s action."
+msgstr "Debe llamarse al método antes o durante la acción %s."
+
+#. translators: %s: PHP parameter name
+#: server-timing/class-perflab-server-timing-metric.php:77
+msgid "The %s parameter must be an integer, float, or numeric string."
+msgstr "El parámetro %s debe ser un número entero, float o una cadena numérica."
+
+#: modules/images/webp-uploads/settings.php:40
+msgid "WebP and JPEG"
+msgstr "WebP y JPEG"
+
+#: admin/load.php:217
+msgid "Database"
+msgstr "Base de datos"
+
+#: admin/load.php:214
+msgid "JS & CSS"
+msgstr "JS y CSS"
+
+#: modules/images/webp-uploads/settings.php:66
+msgid "Enabling JPEG in addition to WebP can improve compatibility, but will effectively double the filesystem storage use of your images."
+msgstr "Activar JPEG además de WebP puede mejorar la compatibilidad, pero seguramente duplicará el uso del almacenamiento del sistema de archivos de tus imágenes."
+
+#: modules/images/webp-uploads/settings.php:64
+msgid "Generate JPEG files in addition to WebP"
+msgstr "Generar archivos JPEG además de WebP"
+
+#: modules/database/audit-autoloaded-options/helper.php:149
+msgid "Size"
+msgstr "Tamaño"
+
+#: modules/database/audit-autoloaded-options/helper.php:148
+msgid "Option Name"
+msgstr "Nombre de la opción"
+
+#. Author URI of the plugin
+msgid "https://make.wordpress.org/performance/"
+msgstr "https://make.wordpress.org/performance/"
+
+#: module-i18n.php:10
+msgctxt "module name"
+msgid "Enqueued Assets Health Check"
+msgstr "Comprobación de salud de recursos en cola"
+
+#: module-i18n.php:12
+msgctxt "module name"
+msgid "Autoloaded Options Health Check"
+msgstr "Comprobación de salud de las opciones cargadas automáticamente"
+
+#: module-i18n.php:6
+msgctxt "module name"
+msgid "WebP Support Health Check"
+msgstr "Comprobación de salud de la compatibilidad con WebP"
+
+#: modules/images/dominant-color-images/helper.php:57
+msgid "Unable to load image."
+msgstr "No se puede subir la imagen."
+
+#. translators: %s: module name
+#: admin/load.php:186
+msgid "%s is already part of your WordPress version and therefore cannot be loaded as part of the plugin."
+msgstr "%s es ya parte de tu versión de WordPress y por tanto no se puede cargar como parte del plugin."
+
+#. translators: %s is the error message
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:96
+msgid "Transparency detection failed: %s"
+msgstr "Fallo en la detección de la transparencia: %s"
+
+#. translators: %s is the error message.
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:49
+msgid "Dominant color detection failed: %s"
+msgstr "La detección del color dominante falló: %s"
+
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-gd.php:62
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:64
+msgid "Transparency detection no image found."
+msgstr "Detección de transparencias no ha encontrado ninguna imagen."
+
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-gd.php:44
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:43
+msgid "Dominant color detection failed."
+msgstr "La detección del color dominante ha fallado."
+
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-gd.php:32
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:32
+msgid "Dominant color detection no image found."
+msgstr "Detección de color dominante no ha encontrado ninguna imagen."
+
+#: module-i18n.php:5
+msgctxt "module description"
+msgid "Adds support to store the dominant color of newly uploaded images and create a placeholder background of that color."
+msgstr "Añade compatibilidad para almacenar el color dominante de las imágenes subidas recientemente y crear un fondo de marcador de posición con ese color."
+
+#: modules/database/audit-autoloaded-options/helper.php:78
+msgid "https://wordpress.org/support/article/optimization/#autoloaded-options"
+msgstr "https://wordpress.org/support/article/optimization/#autoloaded-options"
+
+#. translators: Accessibility text.
+#: modules/images/webp-support/helper.php:44
+msgid "WebP support can only be enabled by your hosting provider, so contact them for more information."
+msgstr "La compatibilidad con WebP solo la puede activar tu proveedor alojamiento, así que contáctales para obtener más información."
+
+#: modules/images/webp-support/helper.php:30
+msgid "The WebP image format produces images that are usually smaller in size than JPEG images, which can reduce page load time and consume less bandwidth."
+msgstr "El formato de imagen WebP produce imágenes que suelen ser de menor tamaño que las imágenes JPEG, lo que puede reducir el tiempo de carga de la página y consumir menos ancho de banda."
+
+#. translators: 1. Number of autoloaded options. 2. Autoloaded options size.
+#: modules/database/audit-autoloaded-options/helper.php:61
+msgid "Your site has %1$s autoloaded options (size: %2$s) in the options table, which could cause your site to be slow. You can reduce the number of autoloaded options by cleaning up your site's options table."
+msgstr "Tu sitio tiene %1$s opciones cargadas automáticamente (tamaño: %2$s) en la tabla de opciones, lo que podría causar que tu sitio sea lento. Puedes reducir el número de opciones cargadas automáticamente limpiando la tabla de opciones de tu sitio."
+
+#: modules/database/audit-autoloaded-options/helper.php:58
+msgid "Autoloaded options could affect performance"
+msgstr "Las opciones cargadas automáticamente podrían afectar al rendimiento"
+
+#. translators: 1. Number of autoloaded options. 2. Autoloaded options size.
+#: modules/database/audit-autoloaded-options/helper.php:36
+msgid "Your site has %1$s autoloaded options (size: %2$s) in the options table, which is acceptable."
+msgstr "Tu sitio tiene %1$s opciones cargadas automáticamente (tamaño: %2$s) en la tabla de opciones, lo cual es aceptable."
+
+#: modules/database/audit-autoloaded-options/helper.php:28
+msgid "Autoloaded options are acceptable"
+msgstr "Las opciones cargadas automáticamente son aceptables"
+
+#: modules/database/audit-autoloaded-options/helper.php:25
+msgid "Autoloaded options are configuration settings for plugins and themes that are automatically loaded with every page load in WordPress. Having too many autoloaded options can slow down your site."
+msgstr "Las opciones cargadas automáticamente son ajustes de configuración para plugins y temas que se cargan automáticamente con cada carga de página en WordPress. Tener demasiadas opciones de carga automática puede ralentizar tu sitio."
+
+#: modules/database/audit-autoloaded-options/hooks.php:23
+msgid "Autoloaded options"
+msgstr "Opciones cargadas automáticamente"
+
+#: modules/images/webp-uploads/helper.php:140
+msgid "At least one of the dimensions must be a positive number."
+msgstr "Al menos una de las dimensiones debe ser un número positivo."
+
+#: modules/images/webp-uploads/helper.php:128
+msgid "The original image file does not exists, subsizes are created out of the original image."
+msgstr "El archivo de imagen original no existe, los subtamaños se crean a partir de la imagen original."
+
+#: module-i18n.php:13
+msgctxt "module description"
+msgid "Adds a check for autoloaded options in Site Health status."
+msgstr "Añade una comprobación de las opciones cargadas automáticamente en el estado de salud del sitio."
+
+#: modules/images/webp-support/helper.php:40
+msgid "Your site does not support WebP"
+msgstr "Tu sitio no es compatible con WebP"
+
+#: modules/images/webp-support/helper.php:22
+msgid "Your site supports WebP"
+msgstr "Tu sitio es compatible con WebP"
+
+#: modules/images/webp-support/hooks.php:23
+msgid "WebP Support"
+msgstr "Compatibilidad para WebP"
+
+#. translators: 1: Number of enqueued styles. 2.Styles size.
+#: modules/js-and-css/audit-enqueued-assets/helper.php:174
+msgid "Your website enqueues %1$s style (size: %2$s). Try to reduce the number or to concatenate them."
+msgid_plural "Your website enqueues %1$s styles (size: %2$s). Try to reduce the number or to concatenate them."
+msgstr[0] "Tu web tiene en cola %1$s estilo (tamaño: %2$s). Intenta reducir el número o concatenarlos."
+msgstr[1] "Tu web tiene en cola %1$s estilos (tamaño: %2$s). Intenta reducir el número o concatenarlos."
+
+#. translators: 1: Number of enqueued styles. 2.Styles size.
+#: modules/js-and-css/audit-enqueued-assets/helper.php:134
+msgid "The amount of %1$s enqueued style (size: %2$s) is acceptable."
+msgid_plural "The amount of %1$s enqueued styles (size: %2$s) is acceptable."
+msgstr[0] "La cantidad de %1$s estilo en cola (tamaño: %2$s) es aceptable."
+msgstr[1] "La cantidad de %1$s estilos en cola (tamaño: %2$s) es aceptable."
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:123
+msgid "Enqueued styles"
+msgstr "Estilos en cola"
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:100
+#: modules/js-and-css/audit-enqueued-assets/helper.php:192
+msgid "Clean Test Cache"
+msgstr "Limpiar la caché de pruebas"
+
+#: modules/database/audit-autoloaded-options/helper.php:79
+#: modules/js-and-css/audit-enqueued-assets/helper.php:98
+#: modules/js-and-css/audit-enqueued-assets/helper.php:190
+msgid "More info about performance optimization"
+msgstr "Más información acerca de la optimización del rendimiento"
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:97
+#: modules/js-and-css/audit-enqueued-assets/helper.php:189
+msgid "https://wordpress.org/support/article/optimization/"
+msgstr "https://wordpress.org/support/article/optimization/"
+
+#. translators: 1: Number of enqueued styles. 2.Styles size.
+#: modules/js-and-css/audit-enqueued-assets/helper.php:82
+msgid "Your website enqueues %1$s script (size: %2$s). Try to reduce the number or to concatenate them."
+msgid_plural "Your website enqueues %1$s scripts (size: %2$s). Try to reduce the number or to concatenate them."
+msgstr[0] "Tu web tiene en cola %1$s script (tamaño: %2$s). Intenta reducir el número o concatenarlos."
+msgstr[1] "Tu web tiene en cola %1$s scripts (tamaño: %2$s). Intenta reducir el número o concatenarlos."
+
+#. translators: 1: Number of enqueued styles. 2.Styles size.
+#: modules/js-and-css/audit-enqueued-assets/helper.php:41
+msgid "The amount of %1$s enqueued script (size: %2$s) is acceptable."
+msgid_plural "The amount of %1$s enqueued scripts (size: %2$s) is acceptable."
+msgstr[0] "La cantidad de %1$s script en cola (tamaño: %2$s) es aceptable."
+msgstr[1] "La cantidad de %1$s scripts en cola (tamaño: %2$s) es aceptable."
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:30
+msgid "Enqueued scripts"
+msgstr "Scripts en cola"
+
+#: modules/js-and-css/audit-enqueued-assets/hooks.php:120
+msgid "CSS assets"
+msgstr "Recursos CSS"
+
+#: modules/js-and-css/audit-enqueued-assets/hooks.php:116
+msgid "JS assets"
+msgstr "Recursos JS"
+
+#: modules/images/webp-uploads/helper.php:168
+msgid "The file key is not present on the image data"
+msgstr "La clave del archivo no está presente en los datos de la imagen"
+
+#: modules/images/webp-uploads/helper.php:123
+msgid "The provided mime type is not supported."
+msgstr "El tipo MIME proporcionado no es compatible."
+
+#: modules/images/webp-uploads/helper.php:119
+msgid "The provided mime type is not allowed."
+msgstr "El tipo MIME proporcionado no está permitido."
+
+#: modules/images/webp-uploads/helper.php:201
+msgid "The image does not have a valid metadata."
+msgstr "La imagen no tiene metadatos válidos."
+
+#: module-i18n.php:7
+msgctxt "module description"
+msgid "Adds a WebP support check in Site Health status."
+msgstr "Añade una comprobación de la compatibilidad con WebP en el estado de la salud del sitio."
+
+#: module-i18n.php:11
+msgctxt "module description"
+msgid "Adds a CSS and JS resource check in Site Health status."
+msgstr "Añade una comprobación de recursos CSS y JS en el estado de la salud del sitio."
+
+#: module-i18n.php:9
+msgctxt "module description"
+msgid "Creates WebP versions for new JPEG image uploads if supported by the server."
+msgstr "Crea versiones WebP para las nuevas subidas de imágenes JPEG si el servidor es compatible."
+
+#: module-i18n.php:8
+msgctxt "module name"
+msgid "WebP Uploads"
+msgstr "Subidas de WebP"
+
+#: admin/load.php:531
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/load.php:429 admin/load.php:474
+msgid "Settings > Performance"
+msgstr "Ajustes > Rendimiento"
+
+#. translators: %s: settings page link
+#: admin/load.php:473
+msgid "You can now test upcoming WordPress performance features. Open %s to individually toggle the performance features included in the plugin."
+msgstr "Ahora puedes probar las próximas características de rendimiento de WordPress. Abre %s para cambiar individualmente las características de rendimiento incluidas en el plugin."
+
+#: admin/load.php:223
+msgid "Object Cache"
+msgstr "Caché de objetos"
+
+#: admin/load.php:220
+msgid "Measurement"
+msgstr "Medidas"
+
+#: admin/load.php:211
+msgid "Images"
+msgstr "Imágenes"
+
+#. translators: %s: module name
+#: admin/load.php:170
+msgid "Enable %s"
+msgstr "Activar %s"
+
+#. translators: %s: module name
+#: admin/load.php:162
+msgid "Enable %s <strong>(experimental)</strong>"
+msgstr "Activar %s <strong>(experimental)</strong>"
+
+#: admin/load.php:70
+msgid "Other"
+msgstr "Otros"
+
+#: admin/load.php:25 modules/database/audit-autoloaded-options/helper.php:31
+#: modules/images/webp-support/helper.php:25
+#: modules/js-and-css/audit-enqueued-assets/helper.php:33
+#: modules/js-and-css/audit-enqueued-assets/helper.php:126
+msgid "Performance"
+msgstr "Rendimiento"
+
+#: admin/load.php:24 admin/load.php:122
+msgid "Performance Modules"
+msgstr "Módulos de rendimiento"
+
+#. Author of the plugin
+msgid "WordPress Performance Team"
+msgstr "Equipo de rendimiento de WordPress"
+
+#. Description of the plugin
+msgid "Performance plugin from the WordPress Performance Team, which is a collection of standalone performance modules."
+msgstr "Plugin de rendimiento del equipo de rendimiento de WordPress, que es una colección de módulos de rendimiento independientes."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/performance"
+msgstr "https://github.com/WordPress/performance"
+
+#. Plugin Name of the plugin
+#: admin/load.php:468
+msgid "Performance Lab"
+msgstr "Performance Lab"

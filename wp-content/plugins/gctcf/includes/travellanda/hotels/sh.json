@@ -1,0 +1,1 @@
+{"Head":{"ServerTime":"2021-06-12T13:16:49","ServerType":"Test","ResponseType":"GetHotels","ExecutionTime":"0.022"},"Body":{"HotelsReturned":"1","Hotels":{"Hotel":{"HotelId":"49483938","CityId":"451045","HotelName":"Mantis St Helena"}}}}

@@ -1,0 +1,3575 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP File Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-24 10:59+0530\n"
+"PO-Revision-Date: 2022-02-24 11:09+0530\n"
+"Last-Translator: admin <noreply@filemanagerpro.io>\n"
+"Language-Team: \n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n < 2 ? 0 : n == 2 ? 1 : 2;\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:55
+msgid "Missing Table Name in the form!"
+msgstr "Ainm Clàr a dhìth san fhoirm!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:56
+msgid "Missing value in the form!"
+msgstr "Luach a dhìth san fhoirm!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:75
+msgid "DB Manager"
+msgstr "Manaidsear DB"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:118
+#: extensions/fm_dbmanager/fm_dbmanager.php:208
+msgid ""
+"Are you sure want to empty Table? Table may not be recovered. So please "
+"delete carefully."
+msgstr ""
+"A bheil thu cinnteach gu bheil thu airson Clàr fhalamh? Is dòcha nach "
+"fhaighear clàr. Mar sin feuch an cuir thu às gu faiceallach."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:119
+#: extensions/fm_dbmanager/fm_dbmanager.php:207
+msgid ""
+"Are you sure want to delete Table? Deleted Table may not be recovered. So "
+"please delete carefully."
+msgstr ""
+"A bheil thu cinnteach gu bheil thu airson Clàr a dhubhadh às? Chan fhaodar "
+"Clàr a chaidh a dhubhadh às fhaighinn air ais. Mar sin feuch an cuir thu às "
+"gu faiceallach."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+msgid "Tables"
+msgstr "Bùird"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:123
+#: extensions/fm_dbmanager/inc/db_tables.php:57
+msgid "Create New Table"
+msgstr "Cruthaich Clàr Ùr"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:130
+msgid "Browse"
+msgstr "Dèan brobhsadh"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:130
+msgid "Insert"
+msgstr "Cuir a-steach"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:130
+#: extensions/fm_dbmanager/fm_dbmanager.php:212
+msgid "Delete Table"
+msgstr "Sguab às Clàr"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:130
+#: extensions/fm_dbmanager/fm_dbmanager.php:212
+msgid "Drop"
+msgstr "Falbh"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:130
+#: extensions/fm_dbmanager/fm_dbmanager.php:213
+msgid "Empty Table"
+msgstr "Clàr falamh"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:130
+#: extensions/fm_dbmanager/fm_dbmanager.php:213 inc/settings.php:39
+#: inc/shortcode_generator.php:225
+msgid "Empty"
+msgstr "Falamh"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:212
+msgid "ADD"
+msgstr "ADD"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:212
+msgid "Add New"
+msgstr "Cuir Ùr ris"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:233
+#: extensions/fm_dbmanager/fm_dbmanager.php:263
+msgid "Are you sure want to update? It will redirect you to updation form."
+msgstr ""
+"A bheil thu cinnteach gu bheil thu airson ùrachadh? Bidh e gad ath-"
+"stiùireadh gu foirm ùrachaidh."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:234
+#: extensions/fm_dbmanager/fm_dbmanager.php:264
+msgid ""
+"Are you sure want to delete? Deleted data may not be recovered. So please "
+"delete carefully."
+msgstr ""
+"A bheil thu cinnteach gu bheil thu airson cuir às? Chan fhaodar dàta a "
+"chaidh a dhubhadh às fhaighinn air ais. Mar sin feuch an cuir thu às gu "
+"faiceallach."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:242
+#: extensions/fm_dbmanager/fm_dbmanager.php:266 inc/settings.php:33
+#: inc/shortcode_generator.php:219 inc/shortcode_listing.php:62
+msgid "Edit"
+msgstr "Deasaich"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:243
+#: extensions/fm_dbmanager/fm_dbmanager.php:267 inc/backup.php:238
+#: inc/backup.php:248 inc/email.php:63 inc/email.php:162 inc/settings.php:34
+#: inc/settings.php:399 inc/settings.php:487 inc/settings.php:581
+#: inc/settings.php:668 inc/shortcode_generator.php:220
+#: inc/shortcode_listing.php:63 inc/wpfmlogs.php:65 inc/wpfmlogs.php:93
+#: inc/wpfmlogs.php:149 inc/wpfmlogs.php:175 inc/wpfmlogs.php:232
+#: inc/wpfmlogs.php:258
+msgid "Delete"
+msgstr "Cuir às"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:277
+msgid "No Records Found!"
+msgstr "Cha deach clàran a lorg!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:284
+msgid "First"
+msgstr "A 'chiad"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:286 inc/shortcode_listing.php:113
+msgid "Prev"
+msgstr "Roimhe seo"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:314 inc/shortcode_listing.php:114
+#: inc/wpfmlogs.php:134 inc/wpfmlogs.php:217
+msgid "Next"
+msgstr "An ath rud"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:316
+msgid "Last"
+msgstr "Mu dheireadh"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:352
+#: extensions/fm_dbmanager/fm_dbmanager.php:446
+#: extensions/fm_dbmanager/fm_dbmanager.php:499
+#: extensions/fm_dbmanager/inc/db_tables.php:137
+msgid "You don't have permission to access this area."
+msgstr "Chan eil cead agad faighinn chun sgìre seo."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:367
+#: extensions/fm_dbmanager/fm_dbmanager.php:462
+msgid "Column"
+msgstr "Colbh"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:368
+#: extensions/fm_dbmanager/fm_dbmanager.php:463
+msgid "Value"
+msgstr "Luach"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:394
+msgid "Reset"
+msgstr "Ath-shuidhich"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:400
+msgid "Add"
+msgstr "Cuir ris"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:423
+msgid "New Record Created"
+msgstr "Clàr ùr air a chruthachadh"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:425
+#: extensions/fm_dbmanager/fm_dbmanager.php:431
+msgid "Unable to create new record"
+msgstr "Cha ghabh clàr ùr a chruthachadh"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:440
+#: extensions/fm_dbmanager/fm_dbmanager.php:541
+msgid "Oops! Some thing went wrong! Please try again."
+msgstr "Oops! Chaidh rudeigin ceàrr! Feuch ris a-rithist."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:455
+#: extensions/fm_dbmanager/fm_dbmanager.php:544
+msgid "&larr; Back"
+msgstr "&larr; Air ais"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:493
+msgid "Update"
+msgstr "Ùrachadh"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:524
+msgid "Record."
+msgstr "Clàr."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:524
+msgid "Updated Successfully."
+msgstr "Air ùrachadh gu soirbheachail."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:526
+#: extensions/fm_dbmanager/fm_dbmanager.php:529
+msgid "Unable to Update record"
+msgstr "Cha ghabh an clàr ùrachadh"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:532
+msgid "Security token mismatch"
+msgstr "Mì-chothromachadh comharra tèarainteachd"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:548
+msgid "Record"
+msgstr "Clàr"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:548
+msgid "Deleted successfully"
+msgstr "Air a sguabadh às gu soirbheachail"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:550
+msgid "Error occured while deleting a record."
+msgstr "Thachair mearachd fhad ’s a bha e a’ cuir às do chlàr."
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:599
+msgid "Table Created Successfully !"
+msgstr "Clàr air a chruthachadh gu soirbheachail!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:604
+msgid "Table Not Created !"
+msgstr "Clàr nach deach a chruthachadh!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:620
+#: extensions/fm_dbmanager/fm_dbmanager.php:622
+msgid "Table"
+msgstr "Clàr"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:620
+#: extensions/fm_dbmanager/fm_dbmanager.php:632
+msgid "Deleted Successfully!"
+msgstr "Air a dhubhadh às gu soirbheachail!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:622
+#: extensions/fm_dbmanager/fm_dbmanager.php:634
+msgid "Not Deleted!"
+msgstr "Gun a bhith air a dhubhadh às!"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:632
+#: extensions/fm_dbmanager/fm_dbmanager.php:634
+msgid "Table records of"
+msgstr "Clàr-chlàran de"
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:704
+#: file_folder_manager_pro.php:3223
+msgid ""
+"<div id=\"setting-error-settings_updated\" class=\"error settings-error "
+"notice\"><p><strong>"
+msgstr ""
+
+#: extensions/fm_dbmanager/fm_dbmanager.php:710
+#: file_folder_manager_pro.php:3229
+msgid ""
+"<div id=\"setting-error-settings_updated\" class=\"updated settings-error "
+"notice\"><p><strong>"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:9
+msgid "Table name:&nbsp;"
+msgstr "Ainm a ’chlàir:&nbsp;"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:19
+#: extensions/fm_dbmanager/inc/createTbl.php:559
+msgid "Name"
+msgstr "Ainm"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:20
+msgid "Type"
+msgstr "Seòrsa"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:21
+msgid "Length/Values"
+msgstr "Fad / Luachan"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:22 inc/root.php:70
+#: inc/settings.php:218 inc/settings.php:226 inc/settings.php:298
+#: inc/shortcode_generator.php:349 inc/shortcode_generator.php:372
+#: inc/shortcode_generator.php:393 inc/shortcode_generator.php:401
+#: inc/shortcode_generator.php:409 inc/shortcode_generator.php:434
+#: inc/shortcode_generator.php:442 inc/shortcode_generator.php:511
+#: inc/shortcode_generator.php:534 inc/shortcode_generator.php:543
+#: inc/shortcode_generator.php:552 inc/shortcode_generator.php:577
+#: inc/shortcode_generator.php:585
+msgid "Default"
+msgstr "Default"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:23
+msgid "Collation"
+msgstr "Collachadh"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:24
+msgid "Attributes"
+msgstr "Buadhan"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:25
+msgid "Null"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:26
+msgid "Index"
+msgstr "Clàr-amais"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:27
+msgid "A_I"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:28
+msgid "Comments"
+msgstr "Beachdan"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:31 inc/settings.php:399
+#: inc/settings.php:487 inc/settings.php:581 inc/settings.php:668
+msgid "Remove"
+msgstr "Thoir air falbh"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:37
+#: extensions/fm_dbmanager/inc/createTbl.php:52
+msgid "INT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:39
+#: extensions/fm_dbmanager/inc/createTbl.php:90
+msgid "VARCHAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:41
+#: extensions/fm_dbmanager/inc/createTbl.php:96
+msgid "TEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:43
+#: extensions/fm_dbmanager/inc/createTbl.php:76
+msgid "DATE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:46
+msgid "TINYINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:48
+msgid "SMALLINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:50
+msgid "MEDIUMINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:54
+msgid "BIGINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:58
+msgid "DECIMAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:60
+msgid "FLOAT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:62
+msgid "DOUBLE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:64
+msgid "REAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:68
+msgid "BIT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:70
+msgid "BOOLEAN"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:72
+msgid "SERIAL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:78
+msgid "DATETIME"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:80
+msgid "TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:82
+msgid "TIME"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:84
+msgid "YEAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:88
+msgid "CHAR"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:94
+msgid "TINYTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:98
+msgid "MEDIUMTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:100
+msgid "LONGTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:104
+#: extensions/fm_dbmanager/inc/createTbl.php:688
+msgid "BINARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:106
+msgid "VARBINARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:110
+msgid "TINYBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:112
+msgid "MEDIUMBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:114
+msgid "BLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:116
+msgid "LONGBLOB"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:120
+msgid "ENUM"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:122
+msgid "SET"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:126
+msgid "GEOMETRY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:128
+msgid "POINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:130
+msgid "LINESTRING"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:132
+msgid "POLYGON"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:134
+msgid "MULTIPOINT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:136
+msgid "MULTILINESTRING"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:138
+msgid "MULTIPOLYGON"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:140
+msgid "GEOMETRYCOLLECTION"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:150
+#: inc/shortcode_generator.php:372 inc/shortcode_generator.php:393
+#: inc/shortcode_generator.php:534
+msgid "None"
+msgstr "Chan eil gin"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:152
+msgid "As defined:"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:154
+msgid "NULL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:156
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:165
+msgid "armscii8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:167
+msgid "armscii8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:171
+msgid "ascii_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:173
+msgid "ascii_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:177
+msgid "big5_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:179
+msgid "big5_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:183
+msgid "binary"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:187
+msgid "cp1250_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:189
+msgid "cp1250_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:191
+msgid "cp1250_czech_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:193
+msgid "cp1250_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:195
+msgid "cp1250_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:199
+msgid "cp1251_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:201
+msgid "cp1251_bulgarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:203
+msgid "cp1251_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:205
+msgid "cp1251_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:207
+msgid "cp1251_ukrainian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:211
+msgid "cp1256_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:213
+msgid "cp1256_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:217
+msgid "cp1257_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:219
+msgid "cp1257_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:221
+msgid "cp1257_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:225
+msgid "cp850_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:227
+msgid "cp850_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:231
+msgid "cp852_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:233
+msgid "cp852_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:237
+msgid "cp866_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:239
+msgid "cp866_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:243
+msgid "cp932_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:245
+msgid "cp932_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:249
+msgid "dec8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:251
+msgid "dec8_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:255
+msgid "eucjpms_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:257
+msgid "eucjpms_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:261
+msgid "euckr_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:263
+msgid "euckr_korean_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:267
+msgid "gb2312_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:269
+msgid "gb2312_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:273
+msgid "gbk_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:275
+msgid "gbk_chinese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:279
+msgid "geostd8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:281
+msgid "geostd8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:285
+msgid "greek_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:287
+msgid "greek_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:291
+msgid "hebrew_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:293
+msgid "hebrew_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:297
+msgid "hp8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:299
+msgid "hp8_english_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:303
+msgid "keybcs2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:305
+msgid "keybcs2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:309
+msgid "koi8r_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:311
+msgid "koi8r_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:315
+msgid "koi8u_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:317
+msgid "koi8u_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:321
+msgid "latin1_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:323
+msgid "latin1_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:325
+msgid "latin1_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:327
+msgid "latin1_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:329
+msgid "latin1_german1_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:331
+msgid "latin1_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:333
+msgid "latin1_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:335
+msgid "latin1_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:339
+msgid "latin2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:341
+msgid "latin2_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:343
+msgid "latin2_czech_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:345
+msgid "latin2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:347
+msgid "latin2_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:351
+msgid "latin5_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:353
+msgid "latin5_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:357
+msgid "latin7_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:359
+msgid "latin7_estonian_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:361
+msgid "latin7_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:363
+msgid "latin7_general_cs"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:367
+msgid "macce_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:369
+msgid "macce_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:373
+msgid "macroman_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:375
+msgid "macroman_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:379
+msgid "sjis_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:381
+msgid "sjis_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:385
+msgid "swe7_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:387
+msgid "swe7_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:391
+msgid "tis620_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:393
+msgid "tis620_thai_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:397
+msgid "ucs2_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:399
+msgid "ucs2_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:401
+msgid "ucs2_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:403
+msgid "ucs2_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:405
+msgid "ucs2_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:407
+msgid "ucs2_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:409
+msgid "ucs2_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:411
+msgid "ucs2_general_mysql500_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:413
+msgid "ucs2_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:415
+msgid "ucs2_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:417
+msgid "ucs2_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:419
+msgid "ucs2_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:421
+msgid "ucs2_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:423
+msgid "ucs2_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:425
+msgid "ucs2_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:427
+msgid "ucs2_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:429
+msgid "ucs2_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:431
+msgid "ucs2_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:433
+msgid "ucs2_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:435
+msgid "ucs2_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:437
+msgid "ucs2_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:439
+msgid "ucs2_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:441
+msgid "ucs2_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:443
+msgid "ucs2_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:445
+msgid "ucs2_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:447
+msgid "ucs2_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:449
+msgid "ucs2_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:453
+msgid "ujis_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:455
+msgid "ujis_japanese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:459
+msgid "utf16_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:461
+msgid "utf16_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:463
+msgid "utf16_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:465
+msgid "utf16_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:467
+msgid "utf16_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:469
+msgid "utf16_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:471
+msgid "utf16_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:473
+msgid "utf16_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:475
+msgid "utf16_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:477
+msgid "utf16_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:479
+msgid "utf16_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:481
+msgid "utf16_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:483
+msgid "utf16_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:485
+msgid "utf16_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:487
+msgid "utf16_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:489
+msgid "utf16_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:491
+msgid "utf16_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:493
+msgid "utf16_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:495
+msgid "utf16_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:497
+msgid "utf16_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:499
+msgid "utf16_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:501
+msgid "utf16_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:503
+msgid "utf16_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:505
+msgid "utf16_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:507
+msgid "utf16_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:509
+msgid "utf16_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:513
+msgid "utf16le_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:515
+msgid "utf16le_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:519
+msgid "utf32_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:521
+msgid "utf32_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:523
+msgid "utf32_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:525
+msgid "utf32_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:527
+msgid "utf32_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:529
+msgid "utf32_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:531
+msgid "utf32_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:533
+msgid "utf32_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:535
+msgid "utf32_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:537
+msgid "utf32_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:539
+msgid "utf32_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:541
+msgid "utf32_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:543
+msgid "utf32_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:545
+msgid "utf32_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:547
+msgid "utf32_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:549
+msgid "utf32_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:551
+msgid "utf32_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:553
+msgid "utf32_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:555
+msgid "utf32_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:557
+msgid "utf32_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:559
+msgid "utf32_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:561
+msgid "utf32_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:563
+msgid "utf32_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:565
+msgid "utf32_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:567
+msgid "utf32_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:569
+msgid "utf32_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:573
+msgid "utf8_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:575
+msgid "utf8_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:577
+msgid "utf8_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:579
+msgid "utf8_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:581
+msgid "utf8_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:583
+msgid "utf8_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:585
+msgid "utf8_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:587
+msgid "utf8_general_mysql500_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:589
+msgid "utf8_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:591
+msgid "utf8_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:593
+msgid "utf8_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:595
+msgid "utf8_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:597
+msgid "utf8_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:599
+msgid "utf8_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:601
+msgid "utf8_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:603
+msgid "utf8_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:605
+msgid "utf8_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:607
+msgid "utf8_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:609
+msgid "utf8_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:611
+msgid "utf8_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:613
+msgid "utf8_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:615
+msgid "utf8_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:617
+msgid "utf8_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:619
+msgid "utf8_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:621
+msgid "utf8_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:623
+msgid "utf8_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:625
+msgid "utf8_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:629
+msgid "utf8mb4_bin"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:631
+msgid "utf8mb4_croatian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:633
+msgid "utf8mb4_czech_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:635
+msgid "utf8mb4_danish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:637
+msgid "utf8mb4_esperanto_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:639
+msgid "utf8mb4_estonian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:641
+msgid "utf8mb4_general_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:643
+msgid "utf8mb4_german2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:645
+msgid "utf8mb4_hungarian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:647
+msgid "utf8mb4_icelandic_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:649
+msgid "utf8mb4_latvian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:651
+msgid "utf8mb4_lithuanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:653
+msgid "utf8mb4_persian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:655
+msgid "utf8mb4_polish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:657
+msgid "utf8mb4_roman_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:659
+msgid "utf8mb4_romanian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:661
+msgid "utf8mb4_sinhala_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:663
+msgid "utf8mb4_slovak_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:665
+msgid "utf8mb4_slovenian_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:667
+msgid "utf8mb4_spanish2_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:669
+msgid "utf8mb4_spanish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:671
+msgid "utf8mb4_swedish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:673
+msgid "utf8mb4_turkish_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:675
+msgid "utf8mb4_unicode_520_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:677
+msgid "utf8mb4_unicode_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:679
+msgid "utf8mb4_vietnamese_ci"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:690
+msgid "UNSIGNED"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:692
+msgid "UNSIGNED ZEROFILL"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:694
+msgid "on update CURRENT_TIMESTAMP"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:705
+msgid "PRIMARY"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:707
+msgid "UNIQUE"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:709
+msgid "INDEX"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:711
+msgid "FULLTEXT"
+msgstr ""
+
+#: extensions/fm_dbmanager/inc/createTbl.php:724
+msgid "Add Row"
+msgstr "Cuir Row ris"
+
+#: extensions/fm_dbmanager/inc/createTbl.php:725
+msgid "Save"
+msgstr "Sàbhail"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:40
+msgid "Export Database"
+msgstr "Stòr-dàta às-mhalairt"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:46
+msgid "Host:"
+msgstr "Host:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:50
+msgid "Database:"
+msgstr "Stòr-dàta:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:53
+msgid "Table:"
+msgstr "Clàr:"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:121
+msgid "Success"
+msgstr "Soirbheachas"
+
+#: extensions/fm_dbmanager/inc/db_tables.php:124
+msgid "Error"
+msgstr "Mearachd"
+
+#: extensions/fm_dbmanager/inc/exportdb.php:8
+msgid "You don't have permission to access this page."
+msgstr "Chan eil cead agad an duilleag seo inntrigeadh."
+
+#: extensions/fm_shortcode_without_login/inc/shortcode.php:207
+#: inc/shortcode.php:340
+msgid "This shortcode has been expired. Please contact with the site admin."
+msgstr ""
+"Chaidh an shortcode seo a thoirt gu crìch. Feuch an cuir thu fios gu "
+"rianachd na làraich."
+
+#: file_folder_manager_pro.php:204
+msgid "Themes backup restored successfully."
+msgstr "Cùl-taic tèamaichean air ath-nuadhachadh gu soirbheachail."
+
+#: file_folder_manager_pro.php:207
+msgid "Unable to restore themes."
+msgstr "Cha ghabh cuspairean a thoirt air ais."
+
+#: file_folder_manager_pro.php:239
+msgid "Uploads backup restored successfully."
+msgstr "Luchdaich suas cùl-taic air ais gu soirbheachail."
+
+#: file_folder_manager_pro.php:243
+msgid "Unable to restore uploads."
+msgstr "Cha ghabh luchdachadh suas a thoirt air ais."
+
+#: file_folder_manager_pro.php:269
+msgid "Others backup restored successfully."
+msgstr "Chaidh cuid eile den chùl-taic ath-nuadhachadh gu soirbheachail."
+
+#: file_folder_manager_pro.php:273
+msgid "Unable to restore others."
+msgstr "Cha ghabh feadhainn eile a thoirt air ais."
+
+#: file_folder_manager_pro.php:301
+msgid "Plugins backup restored successfully."
+msgstr "Cùl-taic plugins air ath-nuadhachadh gu soirbheachail."
+
+#: file_folder_manager_pro.php:305 file_folder_manager_pro.php:339
+msgid "Unable to restore plugins."
+msgstr "Cha ghabh plugins a thoirt air ais."
+
+#: file_folder_manager_pro.php:322
+msgid "Database backup restored successfully."
+msgstr "Cùl-taic stòr-dàta air ath-nuadhachadh gu soirbheachail."
+
+#: file_folder_manager_pro.php:322 file_folder_manager_pro.php:335
+msgid "All Done"
+msgstr "Uile Dèanta"
+
+#: file_folder_manager_pro.php:326
+msgid "Unable to restore DB backup."
+msgstr "Cha ghabh cùl-taic DB a thoirt air ais."
+
+#: file_folder_manager_pro.php:382
+msgid "Backup(s) removed successfully!"
+msgstr "Cùl-taic (ean) air an toirt air falbh gu soirbheachail!"
+
+#: file_folder_manager_pro.php:384
+msgid "Unable to remove backup(s)!"
+msgstr "Cha ghabh cùl-taic (ean) a thoirt air falbh!"
+
+#: file_folder_manager_pro.php:407
+msgid "Database backup done on date"
+msgstr "Cùl-taic stòr-dàta air a dhèanamh air ceann-latha"
+
+#: file_folder_manager_pro.php:411
+msgid "Plugins backup done on date"
+msgstr "Cùl-taic plugins air a dhèanamh air ceann-latha"
+
+#: file_folder_manager_pro.php:415
+msgid "Themes backup done on date"
+msgstr "Cùl-taic de chuspairean air a dhèanamh air ceann-latha"
+
+#: file_folder_manager_pro.php:419
+msgid "Uploads backup done on date"
+msgstr "Chaidh cùl-taic a luchdachadh suas air ceann-latha"
+
+#: file_folder_manager_pro.php:423
+msgid "Others backup done on date"
+msgstr "Cùl-taic cuid eile air a dhèanamh air ceann-latha"
+
+#: file_folder_manager_pro.php:427 file_folder_manager_pro.php:828
+#: inc/wpfmlogs.php:49
+msgid "Logs"
+msgstr "Logaichean"
+
+#: file_folder_manager_pro.php:433
+msgid "No logs found!"
+msgstr "Cha deach logaichean a lorg!"
+
+#: file_folder_manager_pro.php:505
+msgid "Backup removed successfully!"
+msgstr "Cùl-taic air a thoirt air falbh gu soirbheachail!"
+
+#: file_folder_manager_pro.php:507
+msgid "Unable to removed backup!"
+msgstr "Cha ghabh cùl-taic a thoirt air falbh!"
+
+#: file_folder_manager_pro.php:531
+msgid "Nothing selected for backup"
+msgstr "Cha deach dad a thaghadh airson cùl-taic"
+
+#: file_folder_manager_pro.php:551
+msgid "Security Issue."
+msgstr "Cùis tèarainteachd."
+
+#: file_folder_manager_pro.php:560
+msgid "Database backup done."
+msgstr "Cùl-taic stòr-dàta air a dhèanamh."
+
+#: file_folder_manager_pro.php:563
+msgid "Unable to create database backup."
+msgstr "Cha ghabh cùl-taic stòr-dàta a chruthachadh."
+
+#: file_folder_manager_pro.php:577
+msgid "Plugins backup done."
+msgstr "Cùl-taic plugins air a dhèanamh."
+
+#: file_folder_manager_pro.php:580
+msgid "Plugins backup failed."
+msgstr "Dh'fhàillig cùl-taic plugins."
+
+#: file_folder_manager_pro.php:589
+msgid "Themes backup done."
+msgstr "Cùl-taic cuspairean air a dhèanamh."
+
+#: file_folder_manager_pro.php:592
+msgid "Themes backup failed."
+msgstr "Dh'fhàillig cùl-taic Cuspairean."
+
+#: file_folder_manager_pro.php:601
+msgid "Uploads backup done."
+msgstr "Luchdaich suas cùl-taic air a dhèanamh."
+
+#: file_folder_manager_pro.php:604
+msgid "Uploads backup failed."
+msgstr "Dh'fhàillig luchdachadh suas cùl-taic."
+
+#: file_folder_manager_pro.php:613
+msgid "Others backup done."
+msgstr "Cuid eile cùl-taic air a dhèanamh."
+
+#: file_folder_manager_pro.php:616
+msgid "Others backup failed."
+msgstr "Dh ’fhàillig cùl-taic cuid eile."
+
+#: file_folder_manager_pro.php:620 file_folder_manager_pro.php:624
+msgid "All done"
+msgstr "Uile air a dhèanamh"
+
+#: file_folder_manager_pro.php:646
+msgid "Log(s) removed successfully!"
+msgstr "Log (an) air a thoirt air falbh gu soirbheachail!"
+
+#: file_folder_manager_pro.php:648
+msgid "Unable to removed log(s)!"
+msgstr "Cha ghabh log (an) a thoirt air falbh!"
+
+#: file_folder_manager_pro.php:652
+msgid "Invalid security key!"
+msgstr "Iuchair tèarainteachd mì-dhligheach!"
+
+#: file_folder_manager_pro.php:680
+msgid "Couldn't write to file."
+msgstr "Cha b' urrainn dhuinn sgrìobhadh dhan fhaidhle."
+
+#: file_folder_manager_pro.php:687
+msgid "Required libraries installed successfully."
+msgstr "Leabharlannan riatanach air an stàladh gu soirbheachail."
+
+#: file_folder_manager_pro.php:690
+msgid "Unable to install Required libraries."
+msgstr "Cha ghabh leabharlannan riatanach a stàladh."
+
+#: file_folder_manager_pro.php:804 file_folder_manager_pro.php:805
+msgid "WP File Manager"
+msgstr "Manaidsear faidhle WP"
+
+#: file_folder_manager_pro.php:812
+msgid "Settings"
+msgstr "Suidhichidhean"
+
+#: file_folder_manager_pro.php:814
+msgid "Preferences"
+msgstr "Roghainnean"
+
+#: file_folder_manager_pro.php:816 inc/email.php:25
+msgid "Email Notifications"
+msgstr "Brathan post-d"
+
+#: file_folder_manager_pro.php:819 inc/shortcode_generator.php:249
+msgid "Shortcode Generator"
+msgstr "Gineadair shortcode"
+
+#: file_folder_manager_pro.php:822 inc/extensions.php:180
+msgid "Google Drive"
+msgstr ""
+
+#: file_folder_manager_pro.php:825
+msgid "Mobile"
+msgstr "Fòn-làimhe"
+
+#: file_folder_manager_pro.php:827
+msgid "Addons"
+msgstr "Addons"
+
+#: file_folder_manager_pro.php:829
+msgid "Backup/Restore"
+msgstr "Cùl-taic / Ath-nuadhachadh"
+
+#: file_folder_manager_pro.php:830
+msgid "Existing Shortcode"
+msgstr "Shortcode gnàthaichte"
+
+#: file_folder_manager_pro.php:926
+msgid "Type here to search list... "
+msgstr "Clò-bhuail an seo gus liosta sgrùdaidh ... "
+
+#: file_folder_manager_pro.php:927
+msgid "Check all"
+msgstr "Thoir sùil air na h-uile"
+
+#: file_folder_manager_pro.php:928
+msgid "Uncheck all"
+msgstr "Uncheck uile"
+
+#: file_folder_manager_pro.php:929
+msgid "Invert select"
+msgstr "Invert tagh"
+
+#: file_folder_manager_pro.php:3088
+msgid "You don't have permission to access file manager."
+msgstr "Chan eil cead agad faighinn gu manaidsear faidhle."
+
+#: file_folder_manager_pro.php:3091
+msgid "Invalid shortcode!"
+msgstr "Còd ghoirid neo-dhligheach!"
+
+#: file_folder_manager_pro.php:3094
+msgid "Invalid security token!"
+msgstr "Comharra tèarainteachd mì-dhligheach!"
+
+#: file_folder_manager_pro.php:3179
+msgid "Congratulations. License Verified Successfully."
+msgstr "Mealaibh ur naidheachd. Cead air a dhearbhadh gu soirbheachail."
+
+#: file_folder_manager_pro.php:3202
+msgid "Some thing went wrong."
+msgstr "Chaidh rudeigin ceàrr."
+
+#: file_folder_manager_pro.php:3239
+msgid "Your File Manager PRO Order Details"
+msgstr "Fiosrachadh òrdugh do mhanaidsear faidhle"
+
+#: file_folder_manager_pro.php:3239
+msgid "Order Details"
+msgstr "Fiosrachadh òrdugh"
+
+#: file_folder_manager_pro.php:3241
+msgid "Order ID: "
+msgstr "ID òrdugh:"
+
+#: file_folder_manager_pro.php:3244
+msgid "License Key: "
+msgstr "Iuchair ceadachais: "
+
+#: file_folder_manager_pro.php:3247
+msgid "&nbsp; Warning: Please don't share these details with anyone."
+msgstr ""
+"&nbsp; Rabhadh: Feuch nach roinn thu am fiosrachadh seo le duine sam bith."
+
+#: file_folder_manager_pro.php:3377
+msgid "Unable to execute php syntax checker due to server permissions."
+msgstr ""
+"Cha b' urrainn dhuinn dearbhadh co-chòrdaidh php a chur an gnìomh air sgàth "
+"cead an fhrithealaiche."
+
+#: file_folder_manager_pro.php:3381
+msgid "File"
+msgstr "Faidhle"
+
+#: file_folder_manager_pro.php:3381
+msgid "not saved."
+msgstr "nach sàbhaladh."
+
+#: file_folder_manager_pro.php:3556 file_folder_manager_pro.php:3644
+msgid "File doesn't exist to download."
+msgstr "Chan eil faidhle ann airson a luchdachadh sìos."
+
+#: file_folder_manager_pro.php:3561 file_folder_manager_pro.php:3649
+msgid "Invalid Security Code."
+msgstr "Còd tèarainteachd neo-dhligheach."
+
+#: file_folder_manager_pro.php:3566 file_folder_manager_pro.php:3654
+msgid "Missing backup id."
+msgstr "Id cùl-taic a dhìth."
+
+#: file_folder_manager_pro.php:3569 file_folder_manager_pro.php:3657
+msgid "Missing parameter type."
+msgstr "Seòrsa paramadair a dhìth."
+
+#: file_folder_manager_pro.php:3572 file_folder_manager_pro.php:3660
+msgid "Missing required parameters."
+msgstr "Paramadairean a tha a dhìth."
+
+#: inc/backup.php:23
+msgid ""
+"Error: Unable to restore backup because database backup is heavy in size. "
+"Please try to increase Maximum allowed size  from Preferences settings."
+msgstr ""
+"Mearachd: Cha ghabh cùl-taic a thoirt air ais a chionn 's gu bheil cùl-taic "
+"an stòr-dàta trom ann am meud. Feuch ris a’ mheud as motha a tha ceadaichte "
+"àrdachadh bho roghainnean Roghainnean."
+
+#: inc/backup.php:24
+msgid "Select backup(s) to delete!"
+msgstr "Tagh cùl-taic (ean) airson cuir às!"
+
+#: inc/backup.php:25
+msgid "Are you sure want to remove selected backup(s)?"
+msgstr ""
+"A bheil thu cinnteach gu bheil thu airson cùl-taic (ean) taghte a thoirt air "
+"falbh?"
+
+#: inc/backup.php:30
+msgid "Backup is running, please wait"
+msgstr "Tha cùl-taic a ’ruith, fuirich ort"
+
+#: inc/backup.php:31
+msgid "Restore is running, please wait"
+msgstr "Tha ath-nuadhachadh a’ ruith, fuirich"
+
+#: inc/backup.php:32
+msgid "Nothing selected for backup."
+msgstr "Chan eil dad air a thaghadh airson cùl-taic."
+
+#: inc/backup.php:42
+msgid "WP File Manager - Backup/Restore"
+msgstr "Manaidsear faidhle WP - Cùl-taic / Ath-nuadhachadh"
+
+#: inc/backup.php:48
+msgid "Backup Options:"
+msgstr "Roghainnean cùl-taic:"
+
+#: inc/backup.php:55
+msgid "Database Backup"
+msgstr "Cùl-taic stòr-dàta"
+
+#: inc/backup.php:61
+msgid "Files Backup"
+msgstr "Cùl-taic faidhlichean"
+
+#: inc/backup.php:65
+msgid "Plugins"
+msgstr "Plugins"
+
+#: inc/backup.php:68
+msgid "Themes"
+msgstr "Cuspairean"
+
+#: inc/backup.php:71
+msgid "Uploads"
+msgstr "Luchdaich suas"
+
+#: inc/backup.php:74
+msgid "Others (Any other directories found inside wp-content)"
+msgstr ""
+"Feadhainn eile (Stiùiridhean sam bith eile a lorgar am broinn susbaint wp)"
+
+#: inc/backup.php:78
+msgid "Backup Now"
+msgstr "Cùl-taic a-nis"
+
+#: inc/backup.php:86
+msgid "Time now"
+msgstr "Ùine a-nis"
+
+#: inc/backup.php:96
+msgid "SUCCESS"
+msgstr "URNUIGH"
+
+#: inc/backup.php:98
+msgid "Backup successfully deleted."
+msgstr "Chaidh an cùl-taic a dhubhadh às gu soirbheachail."
+
+#: inc/backup.php:99
+msgid "Ok"
+msgstr "Glè mhath"
+
+#: inc/backup.php:114
+msgid "DELETE FILES"
+msgstr "FILES DELETE"
+
+#: inc/backup.php:116
+msgid "Are you sure you want to delete this backup?"
+msgstr ""
+"A bheil thu cinnteach gu bheil thu airson an cùl-taic seo a dhubhadh às?"
+
+#: inc/backup.php:117 inc/backup.php:136
+msgid "Cancel"
+msgstr "Sguir dheth"
+
+#: inc/backup.php:118 inc/backup.php:137
+msgid "Confirm"
+msgstr "Dearbhaich"
+
+#: inc/backup.php:133
+msgid "RESTORE FILES"
+msgstr "FILES RESTORE"
+
+#: inc/backup.php:135
+msgid "Are you sure you want to restore this backup?"
+msgstr ""
+"A bheil thu cinnteach gu bheil thu airson an cùl-taic seo a thoirt air ais?"
+
+#: inc/backup.php:163
+msgid "Last Log Message"
+msgstr "Teachdaireachd Log mu dheireadh"
+
+#: inc/backup.php:166
+msgid "The backup apparently succeeded and is now complete."
+msgstr "Teachdaireachd Log mu dheireadh"
+
+#: inc/backup.php:168
+msgid "No log message"
+msgstr "Gun teachdaireachd log"
+
+#: inc/backup.php:174
+msgid "Existing Backup(s)"
+msgstr "Cùl-taic (ean) gnàthaichte"
+
+#: inc/backup.php:182
+msgid "Backup Date"
+msgstr "Ceann-latha cùl-taic"
+
+#: inc/backup.php:185
+msgid "Backup data (click to download)"
+msgstr "Dàta cùl-taic (cliog gus luchdachadh sìos)"
+
+#: inc/backup.php:188 inc/shortcode_listing.php:45 inc/wpfmlogs.php:80
+#: inc/wpfmlogs.php:162 inc/wpfmlogs.php:245
+msgid "Action"
+msgstr "Gnìomh"
+
+#: inc/backup.php:208
+msgid "(Today)"
+msgstr "(An-diugh)"
+
+#: inc/backup.php:232
+msgid "Download All"
+msgstr "Luchdaich sìos a h-uile"
+
+#: inc/backup.php:237
+msgid "Restore"
+msgstr "Ath-nuadhachadh"
+
+#: inc/backup.php:239
+msgid "View Log"
+msgstr "Faic Log"
+
+#: inc/backup.php:244
+msgid "Currently no backup(s) found."
+msgstr "Faic Log"
+
+#: inc/backup.php:247
+msgid "Actions upon selected backup(s)"
+msgstr "Gnìomhan air cùl-taic (ean) taghte"
+
+#: inc/backup.php:249
+msgid "Select All"
+msgstr "Tagh Uile"
+
+#: inc/backup.php:250
+msgid "Deselect"
+msgstr "Deselect"
+
+#: inc/backup.php:252 inc/settings.php:359 inc/settings.php:367
+#: inc/settings.php:375 inc/settings.php:452 inc/settings.php:460
+#: inc/settings.php:468 inc/settings.php:545 inc/settings.php:553
+#: inc/settings.php:561 inc/settings.php:637 inc/settings.php:645
+#: inc/settings.php:653
+msgid "Note:"
+msgstr "Nota:"
+
+#: inc/backup.php:252
+msgid "Backup files will be under"
+msgstr "Bidh faidhlichean cùl-taice fo"
+
+#: inc/email.php:6
+msgid "Saving please wait..."
+msgstr "A ’sàbhaladh feuch am fuirich thu ..."
+
+#: inc/email.php:32 inc/root.php:47 inc/settings.php:9
+msgid "Settings saved."
+msgstr "Suidhich air a shàbhaladh."
+
+#: inc/email.php:32 inc/email.php:35 inc/root.php:47 inc/root.php:50
+#: inc/settings.php:9 inc/settings.php:12
+msgid "Dismiss this notice."
+msgstr "Cuir às don bhrath seo."
+
+#: inc/email.php:35 inc/settings.php:12
+msgid "Settings not saved."
+msgstr "Cha deach roghainnean a shàbhaladh."
+
+#: inc/email.php:44
+msgid "Enable?"
+msgstr "Comasachaidh?"
+
+#: inc/email.php:54
+msgid "Email Addresses"
+msgstr "Seòlaidhean post-d"
+
+#: inc/email.php:71
+msgid "Add More <strong>+</strong>"
+msgstr "Cuir barrachd ris <strong>+</strong>"
+
+#: inc/email.php:73
+msgid ""
+"This address is used for notification purposes, like theme/plugin "
+"notification."
+msgstr ""
+"Tha an seòladh seo air a chleachdadh airson adhbharan fios, leithid brath "
+"cuspair / plugan."
+
+#: inc/email.php:79
+msgid "Files Upload Notifications"
+msgstr "Brathan Luchdaich suas faidhlichean"
+
+#: inc/email.php:82 inc/email.php:106 inc/email.php:129
+msgid "Subject"
+msgstr "Cuspair"
+
+#: inc/email.php:85
+msgid "Files Uploaded"
+msgstr "Faidhlichean air an luchdachadh suas"
+
+#: inc/email.php:93 inc/email.php:117 inc/email.php:140
+msgid "Body"
+msgstr "Corp"
+
+#: inc/email.php:96 inc/email.php:120 inc/email.php:143
+msgid "Example:"
+msgstr "Eisimpleir:"
+
+#: inc/email.php:103
+msgid "Files Download Notifications"
+msgstr "Fiosan Luchdaich sìos faidhlichean"
+
+#: inc/email.php:109
+msgid "Files Downloaded"
+msgstr "Faidhlichean air an luchdachadh sìos"
+
+#: inc/email.php:126
+msgid "Files Edit Notifications"
+msgstr "Cuir faidhlichean a-steach fiosan"
+
+#: inc/email.php:132
+msgid "Files Modified or Edited"
+msgstr "Faidhlichean air an atharrachadh no air an deasachadh"
+
+#: inc/email.php:153 inc/root.php:112 inc/settings.php:717
+msgid "Save Changes"
+msgstr "Sàbhail atharrachaidhean"
+
+#: inc/email.php:184 inc/email.php:207
+msgid ""
+"All added email fields needs to filled and should have valid email address."
+msgstr ""
+"Feumaidh a h-uile raon post-d a bharrachd a lìonadh agus bu chòir seòladh "
+"puist-d dligheach a bhith aca."
+
+#: inc/extensions.php:118
+msgid "Add-ons"
+msgstr "Cuir-ris"
+
+#: inc/extensions.php:123
+msgid "Google Cloud"
+msgstr ""
+
+#: inc/extensions.php:128 inc/extensions.php:146 inc/extensions.php:165
+#: inc/extensions.php:185 inc/extensions.php:204 inc/extensions.php:222
+#: inc/extensions.php:240 inc/extensions.php:259
+msgid "Installed"
+msgstr "Air a stàladh"
+
+#: inc/extensions.php:130 inc/extensions.php:148 inc/extensions.php:167
+#: inc/extensions.php:187 inc/extensions.php:206 inc/extensions.php:224
+#: inc/extensions.php:242 inc/extensions.php:261
+msgid "Activate"
+msgstr "Cuir an gnìomh"
+
+#: inc/extensions.php:132 inc/extensions.php:150 inc/extensions.php:169
+#: inc/extensions.php:189 inc/extensions.php:208 inc/extensions.php:226
+#: inc/extensions.php:244 inc/extensions.php:263 inc/verify.php:10
+msgid "Buy Now"
+msgstr "Ceannaich a-nis"
+
+#: inc/extensions.php:141
+msgid "Box"
+msgstr "Bogsa"
+
+#: inc/extensions.php:161
+msgid "DropBox"
+msgstr "Bogsa Drop"
+
+#: inc/extensions.php:199
+msgid "OneDrive"
+msgstr ""
+
+#: inc/extensions.php:218
+msgid "AWS S3"
+msgstr ""
+
+#: inc/extensions.php:236
+msgid "Digital Ocean"
+msgstr "Cuan Digiteach"
+
+#: inc/extensions.php:254
+msgid "Git Hub"
+msgstr ""
+
+#: inc/fm_shortcode_btn.php:8
+msgid "Insert File Manager Shortcode"
+msgstr "Cuir a-steach shortcode manaidsear faidhle"
+
+#: inc/fm_shortcode_btn.php:14
+msgid "Select Shortcode"
+msgstr "Tagh Shortcode"
+
+#: inc/fm_shortcode_btn.php:17
+msgid "Choose Shortcode"
+msgstr "Tagh Shortcode"
+
+#: inc/popup.php:31
+msgid "File Manager Pro Update"
+msgstr "Ùrachadh manaidsear manaidsear faidhle"
+
+#: inc/popup.php:32
+msgid "File Manager Pro"
+msgstr "Manaidsear faidhle Pro"
+
+#: inc/popup.php:36
+msgid "FileManager"
+msgstr "Manaidsear faidhle"
+
+#: inc/popup.php:36
+msgid "is now compatible with Digital Ocean Add-on."
+msgstr "a-nis co-chòrdail ri Digital Ocean Add-on."
+
+#: inc/popup.php:36
+msgid ""
+"Users can now display Digital Ocean files and folders in FileManager in just "
+"1-Click!"
+msgstr ""
+"Faodaidh luchd-cleachdaidh a-nis faidhlichean agus pasganan Digital Ocean a "
+"thaisbeanadh ann am FileManager ann an dìreach 1-Click!"
+
+#: inc/popup.php:37
+msgid "Click here to purchase now"
+msgstr "Cliog an seo gus ceannach a-nis"
+
+#: inc/root.php:50
+msgid "You have not made any changes to be saved."
+msgstr ""
+"Cha do rinn thu atharrachaidhean sam bith airson a bhith air an sàbhaladh."
+
+#: inc/root.php:56
+msgid "Preferences - File Manager"
+msgstr "Roghainnean - Manaidsear faidhle"
+
+#: inc/root.php:63
+msgid "Public Root Path"
+msgstr "Slighe freumha poblach"
+
+#: inc/root.php:67
+msgid "File Manager Root Path, you can change according to your choice."
+msgstr ""
+"Root Path Manaidsear File, faodaidh tu atharrachadh a rèir do roghainn."
+
+#: inc/root.php:72
+msgid ""
+"Please change this carefully, Wrong path can lead file manager plugin to go "
+"down."
+msgstr ""
+"Feuch an atharraich thu seo gu faiceallach, faodaidh slighe ceàrr a bhith a "
+"’toirt air plugan manaidsear faidhle a dhol sìos."
+
+#: inc/root.php:77
+msgid "Enable Syntax Checker?"
+msgstr "Dèan comas air Checker Syntax?"
+
+#: inc/root.php:80
+msgid ""
+"When the Syntax Checker is enabled, the code updates being made to PHP files "
+"will be checked for syntax errors. If a syntax error is found, the updates "
+"will not be saved and a message box will appear which will define the error "
+"found. This checker will help prevent website downtime issues due to syntax "
+"errors."
+msgstr ""
+"Nuair a bhios an Syntax Checker air a chomasachadh, thèid na h-ùrachaidhean "
+"còd a thathas a ’dèanamh gu faidhlichean PHP a sgrùdadh airson mearachdan co-"
+"aonta. Ma lorgar mearachd co-aonta, cha tèid na h-ùrachaidhean a shàbhaladh "
+"agus nochdaidh bogsa teachdaireachd a mhìnicheas a ’mhearachd a chaidh a "
+"lorg. Cuidichidh an t-inneal-sgrùdaidh seo gus casg a chuir air cùisean "
+"downtime làrach-lìn mar thoradh air mearachdan co-aonta."
+
+#: inc/root.php:85
+msgid "Enable Trash?"
+msgstr "Dèan comas air sgudal?"
+
+#: inc/root.php:90
+msgid "After enabling trash, your files will go to trash folder."
+msgstr ""
+"Às deidh sgudal a chomasachadh, thèid na faidhlichean agad gu pasgan sgudail."
+
+#: inc/root.php:95
+msgid "Enable Files Upload to Media Library?"
+msgstr ""
+"Dèan comas air faidhlichean a luchdachadh suas gu leabharlann nam meadhanan?"
+
+#: inc/root.php:100
+msgid ""
+"After enabling this, uploaded images, pdfs and zip files will go to media "
+"library too."
+msgstr ""
+"Às deidh seo a chomasachadh, thèid ìomhaighean a chaidh a luchdachadh suas, "
+"pdfs agus faidhlichean zip gu leabharlann nam meadhanan cuideachd."
+
+#: inc/root.php:105
+msgid "Maximum allowed size at the time of database backup restore."
+msgstr ""
+"An ìre as àirde a tha ceadaichte aig àm ath-nuadhachadh cùl-taic an stòr-"
+"dàta."
+
+#: inc/root.php:107 inc/settings.php:159
+msgid "MB"
+msgstr ""
+
+#: inc/root.php:108
+msgid ""
+"Please increase field value if you are getting error message at the time of "
+"backup restore."
+msgstr ""
+"Feuch an àrdaich thu luach an raoin ma tha thu a’ faighinn teachdaireachd "
+"mearachd aig àm ath-nuadhachadh cùl-taic."
+
+#: inc/settings.php:18
+msgid "Settings - File Manager"
+msgstr "Suidhichidhean - Manaidsear faidhle"
+
+#: inc/settings.php:19
+msgid "Settings will apply on"
+msgstr "Bidh roghainnean an sàs"
+
+#: inc/settings.php:19
+msgid "shortcode."
+msgstr "shortcode."
+
+#: inc/settings.php:24 inc/shortcode_generator.php:210
+msgid "Make Directory"
+msgstr "Dèan Directory"
+
+#: inc/settings.php:25 inc/shortcode_generator.php:211
+msgid "Make File"
+msgstr "Dèan faidhle"
+
+#: inc/settings.php:26 inc/shortcode_generator.php:212
+msgid "Rename"
+msgstr "Ath-ainmich"
+
+#: inc/settings.php:27 inc/shortcode_generator.php:213
+msgid "Duplicate"
+msgstr "Dùblachadh"
+
+#: inc/settings.php:28 inc/shortcode_generator.php:214
+msgid "Paste"
+msgstr "Paste"
+
+#: inc/settings.php:29 inc/shortcode_generator.php:215
+msgid "Archive"
+msgstr "Tasglann"
+
+#: inc/settings.php:30 inc/shortcode_generator.php:216
+msgid "Extract"
+msgstr "Earrann"
+
+#: inc/settings.php:31 inc/shortcode_generator.php:217
+#: inc/shortcode_listing.php:61 inc/shortcode_listing.php:84
+#: inc/shortcode_listing.php:160 inc/shortcode_listing.php:176
+#: inc/shortcode_listing.php:216
+msgid "Copy"
+msgstr "Leth-bhreac"
+
+#: inc/settings.php:32 inc/shortcode_generator.php:218
+msgid "Cut"
+msgstr "Gearr"
+
+#: inc/settings.php:35 inc/shortcode_generator.php:221
+msgid "Download"
+msgstr "Luchdaich sìos"
+
+#: inc/settings.php:36 inc/shortcode_generator.php:222
+msgid "Upload"
+msgstr "Luchdaich suas"
+
+#: inc/settings.php:37 inc/shortcode_generator.php:223
+#: inc/shortcode_listing.php:109
+msgid "Search"
+msgstr "Rannsaich"
+
+#: inc/settings.php:38 inc/shortcode_generator.php:224
+msgid "Info"
+msgstr "Fiosrachadh"
+
+#: inc/settings.php:40 inc/shortcode_generator.php:226
+msgid "Resize"
+msgstr "Ath-mheudachadh"
+
+#: inc/settings.php:47 inc/shortcode_generator.php:147
+msgid "<strong>Saving Please wait...</strong>"
+msgstr "<strong> Sàbhaladh Fuirich ort ... </strong>"
+
+#: inc/settings.php:83
+msgid "General"
+msgstr "Coitcheann"
+
+#: inc/settings.php:88
+msgid "Code Editor"
+msgstr "Deasaiche còd"
+
+#: inc/settings.php:93
+msgid "User Restrictions"
+msgstr "Srianadh a 'chleachdaiche"
+
+#: inc/settings.php:98
+msgid "User Role Restrictions"
+msgstr "Srianadh Dleastanas Cleachdaiche"
+
+#: inc/settings.php:104
+msgid "Frontend Access"
+msgstr "Ruigsinneachd Frontend"
+
+#: inc/settings.php:111
+msgid "Select User Roles to access WP File Manager"
+msgstr "Tagh Dreuchdan Cleachdaiche gus faighinn gu Manaidsear File WP"
+
+#: inc/settings.php:124
+msgid "Allow user roles to access WP File Manager."
+msgstr "Leig le dreuchdan luchd-cleachdaidh faighinn gu Manaidsear File WP."
+
+#: inc/settings.php:131
+msgid "Select User Roles to access DB Manager"
+msgstr "Tagh Dreuchdan Cleachdaiche gus faighinn gu Manaidsear DB"
+
+#: inc/settings.php:144
+msgid "Allow user roles to access DB Manager."
+msgstr "Leig le dreuchdan neach-cleachdaidh faighinn gu Manaidsear DB."
+
+#: inc/settings.php:150
+msgid "Separate or Private Folder Access"
+msgstr "Ruigsinneachd Folder air leth no prìobhaideach"
+
+#: inc/settings.php:152
+msgid ""
+"File Manager will access this folder path. Else, will access root directory. "
+"<strong>e.g wp-content/plugins</strong>. <br><strong>Note:</strong> Will be "
+"valid for all user roles."
+msgstr ""
+"Gheibh Manaidsear File cothrom air an t-slighe pasgan seo. Eile, gheibh thu "
+"cothrom air eòlaire freumh. <strong> e.g wp-content / plugins </strong>. "
+"<br> <strong> Nòta: </strong> Bidh e dligheach airson gach dreuchd neach-"
+"cleachdaidh."
+
+#: inc/settings.php:157
+msgid "Maximum Upload Size"
+msgstr "Meud an luchdachadh suas as àirde"
+
+#: inc/settings.php:159
+msgid "Allow users to upload file of maximum."
+msgstr "Leig le luchd-cleachdaidh am faidhle as àirde a luchdachadh suas."
+
+#: inc/settings.php:163
+msgid "Notification Email"
+msgstr "Post-d brath"
+
+#: inc/settings.php:165
+msgid ""
+"Sends Notifications to this email. <strong>Note:</strong> This will take "
+"admin email by default if kept empty."
+msgstr ""
+"A ’cur brathan chun phost-d seo. <strong> Nòta: </strong> Gabhaidh seo post-"
+"d rianachd gu bunaiteach ma thèid a chumail falamh."
+
+#: inc/settings.php:170
+msgid "Send Notifications to admin and save logs on file upload ?"
+msgstr ""
+"Cuir brathan gu rianachd agus sàbhail logaichean air luchdachadh suas "
+"faidhle?"
+
+#: inc/settings.php:174
+msgid ""
+"Check to allow file upload notifications. Mail will be sent to admin. Click"
+msgstr ""
+"Dèan sgrùdadh gus leigeil le fiosan luchdachadh suas faidhle. Thèid post a "
+"chuir chun rianaire. Cliog"
+
+#: inc/settings.php:174 inc/settings.php:183 inc/settings.php:192
+msgid "here"
+msgstr "an seo"
+
+#: inc/settings.php:174 inc/settings.php:183 inc/settings.php:192
+msgid "to set notification email."
+msgstr "gus post-d fios a shuidheachadh."
+
+#: inc/settings.php:174 inc/settings.php:183 inc/settings.php:192
+msgid "<strong>Note:</strong> This feature is using wp_mail(), Make sure"
+msgstr ""
+"<strong>An aire:</strong> Tha am feart seo a' cleachdadh wp_mail(), Dèan "
+"cinnteach"
+
+#: inc/settings.php:174 inc/settings.php:183 inc/settings.php:192
+msgid "Read More"
+msgstr "Leugh Tuilleadh"
+
+#: inc/settings.php:174 inc/settings.php:183
+msgid "is working."
+msgstr "ag obair."
+
+#: inc/settings.php:179
+msgid "Send Notifications to admin and save logs on file download ?"
+msgstr ""
+"Cuir brathan gu rianachd agus sàbhail logaichean air luchdachadh sìos "
+"faidhle?"
+
+#: inc/settings.php:183
+msgid ""
+"Check to allow file download notifications. Mail will be sent to admin. Click"
+msgstr ""
+"Dèan sgrùdadh gus leigeil le fiosan luchdachadh sìos faidhle. Thèid post a "
+"chuir chun rianaire. Cliog"
+
+#: inc/settings.php:188
+msgid "Send Notifications to admin and save logs on file edit ?"
+msgstr ""
+"Cuir brathan gu rianachd agus sàbhail logaichean air deasachadh faidhle?"
+
+#: inc/settings.php:192
+msgid ""
+"Check to allow file edit notifications. Mail will be sent to admin.  Click"
+msgstr ""
+"Dèan cinnteach gus fiosan deasachaidh fhaidhlichean a cheadachadh. Thèid "
+"post a chuir chun rianaire. Cliog"
+
+#: inc/settings.php:192
+msgid " is working."
+msgstr "ag obair."
+
+#: inc/settings.php:198
+msgid "Select File Manager Language"
+msgstr "Tagh Cànan Manaidsear File"
+
+#: inc/settings.php:208 inc/settings.php:226 inc/settings.php:239
+#: inc/shortcode_generator.php:425 inc/shortcode_generator.php:442
+#: inc/shortcode_generator.php:455 inc/shortcode_generator.php:568
+#: inc/shortcode_generator.php:585 inc/shortcode_generator.php:598
+msgid "Default:"
+msgstr "Default:"
+
+#: inc/settings.php:208 inc/shortcode_generator.php:425
+#: inc/shortcode_generator.php:568
+msgid "English"
+msgstr "Sasannach"
+
+#: inc/settings.php:209
+msgid "You can select any language for File Manager."
+msgstr "Faodaidh tu cànan sam bith a thaghadh airson Manaidsear File."
+
+#: inc/settings.php:215
+msgid "Select File Manager Theme"
+msgstr "Tagh Cuspair Manaidsear File"
+
+#: inc/settings.php:227
+msgid "You can select any theme for File Manager."
+msgstr "Faodaidh tu cuspair sam bith a thaghadh airson Manaidsear File."
+
+#: inc/settings.php:233 inc/shortcode_generator.php:449
+#: inc/shortcode_generator.php:592
+msgid "Files View"
+msgstr "Sealladh faidhlichean"
+
+#: inc/settings.php:236 inc/settings.php:239 inc/shortcode_generator.php:452
+#: inc/shortcode_generator.php:455 inc/shortcode_generator.php:595
+#: inc/shortcode_generator.php:598
+msgid "List"
+msgstr "Liosta"
+
+#: inc/settings.php:237 inc/shortcode_generator.php:453
+#: inc/shortcode_generator.php:596
+msgid "Icon"
+msgstr "Ìomhaigh"
+
+#: inc/settings.php:240
+msgid "You can select any view for File Manager."
+msgstr "Faodaidh tu sealladh sam bith a thaghadh airson Manaidsear File."
+
+#: inc/settings.php:244
+msgid "Enable \"Insert File Manager Shortcode\" Button with Content Editor ?"
+msgstr ""
+"Cuir an comas putan \"Cuir a-steach manaidsear faidhle shortcode\" le "
+"deasaiche susbaint?"
+
+#: inc/settings.php:248
+msgid ""
+"Enable \"Insert File Manager Shortcode\" button in edit page screen with "
+"classic editor."
+msgstr ""
+"Dèan comas air putan “Cuir a-steach manaidsear faidhle Shortcode” ann an "
+"scrion duilleag deasaich le deasaiche clasaigeach."
+
+#: inc/settings.php:252
+msgid "Disable Local File System ?"
+msgstr "Cuir à comas siostam faidhle ionadail?"
+
+#: inc/settings.php:256
+msgid "Check to disable Local File System in File Manager."
+msgstr ""
+"Thoir sùil air gus an siostam faidhle ionadail a dhì-cheadachadh ann am "
+"manaidsear faidhle."
+
+#: inc/settings.php:261
+msgid "Disable Database Manager ?"
+msgstr "Cuir à comas manaidsear stòr-dàta?"
+
+#: inc/settings.php:265
+msgid "Check to disable Database Manager."
+msgstr "Thoir sùil air gus Manaidsear Stòr-dàta a dhì-cheadachadh."
+
+#: inc/settings.php:270
+msgid "Disable Welcome Message?"
+msgstr "Cuir à comas Teachdaireachd Fàilte?"
+
+#: inc/settings.php:274
+msgid "Check to disable welcome message on frontend shortcodes."
+msgstr ""
+"Dèan cinnteach gus teachdaireachd fàilte a chuir à comas air shortcodes "
+"frontend."
+
+#: inc/settings.php:279
+msgid "Welcome Message"
+msgstr "Teachdaireachd Fàilte"
+
+#: inc/settings.php:281
+msgid "Welcome:"
+msgstr "Fàilte:"
+
+#: inc/settings.php:281
+msgid "Welcome message will appear on frontend shortcode."
+msgstr "Nochdaidh teachdaireachd fàilte air shortcode frontend."
+
+#: inc/settings.php:281
+msgid "will show loggedIn user name on frontend."
+msgstr "seallaidh e ainm neach-cleachdaidh loggedIn air beulaibh."
+
+#: inc/settings.php:290
+msgid "Code editor allow fullscreen?"
+msgstr "Deasaiche còd a ’ceadachadh làn-sgrìn?"
+
+#: inc/settings.php:291
+msgid "Check to allow fullscreen code editor"
+msgstr "Thoir sùil gus leigeil le deasaiche còd làn-sgrìn"
+
+#: inc/settings.php:295
+msgid "Select theme for Code Editor."
+msgstr "Tagh cuspair airson Deasaiche Còd."
+
+#: inc/settings.php:303
+msgid ""
+"Select theme for Code Editor. For more information please visit <a href="
+"\"http://codemirror.net/demo/theme.html\" target=\"_blank\">this link</a>."
+msgstr ""
+"Tagh cuspair airson Deasaiche Còd. Airson tuilleadh fiosrachaidh tadhal air "
+"<a href=\"http://codemirror.net/demo/theme.html\" target=\"_blank\"> an "
+"ceangal seo </a>."
+
+#: inc/settings.php:312
+msgid "Disable or Ban WP File Manager Operations to User Roles"
+msgstr ""
+"Cuir à comas no cuir casg air obrachaidhean manaidsear faidhle WP gu "
+"dleastanasan cleachdaiche"
+
+#: inc/settings.php:313
+msgid "Select user role and disable operation."
+msgstr "Tagh dreuchd neach-cleachdaidh agus cuir à comas gnìomhachd."
+
+#: inc/settings.php:318 inc/settings.php:505
+msgid "Click to Add Rules"
+msgstr "Cliog air Cuir ris Riaghailtean"
+
+#: inc/settings.php:319
+msgid "Add rule for User Roles"
+msgstr "Cuir riaghailt ris airson Dreuchdan Cleachdaiche"
+
+#: inc/settings.php:327 inc/settings.php:410
+msgid "If User role is"
+msgstr "Ma tha dreuchd a ’chleachdaiche"
+
+#: inc/settings.php:329 inc/settings.php:412
+msgid "Select User Role"
+msgstr "Tagh Dreuchd Cleachdaiche"
+
+#: inc/settings.php:334 inc/settings.php:420 inc/settings.php:522
+#: inc/settings.php:603
+msgid "Then"
+msgstr "An uairsin"
+
+#: inc/settings.php:343 inc/settings.php:429 inc/settings.php:531
+#: inc/settings.php:613
+msgid "Disable Operations"
+msgstr "Cuir à comas obrachaidhean"
+
+#: inc/settings.php:356 inc/settings.php:449 inc/settings.php:542
+#: inc/settings.php:634
+msgid ""
+"Separate or private folder access <strong>e.g wp-content/themes</strong> etc."
+msgstr ""
+"Ruigsinneachd pasgan fa leth no prìobhaideach <strong> e.g wp-content / "
+"theme </strong> msaa."
+
+#: inc/settings.php:359 inc/settings.php:452 inc/settings.php:545
+#: inc/settings.php:637
+msgid "It will overide \"Private Folder Access\" settings"
+msgstr "Bidh e a ’dol thairis air roghainnean“ Private Folder Access ”"
+
+#: inc/settings.php:364 inc/settings.php:457 inc/settings.php:550
+#: inc/settings.php:642
+msgid ""
+"Enter Folder or Files Paths That You want to <strong>Hide</strong> e.g wp-"
+"content/themes|wp-content/plugins."
+msgstr ""
+"Cuir a-steach slighean Folder no Files a tha thu airson <strong> Falaich </"
+"strong> e.g wp-content / theme | wp-content / plugins."
+
+#: inc/settings.php:367 inc/settings.php:460 inc/settings.php:553
+#: inc/settings.php:645
+msgid "Multiple separated by Vertical Bar (|)."
+msgstr "Iomadh air a sgaradh le Bàr Ingearach (|)."
+
+#: inc/settings.php:372 inc/settings.php:465 inc/settings.php:558
+#: inc/settings.php:650
+msgid ""
+"Enter file extensions which you want to Lock. <strong>e.g .php|.png|.css</"
+"strong> etc"
+msgstr ""
+"Cuir a-steach leudachain faidhle a tha thu airson a ghlasadh. <strong> e.g ."
+"php | .png | .css </strong> msaa"
+
+#: inc/settings.php:375 inc/settings.php:468 inc/settings.php:561
+#: inc/settings.php:653
+msgid ""
+"The extensions in the option are case sensitive and should be separated by "
+"vertical bar (|) without having white space between them. e.g. php,PHP"
+msgstr ""
+"Tha na leudachain san roghainn mothachail do chùis agus bu chòir an sgaradh "
+"le bàr dìreach (|) gun àite geal a bhith eatorra. m.e. php, PHP"
+
+#: inc/settings.php:380 inc/settings.php:473 inc/settings.php:566
+#: inc/settings.php:658
+msgid "Disable Toolbar and Context Menu"
+msgstr "Cuir à comas bàr-inneal agus clàr-taice co-theacsa"
+
+#: inc/settings.php:386 inc/settings.php:478 inc/settings.php:571
+#: inc/settings.php:662
+msgid "Disable Toolbar"
+msgstr "Cuir dheth am bàr-inneal"
+
+#: inc/settings.php:391 inc/settings.php:478 inc/settings.php:572
+#: inc/settings.php:662
+msgid "Disable Context Menu"
+msgstr "Cuir à comas clàr-taice co-theacsa"
+
+#: inc/settings.php:499
+msgid "Disable or Ban WP File Manager Operations to Users"
+msgstr ""
+"Cuir à comas no cuir casg air obrachaidhean manaidsear faidhle WP gu luchd-"
+"cleachdaidh"
+
+#: inc/settings.php:500
+msgid "Select users and disable operation."
+msgstr "Tagh luchd-cleachdaidh agus cuir à comas obrachadh."
+
+#: inc/settings.php:506
+msgid "Add rule for Users"
+msgstr "Cuir riaghailt ris airson luchd-cleachdaidh"
+
+#: inc/settings.php:515 inc/settings.php:595
+msgid "If User is"
+msgstr "Ma tha an cleachdaiche"
+
+#: inc/settings.php:517 inc/settings.php:597
+msgid "Select User"
+msgstr "Tagh Cleachdaiche"
+
+#: inc/settings.php:678
+msgid "Select the pages where you want to show the File Manager on Frontend"
+msgstr ""
+"Tagh na duilleagan far a bheil thu airson am Manaidsear File a shealltainn "
+"air Frontend"
+
+#: inc/settings.php:680
+msgid "Select Pages"
+msgstr "Tagh Duilleagan"
+
+#: inc/settings.php:690
+msgid ""
+"<strong>Note:</strong> It will not work if already using any File Manager "
+"shortcode in selected page editor."
+msgstr ""
+"<strong> Nòta: </strong> Chan obraich e ma tha thu mu thràth a ’cleachdadh "
+"shortcode Manaidsear File ann an deasaiche duilleag taghte."
+
+#: inc/settings.php:694
+msgid "Display File Manager ?"
+msgstr "Manaidsear faidhle taisbeanaidh?"
+
+#: inc/settings.php:697
+msgid "After Content"
+msgstr "Às deidh susbaint"
+
+#: inc/settings.php:698
+msgid "Before Content"
+msgstr "Ron susbaint"
+
+#: inc/settings.php:701
+msgid "Default: After Content"
+msgstr "Default: Às deidh susbaint"
+
+#: inc/settings.php:705 inc/shortcode_listing.php:44
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/settings.php:707
+msgid "Paste the shortcode here"
+msgstr "Cuir a-steach an shortcode an seo"
+
+#: inc/settings.php:708
+msgid ""
+"You can generate new shortcode from the <a href='admin.php?"
+"page=wp_file_manager_existing_shortcodes'>Shortcode Generator</a> of File "
+"Manager."
+msgstr ""
+"Faodaidh tu shortcode ùr a ghineadh bhon <a href='admin.php?"
+"page=wp_file_manager_existing_shortcodes'> Gineadair Shortcode </a> de "
+"Mhanaidsear File."
+
+#: inc/settings.php:709
+msgid ""
+"Shortcode will work on selected pages. Help is given below to edit "
+"parameters:"
+msgstr ""
+"Bidh Shortcode ag obair air duilleagan taghte. Tha cuideachadh gu h-ìosal "
+"gus paramadairean a dheasachadh:"
+
+#: inc/settings.php:710
+msgid "Shortcode Help:"
+msgstr "Taic shortcode:"
+
+#: inc/settings.php:710
+msgid ""
+"<a href='https://filemanagerpro.io/shortcodes/' "
+"target='_blank'>Documentation</a>"
+msgstr ""
+"<a href='https://filemanagerpro.io/shortcodes/' target='_blank'> "
+"Sgrìobhainnean </a>"
+
+#: inc/settings.php:727 lib/wpfilemanager.php:55
+msgid "Invalid Licence Key"
+msgstr "Iuchair ceadachais mì-dhligheach"
+
+#: inc/settings.php:745
+msgid "Please select user role from previously added rule before adding new!"
+msgstr ""
+"Feuch an tagh thu dreuchd neach-cleachdaidh bhon riaghailt a chaidh a chur "
+"ris roimhe seo mus cuir thu fear ùr ris!"
+
+#: inc/settings.php:786
+msgid "Please select user from the previously added rule before adding new!"
+msgstr ""
+"Tagh cleachdaiche bhon riaghailt a chaidh a chur ris roimhe mus cuir thu "
+"fear ùr ris!"
+
+#: inc/settings.php:845
+msgid "Please select user in the added user restriction rule before saving."
+msgstr ""
+"Tagh cleachdaiche anns an riaghailt cuingealachaidh cleachdaiche a bharrachd "
+"mus sàbhail thu."
+
+#: inc/settings.php:859
+msgid ""
+"Please select user role in the added user role restriction rule before "
+"saving."
+msgstr ""
+"Feuch an tagh thu dreuchd neach-cleachdaidh anns an riaghailt cuibhreachaidh "
+"dreuchd cleachdaiche a bharrachd mus sàbhail thu."
+
+#: inc/shortcode.php:117 inc/shortcode_admin_control.php:111
+msgid "Welcome"
+msgstr "Fàilte"
+
+#: inc/shortcode.php:336 inc/shortcode_admin_control.php:125
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Duilich, chan eil cead agad faighinn chun duilleag seo."
+
+#: inc/shortcode.php:343 inc/shortcode_admin_control.php:128
+msgid "Please login to access file manager."
+msgstr "Feuch an log thu a-steach gus am manaidsear faidhle fhaighinn."
+
+#: inc/shortcode_docs.php:11
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: inc/shortcode_generator.php:42 inc/shortcode_generator.php:55
+#: inc/shortcode_generator.php:62
+msgid "Error in creating shortcode. Invalid shortcode."
+msgstr "Mearachd le bhith a ’cruthachadh shortcode. Shortcode mì-dhligheach."
+
+#: inc/shortcode_generator.php:250
+msgid "Click to get list of all shortcodes"
+msgstr "Cliog gus liosta fhaighinn de na shortcodes gu lèir"
+
+#: inc/shortcode_generator.php:250
+msgid "All Shortcodes"
+msgstr "A h-uile shortcodes"
+
+#: inc/shortcode_generator.php:253
+msgid "Click to create new shortcode"
+msgstr "Cliog gus shortcode ùr a chruthachadh"
+
+#: inc/shortcode_generator.php:253 inc/shortcode_listing.php:24
+msgid "Generate New Shortcode"
+msgstr "Cruthaich Shortcode Ùr"
+
+#: inc/shortcode_generator.php:263
+msgid "Logged in users"
+msgstr "Luchd-cleachdaidh air logadh a-steach"
+
+#: inc/shortcode_generator.php:269
+msgid "Non logged in users"
+msgstr "Luchd-cleachdaidh gun logadh a-steach"
+
+#: inc/shortcode_generator.php:275
+msgid "From existing shortcode"
+msgstr "Bhon shortcode a th ’ann"
+
+#: inc/shortcode_generator.php:288 inc/shortcode_generator.php:492
+#: inc/shortcode_generator.php:635
+#, php-format
+msgid ""
+"Your shortcode <span style='background-color:#e5e5e5;'>%s</span> has been "
+"generated successfully. Copy this shortcode and paste it in your pages."
+msgstr ""
+"Chaidh an shortcode  <span style='background-color:#e5e5e5;'>%s</span> a "
+"chruthachadh gu soirbheachail. Dèan lethbhreac den shortcode seo agus cuir a-"
+"steach e air na duilleagan agad."
+
+#: inc/shortcode_generator.php:290 inc/shortcode_generator.php:494
+msgid "Your shortcode settings has been updated successfully."
+msgstr "Chaidh na roghainnean shortcode agad ùrachadh gu soirbheachail."
+
+#: inc/shortcode_generator.php:295 inc/shortcode_generator.php:498
+#: inc/shortcode_generator.php:639
+msgid "Shortcode Title"
+msgstr "Tiotal Shortcode"
+
+#: inc/shortcode_generator.php:297 inc/shortcode_generator.php:500
+#: inc/shortcode_generator.php:641
+msgid "Enter shortcode title"
+msgstr "Cuir a-steach tiotal shortcode"
+
+#: inc/shortcode_generator.php:298 inc/shortcode_generator.php:501
+#: inc/shortcode_generator.php:642
+msgid "It is required to identify the shortcode you are going to use."
+msgstr ""
+"Feumaidh e an shortcode a tha thu a ’dol a chleachdadh a chomharrachadh."
+
+#: inc/shortcode_generator.php:299 inc/shortcode_generator.php:502
+#: inc/shortcode_generator.php:643 inc/shortcode_generator.php:653
+msgid "This field can not be empty."
+msgstr "Chan urrainn don raon seo a bhith falamh."
+
+#: inc/shortcode_generator.php:300 inc/shortcode_generator.php:503
+#: inc/shortcode_generator.php:644
+msgid "Title with this name already exists. Please choose another title."
+msgstr "Tha tiotal leis an ainm seo ann mu thràth. Tagh tiotal eile."
+
+#: inc/shortcode_generator.php:304
+msgid "Allowed Roles"
+msgstr "Dreuchdan ceadaichte"
+
+#: inc/shortcode_generator.php:318
+msgid "All"
+msgstr "Uile"
+
+#: inc/shortcode_generator.php:338
+msgid ""
+"It will allow all roles to access file manager on front end. All will apply "
+"for all available user roles."
+msgstr ""
+"Leigidh e le gach dreuchd faighinn gu manaidsear faidhle air a ’cheann "
+"aghaidh. Bidh iad uile a ’buntainn ris a h-uile dreuchd neach-cleachdaidh a "
+"tha ri fhaighinn."
+
+#: inc/shortcode_generator.php:339
+msgid "Please choose at least one user role."
+msgstr "Tagh co-dhiù aon dreuchd neach-cleachdaidh."
+
+#: inc/shortcode_generator.php:344 inc/shortcode_generator.php:507
+msgid "Access Folder"
+msgstr "Folder ruigsinneachd"
+
+#: inc/shortcode_generator.php:348 inc/shortcode_generator.php:510
+msgid "Path of the folder to display e.g wp-content/uploads"
+msgstr "Slighe a ’phasgan gus a thaisbeanadh e.g wp-content / uploads"
+
+#: inc/shortcode_generator.php:349 inc/shortcode_generator.php:511
+msgid "Root directory"
+msgstr "Root eòlaire"
+
+#: inc/shortcode_generator.php:350 inc/shortcode_generator.php:512
+msgid ""
+"eg. You can put \"test\" as a name of folder which is located on root "
+"directory, or you can give path for sub folders as like \"wp-content/plugins"
+"\". If leave blank or empty it will access all folders on root directory. If "
+"you put * then it will auto creates user folders with their username."
+msgstr ""
+"me. Faodaidh tu \"deuchainn\" a chuir mar ainm pasgan a tha suidhichte air "
+"eòlaire freumh, no faodaidh tu slighe a thoirt airson fo-phasganan mar \"wp-"
+"content / plugins\". Ma dh ’fhàgas e bàn no falamh gheibh e cothrom air a h-"
+"uile pasgan air eòlaire freumh. Ma chuireas tu * an uairsin cruthaichidh e "
+"gu fèin-obrachail pasganan cleachdaiche leis an ainm-cleachdaidh aca."
+
+#: inc/shortcode_generator.php:355 inc/shortcode_generator.php:517
+msgid "Allowed Operations"
+msgstr "Obraichean ceadaichte"
+
+#: inc/shortcode_generator.php:373 inc/shortcode_generator.php:535
+msgid ""
+"For all operations and to allow some operation you can choose operations "
+"name from the list."
+msgstr ""
+"Airson a h-uile gnìomhachd agus gus beagan obrachaidh a cheadachadh faodaidh "
+"tu ainm gnìomhachd a thaghadh bhon liosta."
+
+#: inc/shortcode_generator.php:378
+msgid "Ban User IDs"
+msgstr "Cuir casg air ID cleachdaiche"
+
+#: inc/shortcode_generator.php:389 inc/wpfmlogs.php:76 inc/wpfmlogs.php:158
+#: inc/wpfmlogs.php:241
+msgid "User ID"
+msgstr "ID cleachdaiche"
+
+#: inc/shortcode_generator.php:394
+msgid ""
+"To ban specific user from accessing file manager on frontend then you can "
+"choose the users from the list."
+msgstr ""
+"Gus casg a chuir air cleachdaiche sònraichte bho bhith a ’faighinn cothrom "
+"air manaidsear faidhle air frontend faodaidh tu na cleachdaichean a thaghadh "
+"bhon liosta."
+
+#: inc/shortcode_generator.php:398 inc/shortcode_generator.php:540
+msgid "Hide Files"
+msgstr "Cuir am falach faidhlichean"
+
+#: inc/shortcode_generator.php:400
+msgid "Hide files from access folder e.g. wp-content/plugins,wp-config.php etc"
+msgstr ""
+"Cuir am falach faidhlichean bhon phasgan ruigsinneachd e.e. wp-content / "
+"plugins, wp-config.php msaa"
+
+#: inc/shortcode_generator.php:402
+msgid ""
+"It will hide the files and folder mentioned here. <br><strong>Note:</strong> "
+"This option is case sensitive and should be comma(,) separated without "
+"having white space between them."
+msgstr ""
+"Bidh e a ’falach na faidhlichean agus am pasgan a tha air an ainmeachadh an "
+"seo. <br> <strong> Nòta: </strong> Tha an roghainn seo mothachail air cùis "
+"agus bu chòir cromag (,) a bhith air a sgaradh gun àite geal a bhith eatorra."
+
+#: inc/shortcode_generator.php:406 inc/shortcode_generator.php:549
+msgid "Lock Extensions"
+msgstr "Leudachain Lock"
+
+#: inc/shortcode_generator.php:408 inc/shortcode_generator.php:551
+msgid "Restrict extensions e.g. .php,.css OR php,css"
+msgstr "Cuir bacadh air leudachadh e.e. .php, .css OR php, css"
+
+#: inc/shortcode_generator.php:410 inc/shortcode_generator.php:553
+msgid ""
+"It will lock files mentioned in commas without white space between them. You "
+"can lock more as like \".php,.css,.js\" etc.<br><span class=\"highlighted"
+"\"><strong>Note:</strong> The extensions in the option are case sensitive "
+"and should be comma(,) separated without having white space between them. e."
+"g. php,PHP</span>"
+msgstr ""
+"It will lock files mentioned in commas without white space between them. You "
+"can lock more as like \".php,.css,.js\" etc.<br><span class=\"highlighted"
+"\"><strong>Nòta: </strong>Tha na leudachain san roghainn mothachail do chùis "
+"agus bu chòir dhaibh a bhith air an sgaradh le cromag (,) gun àite geal a "
+"bhith eatorra. m.e. php, PHP </span>"
+
+#: inc/shortcode_generator.php:415 inc/shortcode_generator.php:558
+msgid "Select Filemanager Language"
+msgstr "Tagh Filemanager Language"
+
+#: inc/shortcode_generator.php:426 inc/shortcode_generator.php:569
+msgid "You can select any language for filemanager."
+msgstr "Faodaidh tu cànan sam bith a thaghadh airson filemanager."
+
+#: inc/shortcode_generator.php:431 inc/shortcode_generator.php:574
+msgid "Select Filemanager Theme"
+msgstr "Tagh Cuspair Filemanager"
+
+#: inc/shortcode_generator.php:443 inc/shortcode_generator.php:586
+msgid "You can select any theme for filemanager."
+msgstr "Faodaidh tu cuspair sam bith a thaghadh airson manaidsear faidhle."
+
+#: inc/shortcode_generator.php:456 inc/shortcode_generator.php:599
+msgid "You can select any view for filemanager."
+msgstr "Faodaidh tu sealladh sam bith a thaghadh airson filemanager."
+
+#: inc/shortcode_generator.php:461 inc/shortcode_generator.php:603
+msgid "Date Format"
+msgstr "Cruth ceann-latha"
+
+#: inc/shortcode_generator.php:471 inc/shortcode_generator.php:613
+msgid "You can select any date format for filemanager modified date."
+msgstr ""
+"Faodaidh tu cruth ceann-latha sam bith a thaghadh airson ceann-latha "
+"atharraichte filemanager."
+
+#: inc/shortcode_generator.php:477 inc/shortcode_generator.php:619
+msgid "Update Shortcode"
+msgstr "Ùraich Shortcode"
+
+#: inc/shortcode_generator.php:477 inc/shortcode_generator.php:619
+#: inc/shortcode_generator.php:659
+msgid "Generate Shortcode"
+msgstr "Cruthaich Shortcode"
+
+#: inc/shortcode_generator.php:542
+msgid "Hide files from access folder e.g. test1,folder/test2 etc"
+msgstr ""
+"Cuir am falach faidhlichean bhon phasgan ruigsinneachd e.e. test1, pasgan / "
+"test2 msaa"
+
+#: inc/shortcode_generator.php:544
+msgid ""
+"It will hide the files and folder mentioned here. Note: This option is case "
+"sensitive and should be comma(,) separated without having white space "
+"between them."
+msgstr ""
+"Bidh e a ’falach na faidhlichean agus am pasgan a tha air an ainmeachadh an "
+"seo. Nota: Tha an roghainn seo mothachail air cùis agus bu chòir dha cromag "
+"(,) a sgaradh gun àite geal a bhith eatorra."
+
+#: inc/shortcode_generator.php:648
+msgid "Generate New Shortcode from existing one"
+msgstr "Cruthaich Shortcode ùr bhon fhear a th ’ann"
+
+#: inc/shortcode_generator.php:651
+msgid "Paste the shortcode which you are using in your page/post"
+msgstr ""
+"Cuir a-steach an shortcode a tha thu a ’cleachdadh air do dhuilleag / post"
+
+#: inc/shortcode_generator.php:652
+msgid "This will convert the existing shortcode to the new shortcode format."
+msgstr "Tionndaidhidh seo an shortcode a tha ann gu cruth shortcode ùr."
+
+#: inc/shortcode_listing.php:23
+msgid "Existing Shortcode(s)"
+msgstr "Shortcode (ean) gnàthaichte"
+
+#: inc/shortcode_listing.php:24
+msgid "Click to go back to the shortcode generator"
+msgstr "Cliog gus a dhol air ais chun ghineadair shortcode"
+
+#: inc/shortcode_listing.php:28
+msgid "Shortcode has been deleted successfully."
+msgstr "Chaidh an shortcode a dhubhadh às gu soirbheachail."
+
+#: inc/shortcode_listing.php:30
+msgid "Shortcode(s) has been deleted successfully."
+msgstr "Chaidh an shortcode (ean) a dhubhadh às gu soirbheachail."
+
+#: inc/shortcode_listing.php:43
+msgid "Title"
+msgstr "Tiotal"
+
+#: inc/shortcode_listing.php:61 inc/shortcode_listing.php:84
+#: inc/shortcode_listing.php:161 inc/shortcode_listing.php:177
+#: inc/shortcode_listing.php:217
+msgid "Copy to clipboard"
+msgstr "Dèan lethbhreac chun a ’bhòrd bhidio"
+
+#: inc/shortcode_listing.php:63
+msgid "Are you sure you want to delete this shortcode?"
+msgstr ""
+"A bheil thu cinnteach gu bheil thu airson an shortcode seo a dhubhadh às?"
+
+#: inc/shortcode_listing.php:64 inc/shortcode_listing.php:77
+msgid "Customize Shortcode"
+msgstr "Dèan gnàthachadh air Shortcode"
+
+#: inc/shortcode_listing.php:87
+msgid ""
+"Copy above filter code and paste it in your theme's functions.php file or in "
+"your plugin file to customize shortcode values as per your requirement."
+msgstr ""
+"Dèan lethbhreac os cionn còd sìoltachain agus cuir a-steach e ann am faidhle "
+"functions.php an cuspair agad no anns an fhaidhle plugan agad gus luachan "
+"shortcode a ghnàthachadh a rèir do riatanas."
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:108
+#: inc/shortcode_listing.php:111
+msgid "Showing"
+msgstr "A ’sealltainn"
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:111
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid "to"
+msgstr "gu"
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:111
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid "of"
+msgstr "à"
+
+#: inc/shortcode_listing.php:106 inc/shortcode_listing.php:108
+#: inc/shortcode_listing.php:111 inc/wpfmlogs.php:108 inc/wpfmlogs.php:190
+#: inc/wpfmlogs.php:275
+msgid "entries"
+msgstr "inntrigidhean"
+
+#: inc/shortcode_listing.php:110
+msgid "No shortcode found"
+msgstr "Cha do lorgar shortcode"
+
+#: inc/shortcode_listing.php:132
+msgid "Delete All Selected"
+msgstr "Thoir às na h-uile air an taghadh"
+
+#: inc/shortcode_listing.php:171 inc/shortcode_listing.php:211
+msgid "Copied"
+msgstr "Leth-bhreac"
+
+#: inc/shortcode_listing.php:172 inc/shortcode_listing.php:212
+msgid "Copied to clipboard"
+msgstr "Lethbhreac gu clipboard"
+
+#: inc/shortcode_listing.php:222
+msgid "Are you sure you want to delete selected shortcode(s)?"
+msgstr ""
+"A bheil thu cinnteach gu bheil thu airson cuir às do shortcode (ean) taghte?"
+
+#: inc/shortcode_listing.php:230
+msgid "Please select atleast one shortcode from the list."
+msgstr "Tagh atleast aon shortcode bhon liosta."
+
+#: inc/verify.php:10
+msgid "File Manager PRO - Please enter your order details below. If Not"
+msgstr ""
+"File Manager PRO - Feuch an cuir thu a-steach mion-fhiosrachadh an òrduigh "
+"agad gu h-ìosal. Mura h-eil"
+
+#: inc/verify.php:13
+msgid ""
+"To unlock updates, please enter your order id and license key below. If you "
+"don't have a licence key"
+msgstr ""
+"Gus ùrachaidhean fhuasgladh, feuch an cuir thu a-steach d’ òrdugh id agus "
+"iuchair cead gu h-ìosal. Mura h-eil iuchair ceadachais agad"
+
+#: inc/verify.php:13
+msgid "click to buy Licence Key"
+msgstr "cliog gus iuchair ceadachais a cheannach"
+
+#: inc/verify.php:13
+msgid "please see details & pricing"
+msgstr "feuch an toir thu sùil air mion-fhiosrachadh & prìsean"
+
+#: inc/verify.php:27
+msgid "ORDER ID (#) *"
+msgstr "ORDER ID (#) *"
+
+#: inc/verify.php:31
+msgid "Please check your email for Order ID."
+msgstr "Feuch an toir thu sùil air a’ phost-d agad airson ID Òrdugh."
+
+#: inc/verify.php:36
+msgid "LICENCE KEY *"
+msgstr "PRÌOMH PRÌOMH"
+
+#: inc/verify.php:40
+msgid "Please check your email for Licence Key."
+msgstr ""
+"Feuch an toir thu sùil air a’ phost-d agad airson iuchair a’ cheadachais."
+
+#: inc/verify.php:46
+msgid "Click here to verify"
+msgstr "Cliog an seo gus dearbhadh"
+
+#: inc/verify.php:50
+msgid ""
+"Note: If you have already purchased this plugin then please check your "
+"email. You must have got an Email with orders details in your email, if you "
+"didn't get any Email. Please contact us at <a href=\"https://filemanagerpro."
+"io/contact/\">https://filemanagerpro.io/contact/</a>"
+msgstr ""
+"Nota: Ma tha thu air am plugan seo a cheannach mu thràth thoir sùil air a’ "
+"phost-d agad. Feumaidh gun d’ fhuair thu post-d le mion-fhiosrachadh òrduigh "
+"sa phost-d agad, mura d’ fhuair thu post-d sam bith. Feuch an cuir thu fios "
+"thugainn aig <a href=\"https://filemanagerpro.io/contact/\">https://"
+"filemanagerpro.io/contact/</a>"
+
+#: inc/wpfmlogs.php:43
+msgid "Are you sure want to delete?"
+msgstr "A bheil thu cinnteach gu bheil thu airson cuir às?"
+
+#: inc/wpfmlogs.php:51
+msgid ""
+"To enable logs, go to <a href=\"admin.php?page=wp_file_manager_settings"
+"\">General Settings Tab</a> -> Check \"Send Notifications to admin on file "
+"upload \" , \"Send Notifications to admin on file download\" and \"Send "
+"Notifications to admin on file edit\" options."
+msgstr ""
+"Gus logaichean a chomasachadh, rachaibh gu <a href=\"admin.php?"
+"page=wp_file_manager_settings\">Roghainnean coitcheann Tab </a> -> Thoir "
+"sùil air roghainnean \"Cuir Fiosan gu rianachd air luchdachadh suas faidhle"
+"\", \"Cuir Fiosan gu rianachd air luchdachadh sìos faidhle\" agus \"Cuir "
+"Fiosan gu rianachd air deasachadh faidhle\"."
+
+#: inc/wpfmlogs.php:53 inc/wpfmlogs.php:61
+msgid "Edited Files"
+msgstr "Faidhlichean deasaichte"
+
+#: inc/wpfmlogs.php:54 inc/wpfmlogs.php:145
+msgid "Downloaded Files"
+msgstr "Faidhlichean air an luchdachadh sìos"
+
+#: inc/wpfmlogs.php:55
+msgid "Uploaded Files"
+msgstr "Faidhlichean air an luchdachadh suas"
+
+#: inc/wpfmlogs.php:64 inc/wpfmlogs.php:148 inc/wpfmlogs.php:231
+msgid "Bulk Actions"
+msgstr "Gnìomhan Bulk"
+
+#: inc/wpfmlogs.php:67 inc/wpfmlogs.php:151 inc/wpfmlogs.php:234
+msgid "Apply"
+msgstr "Cuir a-steach"
+
+#: inc/wpfmlogs.php:75 inc/wpfmlogs.php:157 inc/wpfmlogs.php:240
+msgid "Sr No."
+msgstr "Sr Àir."
+
+#: inc/wpfmlogs.php:77 inc/wpfmlogs.php:159 inc/wpfmlogs.php:242
+msgid "User Name"
+msgstr "Ainm Cleachdaiche"
+
+#: inc/wpfmlogs.php:78 inc/wpfmlogs.php:160 inc/wpfmlogs.php:243
+msgid "Files"
+msgstr "Faidhlichean"
+
+#: inc/wpfmlogs.php:79 inc/wpfmlogs.php:161 inc/wpfmlogs.php:244
+msgid "Date"
+msgstr "Ceann-latha"
+
+#: inc/wpfmlogs.php:98 inc/wpfmlogs.php:180 inc/wpfmlogs.php:265
+msgid "No log(s) found!"
+msgstr "Cha do lorgar log (an)!"
+
+#: inc/wpfmlogs.php:108 inc/wpfmlogs.php:190 inc/wpfmlogs.php:275
+msgid "Showing "
+msgstr "A ’sealltainn"
+
+#: inc/wpfmlogs.php:228
+msgid "Uploaded File"
+msgstr "Faidhle air a luchdachadh suas"
+
+#: inc/wpfmlogs.php:372
+msgid "Please select log(s) to delete!"
+msgstr "Feuch an tagh thu log(an) airson an sguabadh às!"
+
+#: inc/wpfmlogs.php:374
+msgid "Are you sure want to remove selected log(s)?"
+msgstr ""
+"A bheil thu cinnteach gu bheil thu airson log (an) taghte a thoirt air falbh?"
+
+#: inc/wpfmlogs.php:395
+msgid "Please select delete action!"
+msgstr "Tagh gnìomh cuir às!"
+
+#: js/jquery-ui.min.js:8 lib/jquery/jquery-ui-1.11.4.js:8
+msgid "'"
+msgstr ""
+
+#: lib/wpfilemanager.php:507
+msgid " WP File Manager PRO - "
+msgstr "Manaidsear faidhle WP PRO -"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:54
+msgid "View details"
+msgstr "Faic mion-fhiosrachadh"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr "Barrachd fiosrachaidh mu dheidhinn %s"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Thoir sùil airson ùrachaidhean"
+
+#: plugin-update-checker/Puc/v4p5/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Inbhe dearbhaidh ùrachadh neo-aithnichte \"%s\""
+
+#: plugin-update-checker/Puc/v4p5/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "Chan eil changelog ri fhaighinn."
+
+#~ msgid "License Details"
+#~ msgstr "Fiosrachadh ceadachais"
+
+#~ msgid ""
+#~ "Your updates for <strong>WP File Manager - PRO</strong> plugin are "
+#~ "disabled because your license has been expired."
+#~ msgstr ""
+#~ "Tha na h-ùrachaidhean agad airson <strong> Manaidsear File WP - plugan "
+#~ "PRO </strong> à comas leis gu bheil do chead air tighinn gu crìch."
+
+#~ msgid "Browse:"
+#~ msgstr "Dèan brobhsadh:"
+
+#~ msgid "Insert:"
+#~ msgstr "Cuir a-steach:"
+
+#~ msgid "Delete Table: "
+#~ msgstr "Cuir às do chlàr: "
+
+#~ msgid "Empty Table: "
+#~ msgstr "Clàr falamh: "
+
+#~ msgid "Table <strong>"
+#~ msgstr "<p> (Clàr <strong>"
+
+#~ msgid "</strong> Deleted Successfully!"
+#~ msgstr "</strong> Air a dhubhadh às gu soirbheachail!"
+
+#~ msgid "Backup not found!"
+#~ msgstr "Cha lorgar cùl-taic!"
+
+#~ msgid "Backup"
+#~ msgstr "Cùl-taic"
+
+#~ msgid "License"
+#~ msgstr "Cead"
+
+#~ msgid "<p>(File <strong>"
+#~ msgstr "<p> (Faidhle <strong>"
+
+#~ msgid "</strong> not saved.)</p>"
+#~ msgstr "</strong> cha deach a shàbhaladh.) </p>"
+
+#~ msgid "Purchase New License"
+#~ msgstr "Ceannaich Cead Ùr"
+
+#~ msgid ""
+#~ "To unlock updates, please enter your order id and license key below. If "
+#~ "you don't have a license key, <a href=\"https://filemanagerpro.io/file-"
+#~ "manager-pricing/\" target=\"_blank\" class=\"page-title-action buy-link\" "
+#~ "title=\"click to buy License Key\">please see details & pricing</a>"
+#~ msgstr ""
+#~ "Gus ùrachaidhean fhuasgladh, cuir a-steach an id òrduigh agad agus an "
+#~ "iuchair cead agad gu h-ìosal. Mura h-eil iuchair ceadachais agad, <a href="
+#~ "\"https://filemanagerpro.io/file-manager-pricing/\" target=\"_blank\" "
+#~ "class=\"page-title-action buy-link\" title=\"cliog gus iuchair ceadachais "
+#~ "a cheannach\"> faic mion-fhiosrachadh & prìsean </a>"
+
+#~ msgid "ORDER ID (#)"
+#~ msgstr "ORDER ID (#)"
+
+#~ msgid "LICENSE KEY"
+#~ msgstr "PRÌOMH LICENSE"
+
+#~ msgid "PURCHASE DATE"
+#~ msgstr "PURCHASE DATE"
+
+#~ msgid "EXPIRE DATE"
+#~ msgstr "EXPIRE DATE"
+
+#~ msgid "If you have renewed your license already then click here to refresh!"
+#~ msgstr ""
+#~ "Ma tha thu air do chead ùrachadh mu thràth, cliog an seo gus ùrachadh!"
+
+#~ msgid "Click Here To Renew License"
+#~ msgstr "Cliog an-seo gus cead ath-nuadhachadh"
+
+#~ msgid "Are you sure you want to deactivate your license?"
+#~ msgstr "A bheil thu cinnteach gu bheil thu airson do chead a chuir dheth?"
+
+#~ msgid "With File Manager Pro"
+#~ msgstr "Le File Manager Pro"
+
+#~ msgid ""
+#~ "users will now be able to customise the existing shortcodes with the help "
+#~ "of filters."
+#~ msgstr ""
+#~ "bidh comas aig luchd-cleachdaidh a-nis na shortcodes a th ’ann a "
+#~ "ghnàthachadh le cuideachadh bho shìoltachain."
+
+#~ msgid "Click"
+#~ msgstr "Cliog"
+
+#~ msgid "to see documentation to support you in your transition"
+#~ msgstr "gus sgrìobhainnean fhaicinn gus taic a thoirt dhut nad ghluasad"
+
+#~ msgid "Happy Coding!"
+#~ msgstr "Còdadh sona!"
+
+#~ msgid "View Shortcode Documentation"
+#~ msgstr "Faic Sgrìobhainnean Shortcode"
+
+#~ msgid ""
+#~ "<strong>Note:</strong> This feature is using wp_mail(), Make sure <a href="
+#~ "\"https://developer.wordpress.org/reference/functions/wp_mail/\" title="
+#~ "\"Read More\" target=\"_blank\">wp_mail</a> is working."
+#~ msgstr ""
+#~ "<strong> Nòta: </strong> Tha am feart seo a ’cleachdadh wp_mail (), Dèan "
+#~ "cinnteach <a href=\"https://developer.wordpress.org/reference/functions/"
+#~ "wp_mail/\" title=\"Leugh Tuilleadh\" target=\"_blank\">wp_mail</a> ag "
+#~ "obair."
+
+#~ msgid "License Verification"
+#~ msgstr "Dearbhadh ceadachais"
+
+#~ msgid ""
+#~ "To unlock updates, please enter your order id and license key below. If "
+#~ "you don't have a licence key, <a href=\"https://filemanagerpro.io/product/"
+#~ "file-manager/\" target=\"_blank\" class=\"page-title-action buy-link\" "
+#~ "title=\"click to buy Licence Key\">please see details & pricing</a>."
+#~ msgstr ""
+#~ "Gus ùrachaidhean fhuasgladh, cuir a-steach an id òrduigh agad agus an "
+#~ "iuchair cead agad gu h-ìosal. Mura h-eil iuchair cead agad, <a href="
+#~ "\"https://filemanagerpro.io/product/file-manager/\" target=\"_blank\" "
+#~ "class=\"page-title-action buy-link\" title=\"cliog gus iuchair ceadachais "
+#~ "a cheannach\">faic mion-fhiosrachadh & prìsean </a>."
+
+#~ msgid " entries"
+#~ msgstr "inntrigidhean"
+
+#~ msgid "Manage your WP files."
+#~ msgstr "Stiùirich na faidhlichean WP agad."
+
+#~ msgid "WP File Manager - PRO"
+#~ msgstr "Manaidsear faidhle WP - PRO"
+
+#~ msgid "<span class=\"fm_console_error\">Nothing selected for backup</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Cha deach dad a thaghadh airson cùl-taic "
+#~ "</span>"
+
+#~ msgid "<span class=\"fm_console_success\">Database backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Cùl-taic stòr-dàta air a dhèanamh. </"
+#~ "span>"
+
+#~ msgid ""
+#~ "<span class=\"fm_console_error\">Unable to create database backup.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Cha ghabh cùl-taic stòr-dàta a "
+#~ "chruthachadh. </span>"
+
+#~ msgid "<span class=\"fm_console_success\">Plugins backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Cùl-taic plugins air a dhèanamh. </"
+#~ "span>"
+
+#~ msgid "<span class=\"fm_console_error\">Plugins backup failed.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Dh'fhàillig cùl-taic nam plugain. </span>"
+
+#~ msgid "<span class=\"fm_console_success\">Themes backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Cùl-taic cuspairean air a dhèanamh. </"
+#~ "span>"
+
+#~ msgid "<span class=\"fm_console_error\">Themes backup failed.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Dh'fhàillig cùl-taic nan cuspairean. </"
+#~ "span>"
+
+#~ msgid "<span class=\"fm_console_success\">Uploads backup done.</span>"
+#~ msgstr ""
+#~ "Dh'fhàillig cùl-taic nan cuspairean. </span>Luchdaich suas cùl-taic air a "
+#~ "dhèanamh. </span>"
+
+#~ msgid "<span class=\"fm_console_error\">Uploads backup failed.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Dh'fhàillig cùl-taic luchdaidh suas. </"
+#~ "span>"
+
+#~ msgid "<span class=\"fm_console_success\">Others backup done.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_success\">Cuid eile cùl-taic air a dhèanamh. </p>"
+
+#~ msgid "<span class=\"fm_console_error\">Others backup failed.</span>"
+#~ msgstr ""
+#~ "<span class=\"fm_console_error\">Dh'fhàillig cùl-taic cuid eile. </span>"
+
+#~ msgid "<span class=\"fm_console_success\">All done</span>"
+#~ msgstr "<span class=\"fm_console_success\">Uile air a dhèanamh </span>"
+
+#~ msgid "Database"
+#~ msgstr "Stòr-dàta"
+
+#~ msgid "System Properties"
+#~ msgstr "Feartan an t-siostam"
+
+#~ msgid "Donate"
+#~ msgstr "Thoir seachad"
+
+#~ msgid ""
+#~ "Note: This is just a demo screenshot. To get settings please buy our pro "
+#~ "version."
+#~ msgstr ""
+#~ "Nòta: Is e seo dìreach dealbh demoil. Gus suidheachaidhean fhaighinn, "
+#~ "leigibh leinn an dreach pro."
+
+#~ msgid "Buy PRO"
+#~ msgstr "Buy PRO"
+
+#~ msgid "Settings - General"
+#~ msgstr "Suidhichidhean - Seanalair"
+
+#~ msgid ""
+#~ "Here admin can give access to user roles to use filemanager. Admin can "
+#~ "set Default Access Folder and also control upload size of filemanager."
+#~ msgstr ""
+#~ "An seo faodaidh rianaire cothrom a thoirt do dhreuchdan an luchd-"
+#~ "cleachdaidh a bhith a 'cleachdadh filemanager. Faodaidh rianachd a bhith "
+#~ "a 'suidheachadh Filltear Cothrom bunaiteach agus cuideachd a' cumail "
+#~ "smachd air meud upload of filemanager."
+
+#~ msgid "Settings - Code-editor"
+#~ msgstr "Settings - Deasaiche còd"
+
+#~ msgid ""
+#~ "File Manager has a code editor with multiple themes. You can select any "
+#~ "theme for code editor. It will display when you edit any file. Also you "
+#~ "can allow fullscreen mode of code editor."
+#~ msgstr ""
+#~ "Tha neach-deasachaidh còd le Manaidsear File air iomadh cuspair. Faodaidh "
+#~ "tu cuspair sam bith a thaghadh airson neach-deasachaidh còd. Taisbeanaidh "
+#~ "e nuair a dh'atharraicheas tu faidhle sam bith. Cuideachd, is urrainn "
+#~ "dhut modh làn sgrion de dheasaiche còd a cheadachadh."
+
+#~ msgid "Code-editor View"
+#~ msgstr "View editor-code"
+
+#~ msgid "Settings - User Restrictions"
+#~ msgstr "Suidhichidhean - Srì-chleachdaichean"
+
+#~ msgid ""
+#~ "Admin can restrict actions of any user. Also hide files and folders and "
+#~ "can set different - different folders paths for different users."
+#~ msgstr ""
+#~ "Faodaidh rianachd cuingealachadh a dhèanamh air gnìomhan neach-"
+#~ "cleachdaidh sam bith. Cuideachd cuir faidhlichean faidhlichean agus "
+#~ "pasganan agus faodaidh tu diofar eadar-dhealaichte - slighean pasgain "
+#~ "eadar-dhealaichte airson luchd-cleachdaidh eadar-dhealaichte."
+
+#~ msgid "Settings - User Role Restrictions"
+#~ msgstr "Suidhichidhean - Srianadh Dreuchd Cleachdaiche"
+
+#~ msgid ""
+#~ "Admin can restrict actions of any userrole. Also hide files and folders "
+#~ "and can set different - different folders paths for different users roles."
+#~ msgstr ""
+#~ "Faodaidh rianachd cuingealachadh a dhèanamh air gnìomhan neach-"
+#~ "cleachdaidh sam bith. Cuideachd cuir faidhlichean faidhlichean agus "
+#~ "pasganan agus faodaidh tu diofar eadar-dhealaichte - slighean pasgain "
+#~ "eadar-dhealaichte airson dreuchdan eadar-dhealaichte de luchd-cleachdaidh."
+
+#~ msgid "File Manager - System Properties"
+#~ msgstr "Manaidsear File - Properties System"
+
+#~ msgid "PHP version"
+#~ msgstr "Dreach PHP"
+
+#~ msgid "Maximum file upload size (upload_max_filesize)"
+#~ msgstr "Am meud àrdachadh faidhle as motha (upload_max_filesize)"
+
+#~ msgid "Post maximum file upload size (post_max_size)"
+#~ msgstr "Meudachadh faidhle upload file as àirde (post_max_size)"
+
+#~ msgid "Memory Limit (memory_limit)"
+#~ msgstr "Clàr Cuimhne (memory_limit)"
+
+#~ msgid "Timeout (max_execution_time)"
+#~ msgstr "Ùine (max_execution_time)"
+
+#~ msgid "Browser and OS (HTTP_USER_AGENT)"
+#~ msgstr "Brabhsair agus OS (HTTP_USER_AGENT)"
+
+#~ msgid ""
+#~ "Please contribute some donation, to make plugin more stable. You can pay "
+#~ "amount of your choice."
+#~ msgstr ""
+#~ "Cuir a-steach beagan tabhartas, gus plugan a dhèanamh nas seasmhaiche. "
+#~ "Faodaidh tu an àireamh de do roghainn a phàigheadh."
+
+#~ msgid ""
+#~ "Check to allow fullscreen code editor. For more information please visit"
+#~ msgstr ""
+#~ "Dèan cinnteach gus cothrom a thoirt do neach-deasachaidh còd làn-sgrion. "
+#~ "Airson tuilleadh fiosrachaidh tadhail air"

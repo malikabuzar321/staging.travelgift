@@ -1,0 +1,1 @@
+{"Head":{"ServerTime":"2021-06-12T12:37:38","ServerType":"Test","ResponseType":"GetHotels","ExecutionTime":"0.002"},"Body":{"Error":{"ErrorId":"109","ErrorText":"XML validation error. Element 'CountryCode': [facet 'length'] The value has a length of '0'; this differs from the allowed length of '2'.\n"}}}

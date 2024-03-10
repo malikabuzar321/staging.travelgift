@@ -1,0 +1,12 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .gctcf-all-bookings nav {
+    margin-bottom: 40px;
+}
+
+.gctcf-all-bookings select {
+    width: 50px;
+    padding: 0px 0px 0px 8px !important;
+}

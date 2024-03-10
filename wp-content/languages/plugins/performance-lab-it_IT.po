@@ -1,0 +1,305 @@
+# Translation of Plugins - Performance Lab - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Performance Lab - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-10-16 20:29:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.10\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Performance Lab - Stable (latest release)\n"
+
+#: admin/server-timing.php:198
+msgid "Enter a single hook name per line."
+msgstr "Inserisci un solo nome di hook per riga."
+
+#: admin/server-timing.php:137
+msgid "Filters"
+msgstr "Filtri"
+
+#: admin/server-timing.php:127
+msgid "Actions"
+msgstr "Azioni"
+
+#: modules/images/webp-uploads/load.php:30
+msgid "The WebP Uploads feature cannot be loaded from within the plugin since it is already merged into WordPress core."
+msgstr "La funzionalità di upload WebP non può essere caricata all'interno del plugin dato che fa già parte del core di WordPress."
+
+#: module-i18n.php:4
+msgctxt "module name"
+msgid "Dominant Color Images"
+msgstr "Immagini con colore dominante"
+
+#: admin/load.php:169
+msgid "The module cannot be managed with Performance Lab since it is already active as a standalone plugin."
+msgstr "Il modulo non può essere gestito tramite Performance Lab dato che è già attivo come plugin indipendente."
+
+#: server-timing/class-perflab-server-timing.php:134
+msgid "The method must be called before headers have been sent."
+msgstr "Il metodo deve essere chiamato prima dell'invio degli header."
+
+#. translators: %s: PHP parameter name
+#: server-timing/class-perflab-server-timing.php:92
+msgid "The %s argument is required and must be a string."
+msgstr "L'argomento %s è necessario e deve essere una stringa."
+
+#. translators: %s: PHP parameter name
+#: server-timing/class-perflab-server-timing.php:83
+msgid "The %s argument is required and must be a callable."
+msgstr "L'argomento %s è necessario e deve essere chiamabile."
+
+#. translators: %s: metric slug
+#: server-timing/class-perflab-server-timing.php:56
+msgid "A metric with the slug %s is already registered."
+msgstr "È già registrata una metrica con lo slug %s."
+
+#. translators: %s: PHP method name
+#: server-timing/class-perflab-server-timing-metric.php:137
+msgid "The %s method must be called before."
+msgstr "Il metodo %s deve essere chiamato prima."
+
+#: modules/images/webp-uploads/settings.php:40
+msgid "WebP and JPEG"
+msgstr "WebP e JPEG"
+
+#: admin/load.php:204
+msgid "Database"
+msgstr "Database"
+
+#: admin/load.php:201
+msgid "JS & CSS"
+msgstr "JS e CSS"
+
+#: modules/images/webp-uploads/settings.php:64
+msgid "Generate JPEG files in addition to WebP"
+msgstr "Genera file JPEG in aggiunta a quelli WebP"
+
+#: modules/database/audit-autoloaded-options/helper.php:145
+msgid "Size"
+msgstr "Dimensione"
+
+#: modules/database/audit-autoloaded-options/helper.php:144
+msgid "Option Name"
+msgstr "Nome dell'opzione"
+
+#. Author URI of the plugin
+msgid "https://make.wordpress.org/performance/"
+msgstr "https://make.wordpress.org/performance/"
+
+#: modules/images/dominant-color-images/helper.php:57
+msgid "Unable to load image."
+msgstr "Impossibile caricare l'immagine."
+
+#. translators: %s: module name
+#: admin/load.php:173
+msgid "%s is already part of your WordPress version and therefore cannot be loaded as part of the plugin."
+msgstr "%s è già incluso della tua versione di WordPress e quindi non può essere caricato come parte del plugin."
+
+#. translators: %s is the error message
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:96
+msgid "Transparency detection failed: %s"
+msgstr "La rilevazione della trasparenza è fallita: %s"
+
+#. translators: %s is the error message.
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:49
+msgid "Dominant color detection failed: %s"
+msgstr "La rilevazione del colore dominante è fallita: %s"
+
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-gd.php:44
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:43
+msgid "Dominant color detection failed."
+msgstr "La rilevazione del colore dominante è fallita."
+
+#: modules/database/audit-autoloaded-options/helper.php:78
+msgid "https://wordpress.org/support/article/optimization/#autoloaded-options"
+msgstr "https://wordpress.org/support/article/optimization/#autoloaded-options"
+
+#. translators: Accessibility text.
+#: modules/images/webp-support/helper.php:44
+msgid "WebP support can only be enabled by your hosting provider, so contact them for more information."
+msgstr "Il supporto WebP può essere abilitato solo dal tuo fornitore di hosting. Contattalo per maggiori informazioni."
+
+#: modules/images/webp-support/helper.php:30
+msgid "The WebP image format produces images that are usually smaller in size than JPEG images, which can reduce page load time and consume less bandwidth."
+msgstr "Il formato immagine WebP produce delle immagini generalmente più leggere delle immagini JPEG, questo può ridurre il tempo di caricamento della pagina e consumare meno banda."
+
+#: modules/images/webp-uploads/helper.php:140
+msgid "At least one of the dimensions must be a positive number."
+msgstr "Almeno una delle dimensioni deve essere un numero positivo."
+
+#: modules/images/webp-support/helper.php:40
+msgid "Your site does not support WebP"
+msgstr "Il tuo sito non supporta WebP"
+
+#: modules/images/webp-support/helper.php:22
+msgid "Your site supports WebP"
+msgstr "Il tuo sito supporta WebP"
+
+#: modules/images/webp-support/hooks.php:23
+msgid "WebP Support"
+msgstr "Supporto WebP"
+
+#. translators: 1: Number of enqueued styles. 2.Styles size.
+#: modules/js-and-css/audit-enqueued-assets/helper.php:174
+msgid "Your website enqueues %1$s style (size: %2$s). Try to reduce the number or to concatenate them."
+msgid_plural "Your website enqueues %1$s styles (size: %2$s). Try to reduce the number or to concatenate them."
+msgstr[0] "Il tuo sito web accoda %1$s stile (dimensione: %2$s). Prova a ridurne il numero o a concatenarli."
+msgstr[1] "Il tuo sito web accoda %1$s stili (dimensione: %2$s). Prova a ridurne il numero o a concatenarli."
+
+#. translators: 1: Number of enqueued styles. 2.Styles size.
+#: modules/js-and-css/audit-enqueued-assets/helper.php:134
+msgid "The amount of %1$s enqueued style (size: %2$s) is acceptable."
+msgid_plural "The amount of %1$s enqueued styles (size: %2$s) is acceptable."
+msgstr[0] "Il numero di %1$s stile accodato (dimensione: %2$s) è accettabile."
+msgstr[1] "Il numero di %1$s stili accodati (dimensione: %2$s) è accettabile."
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:123
+msgid "Enqueued styles"
+msgstr "Stili accodati"
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:100
+#: modules/js-and-css/audit-enqueued-assets/helper.php:192
+msgid "Clean Test Cache"
+msgstr "Pulisci la Test Cache"
+
+#: modules/database/audit-autoloaded-options/helper.php:79
+#: modules/js-and-css/audit-enqueued-assets/helper.php:98
+#: modules/js-and-css/audit-enqueued-assets/helper.php:190
+msgid "More info about performance optimization"
+msgstr "Leggi più informazioni a proposito dell'ottimizzazione delle prestazioni"
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:97
+#: modules/js-and-css/audit-enqueued-assets/helper.php:189
+msgid "https://wordpress.org/support/article/optimization/"
+msgstr "https://wordpress.org/support/article/optimization/"
+
+#. translators: 1: Number of enqueued styles. 2.Styles size.
+#: modules/js-and-css/audit-enqueued-assets/helper.php:82
+msgid "Your website enqueues %1$s script (size: %2$s). Try to reduce the number or to concatenate them."
+msgid_plural "Your website enqueues %1$s scripts (size: %2$s). Try to reduce the number or to concatenate them."
+msgstr[0] "Il tuo sito web accoda %1$s script (dimensione: %2$s). Prova a ridurne il numero o a concatenarli."
+msgstr[1] "Il tuo sito web accoda %1$s script (dimensione: %2$s). Prova a ridurne il numero o a concatenarli."
+
+#. translators: 1: Number of enqueued styles. 2.Styles size.
+#: modules/js-and-css/audit-enqueued-assets/helper.php:41
+msgid "The amount of %1$s enqueued script (size: %2$s) is acceptable."
+msgid_plural "The amount of %1$s enqueued scripts (size: %2$s) is acceptable."
+msgstr[0] "Il numero di %1$s script accodato (dimensione: %2$s) è accettabile."
+msgstr[1] "Il numero di %1$s script accodati (dimensione: %2$s) è accettabile."
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:30
+msgid "Enqueued scripts"
+msgstr "Script accodati"
+
+#: modules/js-and-css/audit-enqueued-assets/hooks.php:116
+msgid "CSS assets"
+msgstr "Risorse CSS"
+
+#: modules/js-and-css/audit-enqueued-assets/hooks.php:112
+msgid "JS assets"
+msgstr "Risorse JS"
+
+#: modules/images/webp-uploads/helper.php:168
+msgid "The file key is not present on the image data"
+msgstr "La chiave file non è presente tra i dati dell'immagine"
+
+#: modules/images/webp-uploads/helper.php:123
+msgid "The provided mime type is not supported."
+msgstr "Il mime type fornito non è supportato."
+
+#: modules/images/webp-uploads/helper.php:119
+msgid "The provided mime type is not allowed."
+msgstr "Il mime type fornito non è permesso."
+
+#: modules/images/webp-uploads/helper.php:201
+msgid "The image does not have a valid metadata."
+msgstr "L'immagine non ha metadati validi."
+
+#: module-i18n.php:7
+msgctxt "module description"
+msgid "Adds a WebP support check in Site Health status."
+msgstr "Aggiunge il controllo del supporto a WebP nello stato di salute del sito."
+
+#: module-i18n.php:11
+msgctxt "module description"
+msgid "Adds a CSS and JS resource check in Site Health status."
+msgstr "Aggiunge il controllo delle risorse CSS e JS nello stato di salute del sito."
+
+#: module-i18n.php:9
+msgctxt "module description"
+msgid "Creates WebP versions for new JPEG image uploads if supported by the server."
+msgstr "Crea versioni WebP delle nuove immagini JPEG caricate, se supportate dal server."
+
+#: module-i18n.php:8
+msgctxt "module name"
+msgid "WebP Uploads"
+msgstr "Upload WebP"
+
+#: admin/load.php:482
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: admin/load.php:426
+msgid "Settings > Performance"
+msgstr "Impostazioni > Prestazioni"
+
+#. translators: %s: settings page link
+#: admin/load.php:425
+msgid "You can now test upcoming WordPress performance features. Open %s to individually toggle the performance features included in the plugin."
+msgstr "Ora puoi provare le prossime funzionalità per le prestazioni di WordPress. Apri %s per attivare/disattivare individualmente le funzionalità incluse nel plugin."
+
+#: admin/load.php:210
+msgid "Object Cache"
+msgstr "Object cache"
+
+#: admin/load.php:207
+msgid "Measurement"
+msgstr "Misurazione"
+
+#: admin/load.php:198
+msgid "Images"
+msgstr "Immagini"
+
+#. translators: %s: module name
+#: admin/load.php:159
+msgid "Enable %s"
+msgstr "Abilita %s"
+
+#. translators: %s: module name
+#: admin/load.php:151
+msgid "Enable %s <strong>(experimental)</strong>"
+msgstr "Abilita %s <strong>(sperimentale)</strong>"
+
+#: admin/load.php:61
+msgid "Other"
+msgstr "Altro"
+
+#: admin/load.php:25 modules/database/audit-autoloaded-options/helper.php:31
+#: modules/images/webp-support/helper.php:25
+#: modules/js-and-css/audit-enqueued-assets/helper.php:33
+#: modules/js-and-css/audit-enqueued-assets/helper.php:126
+msgid "Performance"
+msgstr "Prestazioni"
+
+#: admin/load.php:24 admin/load.php:111
+msgid "Performance Modules"
+msgstr "Moduli per le prestazioni"
+
+#. Author of the plugin
+msgid "WordPress Performance Team"
+msgstr "WordPress Performance Team"
+
+#. Description of the plugin
+msgid "Performance plugin from the WordPress Performance Team, which is a collection of standalone performance modules."
+msgstr "Il plugin per le prestazioni del WordPress Performance Team, è una raccolta di moduli indipendenti per le prestazioni."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/performance"
+msgstr "https://github.com/WordPress/performance"
+
+#. Plugin Name of the plugin
+#: admin/load.php:420
+msgid "Performance Lab"
+msgstr "Performance Lab"

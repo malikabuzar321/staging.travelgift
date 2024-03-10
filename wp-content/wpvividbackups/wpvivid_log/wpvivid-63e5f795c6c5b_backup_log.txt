@@ -1,0 +1,257 @@
+Log created: 2023-02-10 07:51:49
+Type: backup
+[2023-02-10 07:52:04][notice]Start backing up.
+[2023-02-10 07:52:04][notice]server info fcgi:Off max execution time: 900 wp version:6.1.1 php version:7.4.27 db version:5.5.5 php ini:safe_mode: memory_limit:256M memory_get_usage:93.26 MB memory_get_peak_usage:93.49 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-02-10 07:52:04][notice]Prepare to backup backup_db files.
+[2023-02-10 07:52:04][notice]Start exporting database.
+[2023-02-10 07:52:04][notice]max_allowed_packet less than 32M :16.00 MB
+[2023-02-10 07:52:04][notice]Preparing to dump table wp_actionscheduler_actions
+[2023-02-10 07:52:05][notice]Preparing to dump table wp_actionscheduler_claims
+[2023-02-10 07:52:05][notice]Preparing to dump table wp_actionscheduler_groups
+[2023-02-10 07:52:05][notice]Preparing to dump table wp_actionscheduler_logs
+[2023-02-10 07:52:06][notice]Preparing to dump table wp_attraction_destinations
+[2023-02-10 07:52:06][notice]Preparing to dump table wp_attraction_tags
+[2023-02-10 07:52:06][notice]Preparing to dump table wp_commentmeta
+[2023-02-10 07:52:06][notice]Preparing to dump table wp_comments
+[2023-02-10 07:52:06][notice]Preparing to dump table wp_cscs_db_subscriptions
+[2023-02-10 07:52:06][notice]Preparing to dump table wp_discovercars_fuel_policies
+[2023-02-10 07:52:06][notice]Preparing to dump table wp_discovercars_location_types
+[2023-02-10 07:52:06][notice]Preparing to dump table wp_discovercars_locations
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_gla_attribute_mapping_rules
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_gla_budget_recommendations
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_gla_merchant_issues
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_gla_shipping_rates
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_gla_shipping_times
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_hubwoo_log
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_cms_nav_cache
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_content_status
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_core_status
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_flags
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_languages
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_languages_translations
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_locale_map
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_message_status
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_mo_files_domains
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_node
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_reminders
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_string_batches
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_string_packages
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_string_positions
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_string_status
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_string_translations
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_strings
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_translate
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_translate_job
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_translation_batches
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_translation_downloads
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_translation_status
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_icl_translations
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_links
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_mailchimp_carts
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_mailchimp_jobs
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_nextend2_image_storage
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_nextend2_section_storage
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_nextend2_smartslider3_generators
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_nextend2_smartslider3_sliders
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_nextend2_smartslider3_sliders_xref
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_nextend2_smartslider3_slides
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_options
+[2023-02-10 07:52:07][notice]Preparing to dump table wp_postmeta
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_posts
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_revslider_css
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_revslider_css_bkp
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_revslider_layer_animations
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_revslider_layer_animations_bkp
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_revslider_navigations
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_revslider_navigations_bkp
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_revslider_sliders
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_revslider_sliders_bkp
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_revslider_slides
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_revslider_slides_bkp
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_revslider_static_slides
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_revslider_static_slides_bkp
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_shortpixel_queue
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_smush_dir_images
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_snippets
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_term_relationships
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_term_taxonomy
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_termmeta
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_terms
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_toolset_associations
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_toolset_connected_elements
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_toolset_post_guid_id
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_toolset_relationships
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_toolset_type_sets
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_usermeta
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_users
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_wc_admin_note_actions
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_wc_admin_notes
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_wc_category_lookup
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_wc_customer_lookup
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_wc_download_log
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_wc_order_coupon_lookup
+[2023-02-10 07:52:28][notice]Preparing to dump table wp_wc_order_product_lookup
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_wc_order_stats
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_wc_order_tax_lookup
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_wc_product_attributes_lookup
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_wc_product_download_directories
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_wc_product_meta_lookup
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_wc_rate_limits
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_wc_reserved_stock
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_wc_tax_rate_classes
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_wc_webhooks
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_woocommerce_api_keys
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_woocommerce_attribute_taxonomies
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_woocommerce_downloadable_product_permissions
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_woocommerce_log
+[2023-02-10 07:52:29][notice]Preparing to dump table wp_woocommerce_order_itemmeta
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_woocommerce_order_items
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_woocommerce_payment_tokenmeta
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_woocommerce_payment_tokens
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_woocommerce_sessions
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_woocommerce_shipping_zone_locations
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_woocommerce_shipping_zone_methods
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_woocommerce_shipping_zones
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_woocommerce_tax_rate_locations
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_woocommerce_tax_rates
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_wpfm_backup
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_wpforms_tasks_meta
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_wpmailsmtp_debug_events
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_wpmailsmtp_tasks_meta
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_wpml_mails
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_wpr_rocket_cache
+[2023-02-10 07:52:30][notice]Preparing to dump table wp_wpr_rucss_used_css
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_wpvivid_options
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_yoast_indexable
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_yoast_indexable_hierarchy
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_yoast_migrations
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_yoast_primary_term
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_yoast_prominent_words
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_yoast_seo_links
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_admlog
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_aka
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_companies
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_contacts
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_customfields
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_dbmigration_meta
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_dbmigration_posts
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_event_reminders
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_events
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_externalsources
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_forms
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_invoices
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_lineitems
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_logs
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_meta
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_notifications
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_object_links
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_quotes
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_quotes_templates
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_security_log
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_segments
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_segments_conditions
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_settings
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_sys_cronmanagerlogs
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_sys_email
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_sys_email_hist
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_tags
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_tags_links
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_tax_table
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_temphash
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_tracking
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbs_transactions
+[2023-02-10 07:52:31][notice]Preparing to dump table wp_zbscrm_api_keys
+[2023-02-10 07:52:31][notice]Exporting database finished.
+[2023-02-10 07:52:31][notice]Start compressing backup_db
+[2023-02-10 07:52:31][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_db.zip
+[2023-02-10 07:52:34][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_db.zip, filesize: 9.74 MB
+[2023-02-10 07:52:34][notice]Compressing backup_db completed
+[2023-02-10 07:52:34][notice]Backing up backup_db completed.
+[2023-02-10 07:52:34][notice]Prepare to backup backup_themes files.
+[2023-02-10 07:52:34][notice]File number: 375
+[2023-02-10 07:52:34][notice]Start compressing backup_themes
+[2023-02-10 07:52:35][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_themes.zip
+[2023-02-10 07:52:36][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_themes.zip, filesize: 12.52 MB
+[2023-02-10 07:52:36][notice]Compressing backup_themes completed
+[2023-02-10 07:52:36][notice]Backing up backup_themes completed.
+[2023-02-10 07:52:47][notice]Prepare to backup backup_plugin files.
+[2023-02-10 07:52:47][notice]File number: 42393
+[2023-02-10 07:52:47][notice]Start compressing backup_plugin
+[2023-02-10 07:55:49][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_plugin.part001.zip
+[2023-02-10 07:55:53][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_plugin.part001.zip, filesize: 195.95 MB
+[2023-02-10 07:55:53][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_plugin.part002.zip
+[2023-02-10 07:55:59][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_plugin.part002.zip, filesize: 194.64 MB
+[2023-02-10 07:55:59][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_plugin.part003.zip
+[2023-02-10 07:56:51][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_plugin.part003.zip, filesize: 146.42 MB
+[2023-02-10 07:56:51][notice]Compressing backup_plugin completed
+[2023-02-10 07:56:51][notice]Backing up backup_plugin completed.
+[2023-02-10 07:57:03][notice]Prepare to backup backup_uploads files.
+[2023-02-10 07:57:03][notice]File number: 72746
+[2023-02-10 07:57:03][notice]Start compressing backup_uploads
+[2023-02-10 08:00:21][notice]Not responding for a long time.
+[2023-02-10 08:00:52][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part001.zip
+[2023-02-10 08:00:54][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part001.zip, filesize: 199.66 MB
+[2023-02-10 08:00:54][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part002.zip
+[2023-02-10 08:00:57][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part002.zip, filesize: 199.98 MB
+[2023-02-10 08:00:57][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part003.zip
+[2023-02-10 08:01:14][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part003.zip, filesize: 201.41 MB
+[2023-02-10 08:01:14][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part004.zip
+[2023-02-10 08:01:41][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part004.zip, filesize: 202.90 MB
+[2023-02-10 08:01:41][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part005.zip
+[2023-02-10 08:02:26][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part005.zip, filesize: 193.29 MB
+[2023-02-10 08:02:26][notice]Compressing backup_uploads completed
+[2023-02-10 08:02:26][notice]Backing up backup_uploads completed.
+[2023-02-10 08:02:27][notice]Prepare to backup backup_content files.
+[2023-02-10 08:02:27][notice]File number: 2570
+[2023-02-10 08:02:27][notice]Start compressing backup_content
+[2023-02-10 08:02:32][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_content.zip
+[2023-02-10 08:02:36][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_content.zip, filesize: 45.63 MB
+[2023-02-10 08:02:36][notice]Compressing backup_content completed
+[2023-02-10 08:02:36][notice]Backing up backup_content completed.
+[2023-02-10 08:02:36][notice]Prepare to backup backup_core files.
+[2023-02-10 08:02:36][notice]File number: 2533
+[2023-02-10 08:02:36][notice]Start compressing backup_core
+[2023-02-10 08:02:42][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_core.part001.zip
+[2023-02-10 08:02:45][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_core.part001.zip, filesize: 8.43 MB
+[2023-02-10 08:02:45][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_core.part002.zip
+[2023-02-10 08:02:52][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_core.part002.zip, filesize: 58.46 MB
+[2023-02-10 08:02:52][notice]Compressing backup_core completed
+[2023-02-10 08:02:52][notice]Backing up backup_core completed.
+[2023-02-10 08:02:52][notice]Prepare to backup backup_merge files.
+[2023-02-10 08:02:52][notice]File number: 13
+[2023-02-10 08:02:52][notice]Start compressing backup_merge
+[2023-02-10 08:02:54][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part001.zip
+[2023-02-10 08:03:01][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part001.zip, filesize: 28.07 MB
+[2023-02-10 08:03:01][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part004.zip
+[2023-02-10 08:03:01][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part002.zip
+[2023-02-10 08:03:10][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part002.zip, filesize: 96.37 MB
+[2023-02-10 08:03:10][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part003.zip
+[2023-02-10 08:03:10][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part003.zip
+[2023-02-10 08:03:23][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part003.zip, filesize: 196.97 MB
+[2023-02-10 08:03:23][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part002.zip
+[2023-02-10 08:03:23][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part004.zip
+[2023-02-10 08:03:35][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part004.zip, filesize: 198.48 MB
+[2023-02-10 08:03:35][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part001.zip
+[2023-02-10 08:03:35][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part005.zip
+[2023-02-10 08:03:48][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part005.zip, filesize: 83.87 MB
+[2023-02-10 08:03:48][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_plugin.part001.zip
+[2023-02-10 08:03:48][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part006.zip
+[2023-02-10 08:04:00][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part006.zip, filesize: 68.73 MB
+[2023-02-10 08:04:00][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_plugin.part002.zip
+[2023-02-10 08:04:00][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part007.zip
+[2023-02-10 08:04:07][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part007.zip, filesize: 28.29 MB
+[2023-02-10 08:04:07][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_uploads.part005.zip
+[2023-02-10 08:04:07][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part008.zip
+[2023-02-10 08:04:15][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part008.zip, filesize: 38.07 MB
+[2023-02-10 08:04:15][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_plugin.part003.zip
+[2023-02-10 08:04:15][notice]Prepare to zip files. file: giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part009.zip
+[2023-02-10 08:04:23][notice]Adding zip files completed.giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_all.part009.zip, filesize: 64.77 MB
+[2023-02-10 08:04:23][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_core.part002.zip
+[2023-02-10 08:04:23][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_content.zip
+[2023-02-10 08:04:23][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_themes.zip
+[2023-02-10 08:04:23][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_db.zip
+[2023-02-10 08:04:23][notice]Cleaned up file, filename: /var/www/vhosts/giftcards4travel.co.uk/httpdocs/giftcards4travel/wp-content/wpvividbackups/giftcards4travel.co.uk_wpvivid-63e5f795c6c5b_2023-02-10-07-51_backup_core.part001.zip
+[2023-02-10 08:04:23][notice]Compressing backup_merge completed
+[2023-02-10 08:04:23][notice]Backing up backup_merge completed.
+[2023-02-10 08:04:23][notice]Backup completed.
+[2023-02-10 08:04:23][notice]Backup succeeded.

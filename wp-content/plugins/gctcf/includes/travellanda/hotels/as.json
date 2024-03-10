@@ -1,0 +1,1 @@
+{"Head":{"ServerTime":"2021-06-12T13:16:31","ServerType":"Test","ResponseType":"GetHotels","ExecutionTime":"0.023"},"Body":{"HotelsReturned":"2","Hotels":{"Hotel":[{"HotelId":"90759274","CityId":"393284","HotelName":"Sadie's By The Sea"},{"HotelId":"58026736","CityId":"434924","HotelName":"Tradewinds Hotel"}]}}}

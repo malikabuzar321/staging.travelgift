@@ -1,0 +1,26 @@
+Array
+(
+    [Head] => Array
+        (
+            [ServerTime] => 2024-02-05T06:39:50
+            [ServerType] => Live
+            [ResponseType] => HotelBooking
+            [ExecutionTime] => 22.135
+        )
+
+    [Body] => Array
+        (
+            [HotelBooking] => Array
+                (
+                    [BookingReference] => TL50666776
+                    [BookingStatus] => Confirmed
+                    [YourReference] => GC4T - Booking - 175
+                    [Currency] => GBP
+                    [TotalPrice] => 69.27
+                    [HotelId] => 1008981
+                    [HotelName] => Scandinavia
+                )
+
+        )
+
+)

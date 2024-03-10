@@ -1,0 +1,45 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .dca-dashboard-info {
+    padding: 10px 20px;
+    background-color: #fff;
+    margin-top: 22px;
+    box-shadow: 0px 3px 6px #ccc;
+    border-radius: 8px;
+}
+.dca-dashboard-info p {
+    font-size: 14px;
+}
+.dca-table-inner {
+    position: relative;
+    width: max-content;
+}
+
+span.dca-password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+.table-api span.dashicons.dashicons-plus {
+    padding: 2px 0px 0px 5px;
+    font-size: 16px;
+}
+
+.table-api span.dashicons-before.dashicons-admin-settings.dashicons-remove {
+    margin: 15px 0px 10px 0px;
+}
+
+.table-api a.remove_button {
+    position: relative;
+    top: 6px;
+}
+.table-api a.add_button:focus {
+    box-shadow: none;
+}
